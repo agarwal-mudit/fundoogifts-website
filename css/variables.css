@@ -1,0 +1,45 @@
+:root {
+  --color-primary: #ff6b6b;
+  --color-primary-dark: #ff5252;
+  --color-accent: #ffa36c;
+  --color-yellow: #ffd93d;
+  --color-green: #6bcb77;
+  --color-blue: #4d96ff;
+  --color-purple: #9b59b6;
+
+  --color-text: #333;
+  --color-text-light: #555;
+  --color-text-muted: #777;
+  --color-text-faint: #888;
+  --color-text-on-dark: #ccc;
+
+  --color-bg: #fff;
+  --color-bg-warm: #fff8f0;
+  --color-bg-dark: #2d2d2d;
+  --color-border: #eee;
+
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #1ebe57;
+  --color-instagram-1: #833ab4;
+  --color-instagram-2: #fd1d1d;
+  --color-instagram-3: #fcb045;
+
+  --color-success-bg: #d4edda;
+  --color-success-text: #155724;
+
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 24px;
+  --radius-full: 50px;
+
+  --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.12);
+  --shadow-nav: 0 2px 20px rgba(0, 0, 0, 0.1);
+
+  --nav-height: 64px;
+  --max-width: 1100px;
+  --section-padding: 80px 20px;
+}
