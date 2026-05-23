@@ -1,76 +1,627 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Fundoo Gifts</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundoo Gifts - Unbox the FUN!!</title>
+  <meta name="description" content="Fundoo Gifts - Return gifts for kids parties in Bangalore. Curated gift packs, toys, stationery, craft kits and more!">
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
-      font-family: 'Arial', sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
-      background-size: 400% 400%;
-      animation: gradientShift 15s ease infinite;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    /* ── Nav ── */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      padding: 0 20px;
+    }
+
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 64px;
+    }
+
+    .nav-logo {
+      font-size: 1.5em;
+      font-weight: 800;
+      color: #ff6b6b;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #555;
+      font-weight: 600;
+      font-size: 0.95em;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #ff6b6b;
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+
+    .hamburger span {
+      width: 26px;
+      height: 3px;
+      background: #555;
+      border-radius: 3px;
+      transition: 0.3s;
+    }
+
+    /* ── Hero ── */
+    .hero {
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      color: white;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      padding: 100px 20px 60px;
+      background: linear-gradient(135deg, #ff6b6b 0%, #ffa36c 20%, #ffd93d 40%, #6bcb77 60%, #4d96ff 80%, #9b59b6 100%);
+      background-size: 400% 400%;
+      animation: gradientShift 12s ease infinite;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 20% 80%, rgba(255,255,255,0.15) 0%, transparent 50%),
+                  radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%);
+      pointer-events: none;
     }
 
     @keyframes gradientShift {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
 
-    h1 {
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 3.8em;
+      font-weight: 900;
+      margin-bottom: 12px;
+      text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+      animation: bounceIn 1s ease;
+    }
+
+    .hero .tagline {
+      font-size: 1.6em;
+      font-weight: 300;
+      margin-bottom: 8px;
+      opacity: 0.95;
+    }
+
+    .hero .sub-tagline {
+      font-size: 1.15em;
+      opacity: 0.85;
+      margin-bottom: 40px;
+    }
+
+    @keyframes bounceIn {
+      0% { transform: scale(0.3); opacity: 0; }
+      50% { transform: scale(1.05); }
+      70% { transform: scale(0.95); }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .cta-btn {
+      display: inline-block;
+      padding: 16px 44px;
+      background: #fff;
+      color: #ff6b6b;
+      font-size: 1.15em;
+      font-weight: 700;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ── Section commons ── */
+    section {
+      padding: 80px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2.4em;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      font-size: 1.1em;
+      color: #777;
+      margin-bottom: 50px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* ── Products ── */
+    #products {
+      background: #fff8f0;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 24px;
+      padding: 36px 24px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+      transition: transform 0.25s, box-shadow 0.25s;
+      cursor: default;
+    }
+
+    .product-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    .product-icon {
       font-size: 3.5em;
-      margin: 20px 0;
-      animation: bounce 2s ease-in-out infinite;
+      margin-bottom: 16px;
+      display: block;
     }
 
-    @keyframes bounce {
-      0%, 100% {
-        transform: translateY(0);
+    .product-card h3 {
+      font-size: 1.3em;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .product-card p {
+      font-size: 0.95em;
+      color: #888;
+      line-height: 1.5;
+    }
+
+    /* ── Why Us ── */
+    #why-us {
+      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .why-card {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(6px);
+      border-radius: 20px;
+      padding: 32px 20px;
+      text-align: center;
+      transition: transform 0.25s;
+    }
+
+    .why-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .why-icon {
+      font-size: 2.8em;
+      margin-bottom: 14px;
+      display: block;
+    }
+
+    .why-card h3 {
+      font-size: 1.15em;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .why-card p {
+      font-size: 0.9em;
+      color: #777;
+      line-height: 1.5;
+    }
+
+    /* ── Contact ── */
+    #contact {
+      background: #fff;
+    }
+
+    .contact-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .contact-info h3 {
+      font-size: 1.4em;
+      margin-bottom: 16px;
+      color: #ff6b6b;
+    }
+
+    .contact-info p {
+      font-size: 1em;
+      color: #666;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .contact-info .address-icon {
+      font-size: 1.2em;
+    }
+
+    .instagram-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 28px;
+      background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1em;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .instagram-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(131, 58, 180, 0.35);
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 14px 20px;
+      border: 2px solid #eee;
+      border-radius: 14px;
+      font-size: 1em;
+      font-family: inherit;
+      transition: border-color 0.2s;
+      outline: none;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: #ff6b6b;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .submit-btn {
+      padding: 14px 36px;
+      background: #ff6b6b;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.05em;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+      align-self: flex-start;
+    }
+
+    .submit-btn:hover {
+      background: #ff5252;
+      transform: translateY(-2px);
+    }
+
+    .form-success {
+      display: none;
+      padding: 14px 20px;
+      background: #d4edda;
+      color: #155724;
+      border-radius: 14px;
+      font-weight: 600;
+    }
+
+    /* ── Footer ── */
+    footer {
+      background: #2d2d2d;
+      color: #ccc;
+      text-align: center;
+      padding: 32px 20px;
+    }
+
+    footer .footer-brand {
+      font-size: 1.3em;
+      font-weight: 700;
+      color: #ff6b6b;
+      margin-bottom: 8px;
+    }
+
+    footer p {
+      font-size: 0.9em;
+      line-height: 1.8;
+    }
+
+    footer a {
+      color: #ffa36c;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
       }
-      50% {
-        transform: translateY(-20px);
+
+      .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .contact-wrapper {
+        grid-template-columns: 1fr;
       }
     }
 
-    p {
-      font-size: 1.5em;
-      margin: 10px 0;
-    }
-
-    h2 {
-      font-size: 2em;
-      margin: 20px 0;
-      animation: glow 2s ease-in-out infinite;
-    }
-
-    @keyframes glow {
-      0%, 100% {
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 255, 255, 0.5);
+    @media (max-width: 600px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.98);
+        flex-direction: column;
+        padding: 20px;
+        gap: 18px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
       }
-      50% {
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.8);
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .hero h1 {
+        font-size: 2.4em;
+      }
+
+      .hero .tagline {
+        font-size: 1.2em;
+      }
+
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-title {
+        font-size: 1.8em;
       }
     }
   </style>
 </head>
 <body>
-  <h1>Fundoo Gifts 🎁 - Unbox the FUN!!</h1>
-  <p>Return gifts for kids parties</p>
-  <h2>Coming Soon!!</h2>
-  <h1>Bangalore</h1>
+
+  <!-- Nav -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Fundoo Gifts</a>
+      <button class="hamburger" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#products" onclick="closeMenu()">Gifts</a></li>
+        <li><a href="#why-us" onclick="closeMenu()">Why Us</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Fundoo Gifts 🎁</h1>
+      <p class="tagline">Unbox the FUN!!</p>
+      <p class="sub-tagline">Return gifts for kids parties in Bangalore</p>
+      <a href="#products" class="cta-btn">Explore Gifts</a>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products">
+    <div class="container">
+      <h2 class="section-title">Our Gift Collection</h2>
+      <p class="section-subtitle">Curated packs that kids absolutely love!</p>
+      <div class="product-grid">
+        <div class="product-card">
+          <span class="product-icon">✏️</span>
+          <h3>Stationery Sets</h3>
+          <p>Colorful pencils, erasers, sharpeners and notebooks bundled into fun themed sets.</p>
+        </div>
+        <div class="product-card">
+          <span class="product-icon">🧸</span>
+          <h3>Toy Bundles</h3>
+          <p>Exciting toy combos that bring instant smiles — perfect for every age group.</p>
+        </div>
+        <div class="product-card">
+          <span class="product-icon">🎨</span>
+          <h3>Craft Kits</h3>
+          <p>DIY craft sets that spark creativity — painting, origami, clay modeling and more.</p>
+        </div>
+        <div class="product-card">
+          <span class="product-icon">🍬</span>
+          <h3>Candy Boxes</h3>
+          <p>Beautifully packed assorted candy and chocolate boxes that kids can't resist.</p>
+        </div>
+        <div class="product-card">
+          <span class="product-icon">🎉</span>
+          <h3>Party Packs</h3>
+          <p>All-in-one themed party packs with goodies, accessories, and surprises inside.</p>
+        </div>
+        <div class="product-card">
+          <span class="product-icon">🧩</span>
+          <h3>Puzzle & Games</h3>
+          <p>Brain-teasing puzzles and mini board games that keep the fun going at home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="why-us">
+    <div class="container">
+      <h2 class="section-title">Why Fundoo Gifts?</h2>
+      <p class="section-subtitle">Making your party planning stress-free!</p>
+      <div class="why-grid">
+        <div class="why-card">
+          <span class="why-icon">💝</span>
+          <h3>Curated with Love</h3>
+          <p>Every gift pack is hand-picked and assembled to delight kids of all ages.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">💰</span>
+          <h3>Budget Friendly</h3>
+          <p>Great quality gifts at prices that won't break the bank. Packs for every budget.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">🚀</span>
+          <h3>Fast Delivery</h3>
+          <p>Same-day delivery available across Bangalore. Order today, party tomorrow!</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">🎯</span>
+          <h3>Customizable</h3>
+          <p>Mix and match items to create the perfect pack that fits your party theme.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-subtitle">Have a party coming up? Let's make it fundoo!</p>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>📍 Visit Us</h3>
+          <p class="address-icon">
+            Fundoo Gifts<br>
+            The Prestige City<br>
+            Bangalore, Karnataka
+          </p>
+
+          <h3>📱 Follow Us</h3>
+          <p>Check out our latest gift ideas and happy customers on Instagram!</p>
+          <a href="https://instagram.com/fundoogifts" target="_blank" rel="noopener noreferrer" class="instagram-link">
+            @fundoogifts on Instagram
+          </a>
+        </div>
+
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Tell us about your party — date, number of kids, theme, budget..."></textarea>
+          <button type="submit" class="submit-btn">Send Message 🎈</button>
+          <div class="form-success" id="formSuccess">Thanks! We'll get back to you soon 🎉</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-brand">Fundoo Gifts 🎁</div>
+    <p>The Prestige City, Bangalore</p>
+    <p>
+      <a href="https://instagram.com/fundoogifts" target="_blank" rel="noopener noreferrer">@fundoogifts</a>
+    </p>
+    <p style="margin-top: 16px; font-size: 0.85em; color: #999;">&copy; 2026 Fundoo Gifts. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function closeMenu() {
+      document.querySelector('.nav-links').classList.remove('open');
+    }
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      e.target.reset();
+      var msg = document.getElementById('formSuccess');
+      msg.style.display = 'block';
+      setTimeout(function() { msg.style.display = 'none'; }, 4000);
+    }
+  </script>
+
 </body>
 </html>
