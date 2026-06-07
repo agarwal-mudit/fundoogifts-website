@@ -4,7 +4,7 @@ var PRODUCTS = [
     "name": "3 in 1 Puzzle",
     "category": "Puzzle & Games",
     "price": 180,
-    "description": "3-in-1 Wooden Puzzle Toy | Brain Development & Skill Building Puzzle | Multicolour",
+    "description": "A 3-in-1 wooden puzzle toy designed to boost brain development and skill building. Vibrant multicolour pieces that challenge and entertain kids of all ages.",
     "images": [
       "11xXUW-dPYnDCzKmYOsCs3Yo-qGBpBmAg"
     ],
@@ -15,7 +15,7 @@ var PRODUCTS = [
     "name": "3D Pencil Pouch",
     "category": "Stationery Sets",
     "price": 150,
-    "description": "",
+    "description": "A fun 3D-shaped pencil pouch that kids will love carrying to school. Spacious enough for pens, pencils, erasers, and more — a practical yet exciting return gift!",
     "images": [
       "1KC5p07nO2UHrPK7K1AwryZPcwq2qiVmw"
     ],
@@ -26,7 +26,7 @@ var PRODUCTS = [
     "name": "Harry Potter Key Chain",
     "category": "Keychains",
     "price": 75,
-    "description": "",
+    "description": "A must-have for little wizards! This Harry Potter themed keychain features detailed character design — perfect for backpacks, bags, and pencil cases.",
     "images": [
       "13eXnjYVKUGmGXtoKXBFp44OuJ6L8BQ6Y"
     ],
@@ -37,7 +37,7 @@ var PRODUCTS = [
     "name": "Kuromi Key Chain",
     "category": "Keychains",
     "price": 75,
-    "description": "",
+    "description": "An adorable Kuromi character keychain that fans will love. Compact, durable, and a delightful accessory for bags and keys.",
     "images": [
       "16qWStHMH2RSiTJyEXA0jkQVNn5L5l-3Q"
     ],
@@ -45,10 +45,10 @@ var PRODUCTS = [
   },
   {
     "id": "prod-008",
-    "name": "Camer Projector Key Chain",
+    "name": "Camera Projector Key Chain",
     "category": "Keychains",
     "price": 80,
-    "description": "",
+    "description": "A mini camera-shaped keychain that actually projects images when you look through the viewfinder. A unique and fun gift that kids will show off to all their friends.",
     "images": [
       "1CbVxStofiW_WXm-ofbLWHeMb-mvMrJ0x",
       "1h_vpY9gjEvrvuHCs0EZVNAImSxrNjNy-",
@@ -61,7 +61,7 @@ var PRODUCTS = [
     "name": "Scratch Book",
     "category": "Art & Craft",
     "price": 45,
-    "description": "",
+    "description": "A rainbow scratch art book with a wooden stylus included. Kids scratch the surface to reveal vibrant hidden colours underneath — endless creative fun!",
     "images": [
       "1fW3n70KubtaT13d2s1F7uQUDdYqk5u7q",
       "1z7plaG1Xpl4JQNsrY-FyhaWwnHZqOXrS"
@@ -73,7 +73,7 @@ var PRODUCTS = [
     "name": "Tattoo Book",
     "category": "Art & Craft",
     "price": 25,
-    "description": "",
+    "description": "A colourful book of temporary tattoos featuring fun designs for kids. Easy to apply and wash off — a party favourite that keeps the excitement going!",
     "images": [
       "1ttjTUV6CqNIQ5z-fbwBnpNUXSqa78xli"
     ],
@@ -84,7 +84,7 @@ var PRODUCTS = [
     "name": "Character Pencil Pouch",
     "category": "Stationery Sets",
     "price": 35,
-    "description": "",
+    "description": "A vibrant pencil pouch featuring popular cartoon characters. Zippered design keeps stationery organized and secure — a practical gift kids will use every day.",
     "images": [
       "1GetwgZU0gaiBQA2I5m80kjgtcQdCNWPx",
       "1zgAd6I-2ddEThioxeC3rZWopdPU3pzkb"
@@ -93,10 +93,10 @@ var PRODUCTS = [
   },
   {
     "id": "prod-012",
-    "name": "Acrylic Marker set of 12",
+    "name": "Acrylic Marker Set of 12",
     "category": "Stationery Sets",
     "price": 99,
-    "description": "",
+    "description": "A premium set of 12 vibrant acrylic markers, perfect for art projects, crafts, and creative play. Smooth ink flow and bright colours that kids love to work with.",
     "images": [
       "1t7ulf0pP7GrbL5Yz4-QuJIfghru8FnAg",
       "1R7H-JpFV_PeRPzsB0mncZp1eYQ1V8wco"
@@ -105,10 +105,10 @@ var PRODUCTS = [
   },
   {
     "id": "prod-013",
-    "name": "Bottle shaped Highlighter",
+    "name": "Bottle Shaped Highlighter",
     "category": "Art & Craft",
     "price": 99,
-    "description": "",
+    "description": "A set of highlighters in fun miniature bottle shapes. Bright, vivid colours make studying and craft projects more enjoyable — a unique stationery gift.",
     "images": [
       "190Y6fLrOUQkk4K9KszEqbhfJiXsABX3-",
       "18Z1g379Uw2_3zKtdcz9O1yxsh1mYvv6D"
@@ -120,7 +120,7 @@ var PRODUCTS = [
     "name": "Character Pencil",
     "category": "Stationery Sets",
     "price": 20,
-    "description": "",
+    "description": "Fun pencils topped with adorable character figures. Great for everyday writing and a delightful little gift that brings a smile to every kid's face.",
     "images": [
       "1ZkBkvloinI8jFr3TfCocYebEBAd46KFB",
       "1g5zEx-B_t_FDYPF4DPQbxKjEXpAibQ3S"
@@ -132,7 +132,7 @@ var PRODUCTS = [
     "name": "Diary with Lock",
     "category": "Stationery Sets",
     "price": 80,
-    "description": "",
+    "description": "A personal diary with a built-in lock and key for keeping secrets safe. Beautifully designed cover with lined pages inside — every kid's private journal.",
     "images": [
       "1a3wo-OPP_zhX8grDwPmrd0FScPOSYJOV"
     ],
@@ -143,7 +143,7 @@ var PRODUCTS = [
     "name": "Diary with Pen",
     "category": "Stationery Sets",
     "price": 80,
-    "description": "",
+    "description": "A stylish diary bundled with a matching pen. Perfect for jotting down thoughts, doodles, or school notes — a complete writing set in one gift.",
     "images": [
       "14CGlL-dhII3-jRbQP_CNI_b8p7cf3prF"
     ],
@@ -151,10 +151,10 @@ var PRODUCTS = [
   },
   {
     "id": "prod-017",
-    "name": "Dual side Markers",
+    "name": "Dual Side Markers",
     "category": "Art & Craft",
     "price": 150,
-    "description": "Set of 12",
+    "description": "A professional set of 12 dual-tip markers with a fine tip on one end and a broad tip on the other. Ideal for drawing, colouring, and creative projects.",
     "images": [
       "1SSWdI1pVj2xcX6AHmeAyJuamjYcMC96t"
     ],
@@ -165,7 +165,7 @@ var PRODUCTS = [
     "name": "Fur Diary",
     "category": "Stationery Sets",
     "price": 190,
-    "description": "",
+    "description": "A luxuriously soft fur-covered diary that feels amazing to hold. With lined pages and a secure closure, it makes an unforgettable premium gift.",
     "images": [
       "1UkrZAI4Ebpw1JTZvMn6zIvv5WHCtoFJm"
     ],
@@ -176,7 +176,7 @@ var PRODUCTS = [
     "name": "Keyboard Keychain",
     "category": "Keychains",
     "price": 180,
-    "description": "",
+    "description": "A miniature keyboard-shaped keychain with tiny clickable keys. A quirky tech-inspired accessory that makes a unique and memorable return gift.",
     "images": [
       "1nSxsIc6ay4s4mlxL4o6BWKQNApKUZk2B"
     ],
@@ -187,7 +187,7 @@ var PRODUCTS = [
     "name": "Magic Water Book",
     "category": "Art & Craft",
     "price": 60,
-    "description": "",
+    "description": "A reusable colouring book that reveals hidden pictures when painted with water. Once dry, the pages reset for endless mess-free creative play.",
     "images": [
       "1_Z7QQzmrejk9JhslY0_XBdKIVZBUX2Mx"
     ],
@@ -195,10 +195,10 @@ var PRODUCTS = [
   },
   {
     "id": "prod-021",
-    "name": "Mini Stationery set",
+    "name": "Mini Stationery Set",
     "category": "Stationery Sets",
     "price": 99,
-    "description": "",
+    "description": "A compact stationery set with everything a kid needs — mini pencils, eraser, sharpener, and ruler in a handy pouch. Great value in a small package.",
     "images": [
       "1EhqWlZ46ch2lsJQSlBZHdvl2gv535jP9"
     ],
@@ -209,7 +209,7 @@ var PRODUCTS = [
     "name": "PopIT Diary",
     "category": "Stationery Sets",
     "price": 199,
-    "description": "",
+    "description": "A diary with an interactive Pop-It fidget cover that kids can press and play with. Combines the fun of a sensory toy with a practical lined notebook.",
     "images": [
       "19NdXIYDGWV0SEQuC6iJDmPPeqS20_P-x",
       "1lHyEWuUN5ebEPYf2jeT7UsZFM8Hzswac"
@@ -221,7 +221,7 @@ var PRODUCTS = [
     "name": "Rope Game",
     "category": "Puzzle & Games",
     "price": 140,
-    "description": "",
+    "description": "A classic rope puzzle game that challenges dexterity and patience. Untangle, twist, and solve — a screen-free brain teaser kids can enjoy anywhere.",
     "images": [
       "1NPp2XFJFnfUO8-2NWnD3asOREyuMR5FX"
     ],
@@ -232,7 +232,7 @@ var PRODUCTS = [
     "name": "Snowy 2-in-1 Writing Board",
     "category": "Stationery Sets",
     "price": 120,
-    "description": "",
+    "description": "A dual-sided writing board with a whiteboard on one side and chalkboard on the other. Includes markers and chalk — perfect for learning and creative play.",
     "images": [
       "15Adp39uHrdLlSJO6N8Jc9PDrRCtQV50V"
     ],
@@ -243,7 +243,7 @@ var PRODUCTS = [
     "name": "Fundoo Stamps",
     "category": "Art & Craft",
     "price": 99,
-    "description": "",
+    "description": "A set of fun stamps with assorted designs and a built-in ink pad. Perfect for decorating cards, notebooks, and craft projects with colourful prints.",
     "images": [
       "1HStvnLFZMX1J8WlJ0zqhUX1s5IB4yem3",
       "159xbansbg0rjnMVJ1sVhWNLsVpnAUlsA"

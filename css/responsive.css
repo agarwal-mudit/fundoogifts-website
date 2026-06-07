@@ -43,16 +43,11 @@
   }
 
   .hero h1 {
-    font-size: 2.4em;
+    font-size: 2em;
   }
 
   .hero .tagline {
-    font-size: 1.2em;
-  }
-
-  .hero-illustration {
-    margin-top: 24px;
-    max-width: 95%;
+    font-size: 1.1em;
   }
 
   .product-grid,

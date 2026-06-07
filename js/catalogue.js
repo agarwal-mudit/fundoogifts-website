@@ -11,14 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
     premium: { label: 'Premium Pack', min: 101, max: Infinity }
   };
 
-  var categoryEmojis = {
-    'Stationery Sets': '✏️',
-    'Toy Bundles': '🧸',
-    'Keychains': '🔑',
-    'Art & Craft': '🎨',
-    'Puzzle & Games': '🧩'
-  };
-
   function driveImageUrl(fileId, size) {
     if (!fileId || fileId.startsWith('PLACEHOLDER')) return '';
     return 'https://lh3.googleusercontent.com/d/' + encodeURIComponent(fileId) + '=s' + (size || 400);
@@ -46,8 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
     card.setAttribute('data-category', product.category);
 
     var validImages = getValidImages(product);
-    var emoji = categoryEmojis[product.category] || '🎁';
-
     var imgContainer = document.createElement('div');
     if (validImages.length > 0) {
       var img = document.createElement('img');
@@ -58,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
       imgContainer.appendChild(img);
     } else {
       imgContainer.className = 'catalogue-card-img-placeholder';
-      imgContainer.textContent = emoji;
+      imgContainer.textContent = product.name.charAt(0);
     }
     card.appendChild(imgContainer);
 

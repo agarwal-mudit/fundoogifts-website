@@ -1,45 +1,40 @@
 :root {
-  --color-primary: #ff6b6b;
-  --color-primary-dark: #ff5252;
-  --color-accent: #ffa36c;
-  --color-yellow: #ffd93d;
-  --color-green: #6bcb77;
-  --color-blue: #4d96ff;
-  --color-purple: #9b59b6;
+  --color-primary: #e85d3a;
+  --color-primary-dark: #d14b2a;
+  --color-primary-light: #fdf0ed;
+  --color-accent: #2b7a78;
+  --color-accent-light: #e8f4f3;
 
-  --color-text: #333;
-  --color-text-light: #555;
-  --color-text-muted: #777;
-  --color-text-faint: #888;
-  --color-text-on-dark: #ccc;
+  --color-text: #1a1a2e;
+  --color-text-light: #4a4a5a;
+  --color-text-muted: #8a8a9a;
+  --color-text-faint: #b0b0bc;
+  --color-text-on-dark: #c8c8d4;
 
-  --color-bg: #fff;
-  --color-bg-warm: #fff8f0;
-  --color-bg-dark: #2d2d2d;
-  --color-border: #eee;
+  --color-bg: #ffffff;
+  --color-bg-warm: #fafafa;
+  --color-bg-dark: #1a1a2e;
+  --color-border: #e8e8e8;
 
   --color-whatsapp: #25d366;
   --color-whatsapp-dark: #1ebe57;
-  --color-instagram-1: #833ab4;
-  --color-instagram-2: #fd1d1d;
-  --color-instagram-3: #fcb045;
 
-  --color-success-bg: #d4edda;
-  --color-success-text: #155724;
+  --color-success-bg: #e8f5e9;
+  --color-success-text: #2e7d32;
 
   --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-  --radius-sm: 14px;
-  --radius-md: 20px;
-  --radius-lg: 24px;
-  --radius-full: 50px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 28px;
 
-  --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.15);
-  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.12);
-  --shadow-nav: 0 2px 20px rgba(0, 0, 0, 0.1);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+  --shadow-nav: 0 1px 8px rgba(0, 0, 0, 0.08);
 
   --nav-height: 64px;
-  --max-width: 1100px;
+  --max-width: 1200px;
   --section-padding: 80px 20px;
 }

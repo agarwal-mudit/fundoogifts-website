@@ -4,14 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var notFound = document.getElementById('productNotFound');
   var backLink = document.getElementById('backLink');
 
-  var categoryEmojis = {
-    'Stationery Sets': '✏️',
-    'Toy Bundles': '🧸',
-    'Keychains': '🔑',
-    'Art & Craft': '🎨',
-    'Puzzle & Games': '🧩'
-  };
-
   function driveImageUrl(fileId, size) {
     if (!fileId || fileId.startsWith('PLACEHOLDER')) return '';
     return 'https://lh3.googleusercontent.com/d/' + encodeURIComponent(fileId) + '=s' + (size || 800);
@@ -35,8 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function renderProduct(product) {
     var validImages = getValidImages(product);
-    var emoji = categoryEmojis[product.category] || '🎁';
-
     document.title = product.name + ' - Fundoo Gifts';
 
     // Gallery
@@ -69,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
     } else {
       var placeholder = document.createElement('div');
       placeholder.className = 'product-main-img-placeholder';
-      placeholder.textContent = emoji;
+      placeholder.textContent = product.name.charAt(0);
       mainImgWrap.appendChild(placeholder);
     }
     gallery.appendChild(mainImgWrap);
