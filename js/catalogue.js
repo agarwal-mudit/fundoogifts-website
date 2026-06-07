@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
     'Stationery Sets': '✏️',
     'Toy Bundles': '🧸',
     'Craft Kits': '🎨',
-    'Candy Boxes': '🍬',
-    'Party Packs': '🎉',
+    'Keychains': '🔑',
+    'Art & Craft': '🎨',
     'Puzzle & Games': '🧩'
   };
 
