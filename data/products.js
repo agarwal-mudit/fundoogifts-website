@@ -31,5 +31,27 @@ var PRODUCTS = [
       "PLACEHOLDER_FILE_ID_3"
     ],
     "stock": 15
+  },
+  {
+    "id": "prod-004",
+    "name": "3 in 1 Puzzle",
+    "category": "Puzzle & Games",
+    "price": 180,
+    "description": "3-in-1 Wooden Puzzle Toy | Brain Development & Skill Building Puzzle | Multicolour",
+    "images": [
+      "11xXUW-dPYnDCzKmYOsCs3Yo-qGBpBmAg"
+    ],
+    "stock": 14
+  },
+  {
+    "id": "prod-005",
+    "name": "3D Pencil Pouch",
+    "category": "Stationery Sets",
+    "price": 150,
+    "description": "",
+    "images": [
+      "1KC5p07nO2UHrPK7K1AwryZPcwq2qiVmw"
+    ],
+    "stock": 20
   }
 ];
