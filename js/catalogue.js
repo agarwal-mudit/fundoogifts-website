@@ -19,6 +19,11 @@ document.addEventListener('DOMContentLoaded', function () {
     return 'https://drive.google.com/thumbnail?id=' + encodeURIComponent(fileId) + '&sz=w' + (size || 400);
   }
 
+  function getValidImages(product) {
+    var imgs = product.images || (product.image ? [product.image] : []);
+    return imgs.filter(function (id) { return id && !id.startsWith('PLACEHOLDER'); });
+  }
+
   function whatsappUrl(productName) {
     var text = "Hi! I'm interested in ordering \"" + productName + "\" from Fundoo Gifts.";
     return 'https://wa.me/91800000000?text=' + encodeURIComponent(text);
@@ -29,14 +34,14 @@ document.addEventListener('DOMContentLoaded', function () {
     card.className = 'catalogue-card' + (product.stock <= 0 ? ' out-of-stock' : '');
     card.setAttribute('data-category', product.category);
 
-    var imgUrl = driveImageUrl(product.image);
+    var validImages = getValidImages(product);
     var emoji = categoryEmojis[product.category] || '🎁';
 
     var imgContainer = document.createElement('div');
-    if (imgUrl) {
+    if (validImages.length > 0) {
       var img = document.createElement('img');
       img.className = 'catalogue-card-img';
-      img.src = imgUrl;
+      img.src = driveImageUrl(validImages[0]);
       img.alt = product.name;
       img.loading = 'lazy';
       imgContainer.appendChild(img);
@@ -139,16 +144,74 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function openModal(product) {
-    var imgUrl = driveImageUrl(product.image, 800);
     var modal = modalOverlay.querySelector('.modal');
+    var validImages = getValidImages(product);
     var emoji = categoryEmojis[product.category] || '🎁';
-
     var imgContainer = modal.querySelector('.modal-img-container');
     imgContainer.innerHTML = '';
-    if (imgUrl) {
+
+    if (validImages.length > 1) {
+      var carousel = document.createElement('div');
+      carousel.className = 'modal-carousel';
+
+      var track = document.createElement('div');
+      track.className = 'modal-carousel-track';
+
+      validImages.forEach(function (id) {
+        var img = document.createElement('img');
+        img.className = 'modal-img';
+        img.src = driveImageUrl(id, 800);
+        img.alt = product.name;
+        track.appendChild(img);
+      });
+      carousel.appendChild(track);
+
+      var prevBtn = document.createElement('button');
+      prevBtn.className = 'carousel-nav carousel-prev';
+      prevBtn.innerHTML = '&#8249;';
+      prevBtn.setAttribute('aria-label', 'Previous image');
+      carousel.appendChild(prevBtn);
+
+      var nextBtn = document.createElement('button');
+      nextBtn.className = 'carousel-nav carousel-next';
+      nextBtn.innerHTML = '&#8250;';
+      nextBtn.setAttribute('aria-label', 'Next image');
+      carousel.appendChild(nextBtn);
+
+      imgContainer.appendChild(carousel);
+
+      var thumbs = document.createElement('div');
+      thumbs.className = 'modal-thumbnails';
+      validImages.forEach(function (id, idx) {
+        var thumb = document.createElement('img');
+        thumb.className = 'modal-thumb' + (idx === 0 ? ' active' : '');
+        thumb.src = driveImageUrl(id, 100);
+        thumb.alt = 'Image ' + (idx + 1);
+        thumb.addEventListener('click', function () {
+          track.children[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+          thumbs.querySelectorAll('.modal-thumb').forEach(function (t) { t.classList.remove('active'); });
+          thumb.classList.add('active');
+        });
+        thumbs.appendChild(thumb);
+      });
+      imgContainer.appendChild(thumbs);
+
+      var currentIdx = 0;
+      function scrollTo(idx) {
+        if (idx < 0 || idx >= validImages.length) return;
+        currentIdx = idx;
+        track.children[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+        thumbs.querySelectorAll('.modal-thumb').forEach(function (t, i) {
+          t.classList.toggle('active', i === idx);
+        });
+      }
+      prevBtn.addEventListener('click', function () { scrollTo(currentIdx - 1); });
+      nextBtn.addEventListener('click', function () { scrollTo(currentIdx + 1); });
+
+    } else if (validImages.length === 1) {
       var img = document.createElement('img');
       img.className = 'modal-img';
-      img.src = imgUrl;
+      img.src = driveImageUrl(validImages[0], 800);
       img.alt = product.name;
       imgContainer.appendChild(img);
     } else {

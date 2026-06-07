@@ -310,6 +310,85 @@
   pointer-events: none;
 }
 
+/* ── Modal Image Carousel ── */
+.modal-carousel {
+  position: relative;
+}
+
+.modal-carousel-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.modal-carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-carousel-track img,
+.modal-carousel-track .modal-img-placeholder {
+  flex-shrink: 0;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+.modal-thumbnails {
+  display: flex;
+  gap: 8px;
+  padding: 12px 20px;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.modal-thumb {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 3px solid transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: border-color 0.2s, opacity 0.2s;
+  opacity: 0.6;
+}
+
+.modal-thumb.active,
+.modal-thumb:hover {
+  border-color: var(--color-primary);
+  opacity: 1;
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: background 0.2s;
+  font-family: var(--font-family);
+}
+
+.carousel-nav:hover {
+  background: rgba(0,0,0,0.6);
+}
+
+.carousel-prev { left: 10px; }
+.carousel-next { right: 10px; }
+
+.carousel-nav.hidden { display: none; }
+
 /* ── Back to Home ── */
 .back-home {
   display: inline-flex;
