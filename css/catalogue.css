@@ -93,8 +93,8 @@
 .catalogue-card-img {
   width: 100%;
   height: 220px;
-  object-fit: cover;
-  background: #f0f0f0;
+  object-fit: contain;
+  background: #f9f9f9;
   display: block;
 }
 

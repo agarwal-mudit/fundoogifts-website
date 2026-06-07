@@ -146,6 +146,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     details.appendChild(stockEl);
 
+    var waBtn = document.createElement('a');
+    var waText = "Hi! I'm interested in \"" + product.name + "\" from Fundoo Gifts.";
+    waBtn.href = 'https://wa.me/918050623674?text=' + encodeURIComponent(waText);
+    waBtn.target = '_blank';
+    waBtn.rel = 'noopener noreferrer';
+    waBtn.className = 'product-contact-btn';
+    waBtn.textContent = 'Contact to Buy';
+    details.appendChild(waBtn);
+
     layout.appendChild(gallery);
     layout.appendChild(details);
   }
