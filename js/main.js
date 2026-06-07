@@ -16,6 +16,36 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Populate pricing cards with product names
+  var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
+  var packRanges = {
+    budget: { min: 0, max: 49 },
+    classic: { min: 50, max: 100 },
+    premium: { min: 101, max: Infinity }
+  };
+
+  document.querySelectorAll('.pricing-product-list').forEach(function (container) {
+    var pack = container.getAttribute('data-pack');
+    var range = packRanges[pack];
+    if (!range) return;
+
+    var matching = products.filter(function (p) {
+      return p.price >= range.min && p.price <= range.max;
+    });
+
+    if (matching.length === 0) {
+      container.innerHTML = '<span class="pricing-product-empty">More products coming soon!</span>';
+      return;
+    }
+
+    matching.forEach(function (p) {
+      var item = document.createElement('div');
+      item.className = 'pricing-product-item';
+      item.textContent = p.name;
+      container.appendChild(item);
+    });
+  });
+
   if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
