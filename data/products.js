@@ -5,7 +5,9 @@ var PRODUCTS = [
     "category": "Stationery Sets",
     "price": 45,
     "description": "A magical unicorn-themed set with rainbow pencils, sparkly erasers, a mini sharpener, and a cute notebook. Perfect for little artists and dreamers!",
-    "images": ["PLACEHOLDER_FILE_ID_1"],
+    "images": [
+      "PLACEHOLDER_FILE_ID_1"
+    ],
     "stock": 30
   },
   {
@@ -14,7 +16,9 @@ var PRODUCTS = [
     "category": "Toy Bundles",
     "price": 75,
     "description": "An action-packed dino bundle with 3 mini dinosaur figures, a fossil dig kit, and a dino sticker sheet. Every kid's prehistoric dream come true!",
-    "images": ["PLACEHOLDER_FILE_ID_2"],
+    "images": [
+      "PLACEHOLDER_FILE_ID_2"
+    ],
     "stock": 20
   },
   {
@@ -23,7 +27,9 @@ var PRODUCTS = [
     "category": "Art & Craft",
     "price": 60,
     "description": "Get creative with this all-in-one craft kit! Includes colored paper, glitter glue, pipe cleaners, googly eyes, and easy step-by-step project cards.",
-    "images": ["PLACEHOLDER_FILE_ID_3"],
+    "images": [
+      "PLACEHOLDER_FILE_ID_3"
+    ],
     "stock": 15
   },
   {
@@ -32,7 +38,9 @@ var PRODUCTS = [
     "category": "Keychains",
     "price": 50,
     "description": "A beautifully packed assortment of chocolates, candy lollipops, and gummy bears in a fun party-themed box. Guaranteed to make every kid smile!",
-    "images": ["PLACEHOLDER_FILE_ID_4"],
+    "images": [
+      "PLACEHOLDER_FILE_ID_4"
+    ],
     "stock": 0
   }
 ];
