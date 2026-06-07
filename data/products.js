@@ -31,16 +31,5 @@ var PRODUCTS = [
       "PLACEHOLDER_FILE_ID_3"
     ],
     "stock": 15
-  },
-  {
-    "id": "prod-004",
-    "name": "Choco Treat Box",
-    "category": "Keychains",
-    "price": 50,
-    "description": "A beautifully packed assortment of chocolates, candy lollipops, and gummy bears in a fun party-themed box. Guaranteed to make every kid smile!",
-    "images": [
-      "PLACEHOLDER_FILE_ID_4"
-    ],
-    "stock": 0
   }
 ];
