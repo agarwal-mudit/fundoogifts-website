@@ -1,9 +1,15 @@
 document.addEventListener('DOMContentLoaded', function () {
   var grid = document.getElementById('catalogueGrid');
   var filterBar = document.getElementById('filterBar');
-  var modalOverlay = document.getElementById('productModal');
   var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
   var activeFilter = 'All';
+  var activePack = null;
+
+  var packRanges = {
+    budget: { label: 'Budget Pack', min: 0, max: 49 },
+    classic: { label: 'Classic Pack', min: 50, max: 100 },
+    premium: { label: 'Premium Pack', min: 101, max: Infinity }
+  };
 
   var categoryEmojis = {
     'Stationery Sets': '✏️',
@@ -15,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function driveImageUrl(fileId, size) {
     if (!fileId || fileId.startsWith('PLACEHOLDER')) return '';
-    return 'https://drive.google.com/thumbnail?id=' + encodeURIComponent(fileId) + '&sz=w' + (size || 400);
+    return 'https://lh3.googleusercontent.com/d/' + encodeURIComponent(fileId) + '=s' + (size || 400);
   }
 
   function getValidImages(product) {
@@ -23,9 +29,15 @@ document.addEventListener('DOMContentLoaded', function () {
     return imgs.filter(function (id) { return id && !id.startsWith('PLACEHOLDER'); });
   }
 
-  function whatsappUrl(productName) {
-    var text = "Hi! I'm interested in ordering \"" + productName + "\" from Fundoo Gifts.";
-    return 'https://wa.me/91800000000?text=' + encodeURIComponent(text);
+  function getPackFromUrl() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('pack');
+  }
+
+  function filterByPack(list) {
+    if (!activePack || !packRanges[activePack]) return list;
+    var range = packRanges[activePack];
+    return list.filter(function (p) { return p.price >= range.min && p.price <= range.max; });
   }
 
   function renderCard(product) {
@@ -77,26 +89,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     card.appendChild(body);
 
-    var footer = document.createElement('div');
-    footer.className = 'catalogue-card-footer';
-
-    var btn = document.createElement('a');
-    if (product.stock > 0) {
-      btn.className = 'catalogue-whatsapp-btn';
-      btn.href = whatsappUrl(product.name);
-      btn.target = '_blank';
-      btn.rel = 'noopener noreferrer';
-    } else {
-      btn.className = 'catalogue-whatsapp-btn disabled';
-      btn.href = '#';
-    }
-    btn.textContent = product.stock > 0 ? 'Order on WhatsApp' : 'Out of Stock';
-    footer.appendChild(btn);
-    card.appendChild(footer);
-
-    card.addEventListener('click', function (e) {
-      if (e.target.closest('.catalogue-whatsapp-btn')) return;
-      openModal(product);
+    card.addEventListener('click', function () {
+      window.location.href = 'product.html?id=' + encodeURIComponent(product.id);
     });
 
     return card;
@@ -117,17 +111,26 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function filterProducts() {
-    if (activeFilter === 'All') return products;
-    return products.filter(function (p) { return p.category === activeFilter; });
+    var list = filterByPack(products);
+    if (activeFilter === 'All') return list;
+    return list.filter(function (p) { return p.category === activeFilter; });
   }
 
-  function setupFilters() {
+  function setupFilters(baseProducts) {
     var categories = ['All'];
-    products.forEach(function (p) {
+    baseProducts.forEach(function (p) {
       if (categories.indexOf(p.category) === -1) categories.push(p.category);
     });
 
     filterBar.innerHTML = '';
+
+    if (activePack && packRanges[activePack]) {
+      var packLabel = document.createElement('div');
+      packLabel.className = 'pack-filter-label';
+      packLabel.textContent = packRanges[activePack].label;
+      filterBar.insertAdjacentElement('beforebegin', packLabel);
+    }
+
     categories.forEach(function (cat) {
       var btn = document.createElement('button');
       btn.className = 'filter-pill' + (cat === activeFilter ? ' active' : '');
@@ -142,124 +145,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  function openModal(product) {
-    var modal = modalOverlay.querySelector('.modal');
-    var validImages = getValidImages(product);
-    var emoji = categoryEmojis[product.category] || '🎁';
-    var imgContainer = modal.querySelector('.modal-img-container');
-    imgContainer.innerHTML = '';
-
-    if (validImages.length > 1) {
-      var carousel = document.createElement('div');
-      carousel.className = 'modal-carousel';
-
-      var track = document.createElement('div');
-      track.className = 'modal-carousel-track';
-
-      validImages.forEach(function (id) {
-        var img = document.createElement('img');
-        img.className = 'modal-img';
-        img.src = driveImageUrl(id, 800);
-        img.alt = product.name;
-        track.appendChild(img);
-      });
-      carousel.appendChild(track);
-
-      var prevBtn = document.createElement('button');
-      prevBtn.className = 'carousel-nav carousel-prev';
-      prevBtn.innerHTML = '&#8249;';
-      prevBtn.setAttribute('aria-label', 'Previous image');
-      carousel.appendChild(prevBtn);
-
-      var nextBtn = document.createElement('button');
-      nextBtn.className = 'carousel-nav carousel-next';
-      nextBtn.innerHTML = '&#8250;';
-      nextBtn.setAttribute('aria-label', 'Next image');
-      carousel.appendChild(nextBtn);
-
-      imgContainer.appendChild(carousel);
-
-      var thumbs = document.createElement('div');
-      thumbs.className = 'modal-thumbnails';
-      validImages.forEach(function (id, idx) {
-        var thumb = document.createElement('img');
-        thumb.className = 'modal-thumb' + (idx === 0 ? ' active' : '');
-        thumb.src = driveImageUrl(id, 100);
-        thumb.alt = 'Image ' + (idx + 1);
-        thumb.addEventListener('click', function () {
-          track.children[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
-          thumbs.querySelectorAll('.modal-thumb').forEach(function (t) { t.classList.remove('active'); });
-          thumb.classList.add('active');
-        });
-        thumbs.appendChild(thumb);
-      });
-      imgContainer.appendChild(thumbs);
-
-      var currentIdx = 0;
-      function scrollTo(idx) {
-        if (idx < 0 || idx >= validImages.length) return;
-        currentIdx = idx;
-        track.children[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
-        thumbs.querySelectorAll('.modal-thumb').forEach(function (t, i) {
-          t.classList.toggle('active', i === idx);
-        });
-      }
-      prevBtn.addEventListener('click', function () { scrollTo(currentIdx - 1); });
-      nextBtn.addEventListener('click', function () { scrollTo(currentIdx + 1); });
-
-    } else if (validImages.length === 1) {
-      var img = document.createElement('img');
-      img.className = 'modal-img';
-      img.src = driveImageUrl(validImages[0], 800);
-      img.alt = product.name;
-      imgContainer.appendChild(img);
-    } else {
-      var placeholder = document.createElement('div');
-      placeholder.className = 'modal-img-placeholder';
-      placeholder.textContent = emoji;
-      imgContainer.appendChild(placeholder);
-    }
-
-    modal.querySelector('.modal-category').textContent = product.category;
-    modal.querySelector('.modal-body h2').textContent = product.name;
-    modal.querySelector('.modal-body p').textContent = product.description;
-
-    var stockWarning = modal.querySelector('.modal-stock-warning');
-    var orderBtn = modal.querySelector('.modal-whatsapp-btn');
-
-    if (product.stock <= 0) {
-      stockWarning.style.display = 'block';
-      stockWarning.textContent = 'Currently out of stock. Check back soon!';
-      orderBtn.className = 'modal-whatsapp-btn disabled';
-      orderBtn.removeAttribute('href');
-      orderBtn.removeAttribute('target');
-      orderBtn.textContent = 'Out of Stock';
-    } else {
-      stockWarning.style.display = 'none';
-      orderBtn.className = 'modal-whatsapp-btn';
-      orderBtn.href = whatsappUrl(product.name);
-      orderBtn.target = '_blank';
-      orderBtn.rel = 'noopener noreferrer';
-      orderBtn.textContent = 'Order on WhatsApp';
-    }
-
-    modalOverlay.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-
-  function closeModal() {
-    modalOverlay.classList.remove('open');
-    document.body.style.overflow = '';
-  }
-
-  modalOverlay.querySelector('.modal-close').addEventListener('click', closeModal);
-  modalOverlay.addEventListener('click', function (e) {
-    if (e.target === modalOverlay) closeModal();
-  });
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && modalOverlay.classList.contains('open')) closeModal();
-  });
-
   // Hamburger menu
   var hamburger = document.querySelector('.hamburger');
   var navLinks = document.querySelector('.nav-links');
@@ -270,10 +155,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Render
-  if (products.length > 0) {
-    setupFilters();
-    renderGrid(products);
+  // Init
+  activePack = getPackFromUrl();
+  var baseProducts = filterByPack(products);
+
+  if (baseProducts.length > 0) {
+    setupFilters(baseProducts);
+    renderGrid(baseProducts);
+  } else if (activePack) {
+    grid.innerHTML = '<div class="catalogue-empty">No products found in this price range. Check back soon!</div>';
   } else {
     grid.innerHTML = '<div class="catalogue-empty">No products available yet. Check back soon!</div>';
   }

@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gift Catalogue - Fundoo Gifts</title>
-  <meta name="description" content="Browse our collection of return gifts for kids parties. Stationery, toys, craft kits, candy boxes and more!">
+  <title>Product - Fundoo Gifts</title>
+  <meta name="description" content="View product details - Fundoo Gifts, Bangalore's favourite return gifts for kids parties.">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/catalogue.css">
+  <link rel="stylesheet" href="css/product.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -30,16 +30,16 @@
     </div>
   </nav>
 
-  <!-- Catalogue -->
-  <main class="catalogue-page">
-    <div class="catalogue-header">
-      <a href="index.html" class="back-home">&larr; Back to Home</a>
-      <h1>Our Gift Catalogue</h1>
-      <p>Browse our curated collection of return gifts for kids parties!</p>
+  <main class="product-page" id="productPage">
+    <div class="product-container">
+      <a href="catalogue.html" class="product-back" id="backLink">&larr; Back to Catalogue</a>
+      <div class="product-layout" id="productLayout"></div>
+      <div class="product-not-found" id="productNotFound" style="display:none">
+        <h2>Product not found</h2>
+        <p>Sorry, we couldn't find that product. It may have been removed.</p>
+        <a href="catalogue.html" class="product-back-btn">Browse Catalogue</a>
+      </div>
     </div>
-
-    <div id="filterBar" class="filter-bar"></div>
-    <div id="catalogueGrid" class="catalogue-grid"></div>
   </main>
 
   <!-- WhatsApp FAB -->
@@ -48,7 +48,7 @@
   </a>
 
   <script src="data/products.js"></script>
-  <script src="js/catalogue.js"></script>
+  <script src="js/product.js"></script>
 
 </body>
 </html>
