@@ -20,7 +20,7 @@ var PRODUCTS = [
   {
     "id": "prod-003",
     "name": "Rainbow Art Craft Kit",
-    "category": "Craft Kits",
+    "category": "Art & Craft",
     "price": 60,
     "description": "Get creative with this all-in-one craft kit! Includes colored paper, glitter glue, pipe cleaners, googly eyes, and easy step-by-step project cards.",
     "images": ["PLACEHOLDER_FILE_ID_3"],

@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var categoryEmojis = {
     'Stationery Sets': '✏️',
     'Toy Bundles': '🧸',
-    'Craft Kits': '🎨',
     'Keychains': '🔑',
     'Art & Craft': '🎨',
     'Puzzle & Games': '🧩'
