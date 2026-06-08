@@ -11,8 +11,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     navLinks.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', function () {
-        navLinks.classList.remove('open');
+        if (!link.classList.contains('nav-dropdown-toggle')) {
+          navLinks.classList.remove('open');
+        }
       });
+    });
+  }
+
+  var dropdownToggle = document.querySelector('.nav-dropdown-toggle');
+  if (dropdownToggle) {
+    dropdownToggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      dropdownToggle.parentElement.classList.toggle('open');
     });
   }
 

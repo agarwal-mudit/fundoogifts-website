@@ -26,6 +26,11 @@ document.addEventListener('DOMContentLoaded', function () {
     return params.get('pack');
   }
 
+  function getCatFromUrl() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('cat');
+  }
+
   function filterByPack(list) {
     if (!activePack || !packRanges[activePack]) return list;
     var range = packRanges[activePack];
@@ -147,11 +152,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Init
   activePack = getPackFromUrl();
+  var urlCat = getCatFromUrl();
+  if (urlCat) activeFilter = urlCat;
   var baseProducts = filterByPack(products);
 
   if (baseProducts.length > 0) {
     setupFilters(baseProducts);
-    renderGrid(baseProducts);
+    renderGrid(filterProducts());
   } else if (activePack) {
     grid.innerHTML = '<div class="catalogue-empty">No products found in this price range. Check back soon!</div>';
   } else {

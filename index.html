@@ -21,12 +21,20 @@
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="#products">Gifts</a></li>
-        <li><a href="catalogue.html">Catalogue</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#why-us">Why Us</a></li>
-        <li><a href="#testimonials">Reviews</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalogue.html?cat=Stationery+Sets">Stationery Sets</a></li>
+        <li><a href="catalogue.html?cat=Toy+Bundles">Toy Bundles</a></li>
+        <li><a href="catalogue.html?cat=Keychains">Keychains</a></li>
+        <li><a href="catalogue.html?cat=Art+%26+Craft">Art &amp; Craft</a></li>
+        <li><a href="catalogue.html?cat=Puzzle+%26+Games">Puzzle &amp; Games</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Shop by Budget <span class="nav-arrow">&#9662;</span></a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="catalogue.html?pack=budget">Budget — Under ₹50</a></li>
+            <li><a href="catalogue.html?pack=classic">Classic — ₹50 to ₹100</a></li>
+            <li><a href="catalogue.html?pack=premium">Premium — ₹100+</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </nav>
@@ -235,12 +243,37 @@
 
   <!-- Footer -->
   <footer>
-    <div class="footer-brand"><img src="images/logo.jpg" alt="Fundoo Gifts" class="footer-logo-img"></div>
-    <p>The Prestige City, Bangalore</p>
-    <p>
-      <a href="https://instagram.com/fundoogifts" target="_blank" rel="noopener noreferrer">@fundoogifts</a>
-    </p>
-    <p style="margin-top: 16px; font-size: 0.85em; color: #999;">&copy; 2026 Fundoo Gifts. All rights reserved.</p>
+    <div class="footer-inner">
+      <div class="footer-brand"><img src="images/logo.jpg" alt="Fundoo Gifts" class="footer-logo-img"></div>
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#products">Our Gifts</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="catalogue.html?cat=Stationery+Sets">Stationery Sets</a></li>
+            <li><a href="catalogue.html?cat=Toy+Bundles">Toy Bundles</a></li>
+            <li><a href="catalogue.html?cat=Keychains">Keychains</a></li>
+            <li><a href="catalogue.html?cat=Art+%26+Craft">Art &amp; Craft</a></li>
+            <li><a href="catalogue.html?cat=Puzzle+%26+Games">Puzzle &amp; Games</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Find Us</h4>
+          <p>The Prestige City<br>Bangalore, Karnataka</p>
+          <a href="https://instagram.com/fundoogifts" target="_blank" rel="noopener noreferrer" class="footer-social">@fundoogifts</a>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2026 Fundoo Gifts. All rights reserved.</div>
+    </div>
   </footer>
 
   <!-- WhatsApp FAB -->
