@@ -152,7 +152,25 @@ nav {
   box-shadow: var(--shadow-md);
 }
 
-.product-icon {
+.product-card-img-wrapper {
+  width: 100%;
+  height: 160px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin-bottom: 16px;
+  background: var(--color-bg-warm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-card-img-wrapper .product-icon-fallback {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -161,7 +179,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 16px;
   font-size: 1.2em;
   font-weight: 700;
 }

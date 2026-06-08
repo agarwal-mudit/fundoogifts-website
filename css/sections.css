@@ -64,6 +64,41 @@
   margin-bottom: 40px;
 }
 
+/* ── Product Showcase Strip ── */
+.product-showcase {
+  overflow: hidden;
+  padding: 20px 0;
+  background: var(--color-bg-warm);
+}
+
+.showcase-track {
+  display: flex;
+  gap: 20px;
+  animation: showcase-scroll 35s linear infinite;
+  width: max-content;
+}
+
+.showcase-item {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.showcase-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes showcase-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 /* ── Products ── */
 #products {
   background: var(--color-bg);
