@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var grid = document.getElementById('catalogueGrid');
   var filterBar = document.getElementById('filterBar');
   var sortSelect = document.getElementById('sortSelect');
+  var searchInput = document.getElementById('catalogueSearch');
   var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
   var activeFilter = 'All';
   var activePack = null;
@@ -144,13 +145,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  function filterProducts() {
+  function getFilteredProducts() {
     var list = filterByPack(products);
     list = filterBySearch(list);
     if (activeFilter !== 'All') {
       list = list.filter(function (p) { return p.category === activeFilter; });
     }
     return sortProducts(list);
+  }
+
+  function refresh() {
+    renderGrid(getFilteredProducts());
   }
 
   function setupFilters(baseProducts) {
@@ -176,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function () {
         activeFilter = cat;
         filterBar.querySelectorAll('.filter-pill').forEach(function (b) { b.classList.remove('active'); });
         btn.classList.add('active');
-        renderGrid(filterProducts());
+        refresh();
       });
       filterBar.appendChild(btn);
     });
@@ -186,7 +191,34 @@ document.addEventListener('DOMContentLoaded', function () {
   if (sortSelect) {
     sortSelect.addEventListener('change', function () {
       activeSort = sortSelect.value;
-      renderGrid(filterProducts());
+      refresh();
+    });
+  }
+
+  // Live search on catalogue page
+  if (searchInput) {
+    var debounceTimer;
+    searchInput.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        searchQuery = searchInput.value.trim();
+        refresh();
+      }, 250);
+    });
+  }
+
+  // Intercept nav search form on catalogue page to use live filtering
+  var navSearchForm = document.querySelector('.nav-search-form');
+  if (navSearchForm && searchInput) {
+    navSearchForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var navInput = navSearchForm.querySelector('.nav-search-input');
+      if (navInput) {
+        searchInput.value = navInput.value;
+        searchQuery = navInput.value.trim();
+        refresh();
+        searchInput.focus();
+      }
     });
   }
 
@@ -206,23 +238,19 @@ document.addEventListener('DOMContentLoaded', function () {
   searchQuery = getSearchFromUrl();
   if (urlCat) activeFilter = urlCat;
 
-  // Pre-fill search input if there's a query
+  // Pre-fill search inputs if there's a query from URL
   if (searchQuery) {
-    var searchInput = document.querySelector('.nav-search-input');
     if (searchInput) searchInput.value = searchQuery;
+    var navInput = document.querySelector('.nav-search-input');
+    if (navInput) navInput.value = searchQuery;
   }
 
   var baseProducts = filterByPack(products);
-  baseProducts = filterBySearch(baseProducts);
 
-  if (baseProducts.length > 0) {
-    setupFilters(baseProducts);
-    renderGrid(filterProducts());
-  } else if (searchQuery) {
-    grid.innerHTML = '<div class="catalogue-empty">No products found for "' + searchQuery + '". Try a different search.</div>';
-  } else if (activePack) {
-    grid.innerHTML = '<div class="catalogue-empty">No products found in this price range. Check back soon!</div>';
+  if (baseProducts.length > 0 || !activePack) {
+    setupFilters(baseProducts.length > 0 ? baseProducts : products);
+    refresh();
   } else {
-    grid.innerHTML = '<div class="catalogue-empty">No products available yet. Check back soon!</div>';
+    grid.innerHTML = '<div class="catalogue-empty">No products found in this price range. Check back soon!</div>';
   }
 });

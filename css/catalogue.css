@@ -40,21 +40,61 @@
   padding: 0 20px 40px;
 }
 
-/* ── Filter Pills ── */
-.filter-bar {
+/* ── Search + Sort Row ── */
+.catalogue-search-row {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.catalogue-search-box {
+  position: relative;
+  flex: 1;
+  max-width: 400px;
+}
+
+.catalogue-search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: var(--color-text-muted);
+  pointer-events: none;
+}
+
+.catalogue-search-input {
+  width: 100%;
+  padding: 10px 16px 10px 40px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: 0.9em;
+  font-family: var(--font-family);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.catalogue-search-input:focus {
+  border-color: var(--color-primary);
 }
 
 /* ── Sort Bar ── */
 .sort-bar {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 8px;
+  flex-shrink: 0;
+}
+
+/* ── Filter Pills ── */
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .sort-bar label {
@@ -234,6 +274,15 @@
 
   .catalogue-header h1 {
     font-size: 1.8em;
+  }
+
+  .catalogue-search-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .catalogue-search-box {
+    max-width: none;
   }
 
   .sort-bar {
