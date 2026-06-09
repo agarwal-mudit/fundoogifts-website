@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gift Catalogue - Fundoo Gifts</title>
   <meta name="description" content="Browse our collection of return gifts for kids parties. Stationery, toys, craft kits, candy boxes and more!">
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
@@ -35,6 +36,12 @@
             <li><a href="catalogue.html?pack=premium">Premium — ₹100+</a></li>
           </ul>
         </li>
+        <li class="nav-search">
+          <form class="nav-search-form" action="catalogue.html" method="get">
+            <svg class="nav-search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" name="q" class="nav-search-input" placeholder="Search gifts..." autocomplete="off">
+          </form>
+        </li>
       </ul>
     </div>
   </nav>
@@ -47,7 +54,19 @@
       <p>Browse our curated collection of return gifts for kids parties!</p>
     </div>
 
-    <div id="filterBar" class="filter-bar"></div>
+    <div class="catalogue-controls">
+      <div id="filterBar" class="filter-bar"></div>
+      <div class="sort-bar">
+        <label for="sortSelect">Sort by:</label>
+        <select id="sortSelect" class="sort-select">
+          <option value="relevance">Relevance</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+          <option value="name-az">Name: A to Z</option>
+          <option value="name-za">Name: Z to A</option>
+        </select>
+      </div>
+    </div>
     <div id="catalogueGrid" class="catalogue-grid"></div>
   </main>
 

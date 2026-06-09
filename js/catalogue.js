@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
   var grid = document.getElementById('catalogueGrid');
   var filterBar = document.getElementById('filterBar');
+  var sortSelect = document.getElementById('sortSelect');
   var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
   var activeFilter = 'All';
   var activePack = null;
+  var activeSort = 'relevance';
+  var searchQuery = '';
 
   var packRanges = {
     budget: { label: 'Budget Pack', min: 0, max: 49 },
@@ -31,10 +34,44 @@ document.addEventListener('DOMContentLoaded', function () {
     return params.get('cat');
   }
 
+  function getSearchFromUrl() {
+    var params = new URLSearchParams(window.location.search);
+    return (params.get('q') || '').trim();
+  }
+
   function filterByPack(list) {
     if (!activePack || !packRanges[activePack]) return list;
     var range = packRanges[activePack];
     return list.filter(function (p) { return p.price >= range.min && p.price <= range.max; });
+  }
+
+  function filterBySearch(list) {
+    if (!searchQuery) return list;
+    var q = searchQuery.toLowerCase();
+    return list.filter(function (p) {
+      return p.name.toLowerCase().indexOf(q) !== -1 ||
+             p.category.toLowerCase().indexOf(q) !== -1 ||
+             (p.description && p.description.toLowerCase().indexOf(q) !== -1);
+    });
+  }
+
+  function sortProducts(list) {
+    var sorted = list.slice();
+    switch (activeSort) {
+      case 'price-low':
+        sorted.sort(function (a, b) { return a.price - b.price; });
+        break;
+      case 'price-high':
+        sorted.sort(function (a, b) { return b.price - a.price; });
+        break;
+      case 'name-az':
+        sorted.sort(function (a, b) { return a.name.localeCompare(b.name); });
+        break;
+      case 'name-za':
+        sorted.sort(function (a, b) { return b.name.localeCompare(a.name); });
+        break;
+    }
+    return sorted;
   }
 
   function renderCard(product) {
@@ -96,7 +133,9 @@ document.addEventListener('DOMContentLoaded', function () {
     if (filteredProducts.length === 0) {
       var empty = document.createElement('div');
       empty.className = 'catalogue-empty';
-      empty.textContent = 'No products found in this category.';
+      empty.textContent = searchQuery
+        ? 'No products found for "' + searchQuery + '".'
+        : 'No products found in this category.';
       grid.appendChild(empty);
       return;
     }
@@ -107,8 +146,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function filterProducts() {
     var list = filterByPack(products);
-    if (activeFilter === 'All') return list;
-    return list.filter(function (p) { return p.category === activeFilter; });
+    list = filterBySearch(list);
+    if (activeFilter !== 'All') {
+      list = list.filter(function (p) { return p.category === activeFilter; });
+    }
+    return sortProducts(list);
   }
 
   function setupFilters(baseProducts) {
@@ -140,6 +182,14 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Sort change handler
+  if (sortSelect) {
+    sortSelect.addEventListener('change', function () {
+      activeSort = sortSelect.value;
+      renderGrid(filterProducts());
+    });
+  }
+
   // Hamburger menu
   var hamburger = document.querySelector('.hamburger');
   var navLinks = document.querySelector('.nav-links');
@@ -153,12 +203,23 @@ document.addEventListener('DOMContentLoaded', function () {
   // Init
   activePack = getPackFromUrl();
   var urlCat = getCatFromUrl();
+  searchQuery = getSearchFromUrl();
   if (urlCat) activeFilter = urlCat;
+
+  // Pre-fill search input if there's a query
+  if (searchQuery) {
+    var searchInput = document.querySelector('.nav-search-input');
+    if (searchInput) searchInput.value = searchQuery;
+  }
+
   var baseProducts = filterByPack(products);
+  baseProducts = filterBySearch(baseProducts);
 
   if (baseProducts.length > 0) {
     setupFilters(baseProducts);
     renderGrid(filterProducts());
+  } else if (searchQuery) {
+    grid.innerHTML = '<div class="catalogue-empty">No products found for "' + searchQuery + '". Try a different search.</div>';
   } else if (activePack) {
     grid.innerHTML = '<div class="catalogue-empty">No products found in this price range. Check back soon!</div>';
   } else {
