@@ -3,7 +3,9 @@ var PRODUCTS = [
     "id": "prod-004",
     "name": "3 in 1 Puzzle",
     "category": "Puzzle & Games",
-    "price": 180,
+    "mrp": 180,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "3-in-1 Wooden Puzzle Toy | Brain Development & Skill Building Puzzle | Multicolour",
     "images": [
       "11xXUW-dPYnDCzKmYOsCs3Yo-qGBpBmAg"
@@ -14,7 +16,9 @@ var PRODUCTS = [
     "id": "prod-005",
     "name": "3D Pencil Pouch",
     "category": "Stationery Sets",
-    "price": 150,
+    "mrp": 150,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1KC5p07nO2UHrPK7K1AwryZPcwq2qiVmw"
@@ -25,7 +29,9 @@ var PRODUCTS = [
     "id": "prod-006",
     "name": "Harry Potter Key Chain",
     "category": "Keychains",
-    "price": 75,
+    "mrp": 75,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "13eXnjYVKUGmGXtoKXBFp44OuJ6L8BQ6Y"
@@ -36,7 +42,9 @@ var PRODUCTS = [
     "id": "prod-007",
     "name": "Kuromi Key Chain",
     "category": "Keychains",
-    "price": 75,
+    "mrp": 75,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "16qWStHMH2RSiTJyEXA0jkQVNn5L5l-3Q"
@@ -47,7 +55,9 @@ var PRODUCTS = [
     "id": "prod-008",
     "name": "Camer Projector Key Chain",
     "category": "Keychains",
-    "price": 80,
+    "mrp": 80,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1CbVxStofiW_WXm-ofbLWHeMb-mvMrJ0x",
@@ -60,7 +70,9 @@ var PRODUCTS = [
     "id": "prod-009",
     "name": "Scratch Book",
     "category": "Art & Craft",
-    "price": 45,
+    "mrp": 45,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1fW3n70KubtaT13d2s1F7uQUDdYqk5u7q",
@@ -72,7 +84,9 @@ var PRODUCTS = [
     "id": "prod-010",
     "name": "Tattoo Book",
     "category": "Art & Craft",
-    "price": 25,
+    "mrp": 25,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1ttjTUV6CqNIQ5z-fbwBnpNUXSqa78xli"
@@ -83,7 +97,9 @@ var PRODUCTS = [
     "id": "prod-011",
     "name": "Character Pencil Pouch",
     "category": "Stationery Sets",
-    "price": 35,
+    "mrp": 35,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1GetwgZU0gaiBQA2I5m80kjgtcQdCNWPx",
@@ -95,7 +111,9 @@ var PRODUCTS = [
     "id": "prod-012",
     "name": "Acrylic Marker set of 12",
     "category": "Stationery Sets",
-    "price": 99,
+    "mrp": 99,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1t7ulf0pP7GrbL5Yz4-QuJIfghru8FnAg",
@@ -107,7 +125,9 @@ var PRODUCTS = [
     "id": "prod-013",
     "name": "Bottle shaped Highlighter",
     "category": "Art & Craft",
-    "price": 99,
+    "mrp": 99,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "190Y6fLrOUQkk4K9KszEqbhfJiXsABX3-",
@@ -119,7 +139,9 @@ var PRODUCTS = [
     "id": "prod-014",
     "name": "Character Pencil",
     "category": "Stationery Sets",
-    "price": 20,
+    "mrp": 20,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1ZkBkvloinI8jFr3TfCocYebEBAd46KFB",
@@ -131,7 +153,9 @@ var PRODUCTS = [
     "id": "prod-015",
     "name": "Diary with Lock",
     "category": "Stationery Sets",
-    "price": 80,
+    "mrp": 80,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1a3wo-OPP_zhX8grDwPmrd0FScPOSYJOV"
@@ -142,7 +166,9 @@ var PRODUCTS = [
     "id": "prod-016",
     "name": "Diary with Pen",
     "category": "Stationery Sets",
-    "price": 80,
+    "mrp": 80,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "14CGlL-dhII3-jRbQP_CNI_b8p7cf3prF"
@@ -153,7 +179,9 @@ var PRODUCTS = [
     "id": "prod-017",
     "name": "Dual side Markers",
     "category": "Art & Craft",
-    "price": 150,
+    "mrp": 150,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "Set of 12",
     "images": [
       "1SSWdI1pVj2xcX6AHmeAyJuamjYcMC96t"
@@ -164,7 +192,9 @@ var PRODUCTS = [
     "id": "prod-018",
     "name": "Fur Diary",
     "category": "Stationery Sets",
-    "price": 190,
+    "mrp": 190,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1UkrZAI4Ebpw1JTZvMn6zIvv5WHCtoFJm"
@@ -175,7 +205,9 @@ var PRODUCTS = [
     "id": "prod-019",
     "name": "Keyboard Keychain",
     "category": "Keychains",
-    "price": 180,
+    "mrp": 180,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1nSxsIc6ay4s4mlxL4o6BWKQNApKUZk2B"
@@ -186,7 +218,9 @@ var PRODUCTS = [
     "id": "prod-020",
     "name": "Magic Water Book",
     "category": "Art & Craft",
-    "price": 60,
+    "mrp": 60,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1_Z7QQzmrejk9JhslY0_XBdKIVZBUX2Mx"
@@ -197,7 +231,9 @@ var PRODUCTS = [
     "id": "prod-021",
     "name": "Mini Stationery set",
     "category": "Stationery Sets",
-    "price": 99,
+    "mrp": 99,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1EhqWlZ46ch2lsJQSlBZHdvl2gv535jP9"
@@ -208,7 +244,9 @@ var PRODUCTS = [
     "id": "prod-022",
     "name": "PopIT Diary",
     "category": "Stationery Sets",
-    "price": 199,
+    "mrp": 199,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "19NdXIYDGWV0SEQuC6iJDmPPeqS20_P-x",
@@ -220,7 +258,9 @@ var PRODUCTS = [
     "id": "prod-023",
     "name": "Rope Game",
     "category": "Puzzle & Games",
-    "price": 140,
+    "mrp": 140,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1NPp2XFJFnfUO8-2NWnD3asOREyuMR5FX"
@@ -231,7 +271,9 @@ var PRODUCTS = [
     "id": "prod-024",
     "name": "Snowy 2-in-1 Writing Board",
     "category": "Stationery Sets",
-    "price": 120,
+    "mrp": 120,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "15Adp39uHrdLlSJO6N8Jc9PDrRCtQV50V"
@@ -242,7 +284,9 @@ var PRODUCTS = [
     "id": "prod-025",
     "name": "Fundoo Stamps",
     "category": "Art & Craft",
-    "price": 99,
+    "mrp": 99,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1HStvnLFZMX1J8WlJ0zqhUX1s5IB4yem3",
@@ -254,7 +298,9 @@ var PRODUCTS = [
     "id": "prod-026",
     "name": "Choo Choo Train",
     "category": "Toy Bundles",
-    "price": 199,
+    "mrp": 199,
+    "fundooPrice": 0,
+    "offerPrice": 0,
     "description": "",
     "images": [
       "1dqhdd4meDoaAxugRGSXrn4qy6gOWycNn"

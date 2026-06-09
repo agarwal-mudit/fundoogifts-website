@@ -25,6 +25,48 @@ document.addEventListener('DOMContentLoaded', function () {
     return imgs.filter(function (id) { return id && !id.startsWith('PLACEHOLDER'); });
   }
 
+  function effectivePrice(p) {
+    if (p.offerPrice > 0) return p.offerPrice;
+    if (p.fundooPrice > 0) return p.fundooPrice;
+    return p.mrp || 0;
+  }
+
+  function renderPriceHtml(p) {
+    var container = document.createElement('div');
+    container.className = 'price-group';
+    var mrp = p.mrp || 0;
+    var fp = p.fundooPrice || 0;
+    var op = p.offerPrice || 0;
+
+    if (op > 0 && fp > 0 && mrp > 0) {
+      container.appendChild(makePriceItem('MRP', mrp, 'price-mrp'));
+      container.appendChild(makePriceItem('Fundoo', fp, 'price-fundoo'));
+      container.appendChild(makePriceItem('Offer', op, 'price-highlight'));
+    } else if (fp > 0 && mrp > 0) {
+      container.appendChild(makePriceItem('MRP', mrp, 'price-mrp'));
+      container.appendChild(makePriceItem('Fundoo Price', fp, 'price-highlight'));
+    } else if (mrp > 0) {
+      container.appendChild(makePriceItem('', mrp, 'price-single'));
+    }
+    return container;
+  }
+
+  function makePriceItem(label, value, cls) {
+    var item = document.createElement('span');
+    item.className = 'price-item';
+    if (label) {
+      var lbl = document.createElement('span');
+      lbl.className = 'price-label';
+      lbl.textContent = label;
+      item.appendChild(lbl);
+    }
+    var val = document.createElement('span');
+    val.className = cls;
+    val.textContent = '₹' + value;
+    item.appendChild(val);
+    return item;
+  }
+
   function getPackFromUrl() {
     var params = new URLSearchParams(window.location.search);
     return params.get('pack');
@@ -43,7 +85,10 @@ document.addEventListener('DOMContentLoaded', function () {
   function filterByPack(list) {
     if (!activePack || !packRanges[activePack]) return list;
     var range = packRanges[activePack];
-    return list.filter(function (p) { return p.price >= range.min && p.price <= range.max; });
+    return list.filter(function (p) {
+      var ep = effectivePrice(p);
+      return ep >= range.min && ep <= range.max;
+    });
   }
 
   function filterBySearch(list) {
@@ -60,10 +105,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var sorted = list.slice();
     switch (activeSort) {
       case 'price-low':
-        sorted.sort(function (a, b) { return a.price - b.price; });
+        sorted.sort(function (a, b) { return effectivePrice(a) - effectivePrice(b); });
         break;
       case 'price-high':
-        sorted.sort(function (a, b) { return b.price - a.price; });
+        sorted.sort(function (a, b) { return effectivePrice(b) - effectivePrice(a); });
         break;
       case 'name-az':
         sorted.sort(function (a, b) { return a.name.localeCompare(b.name); });
@@ -113,6 +158,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var title = document.createElement('h3');
     title.textContent = product.name;
     body.appendChild(title);
+
+    body.appendChild(renderPriceHtml(product));
 
     var desc = document.createElement('p');
     desc.textContent = product.description.length > 100

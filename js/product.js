@@ -25,6 +25,42 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  function makePriceItem(label, value, cls) {
+    var item = document.createElement('span');
+    item.className = 'price-item';
+    if (label) {
+      var lbl = document.createElement('span');
+      lbl.className = 'price-label';
+      lbl.textContent = label;
+      item.appendChild(lbl);
+    }
+    var val = document.createElement('span');
+    val.className = cls;
+    val.textContent = '₹' + value;
+    item.appendChild(val);
+    return item;
+  }
+
+  function renderPriceHtml(p) {
+    var container = document.createElement('div');
+    container.className = 'price-group';
+    var mrp = p.mrp || 0;
+    var fp = p.fundooPrice || 0;
+    var op = p.offerPrice || 0;
+
+    if (op > 0 && fp > 0 && mrp > 0) {
+      container.appendChild(makePriceItem('MRP', mrp, 'price-mrp'));
+      container.appendChild(makePriceItem('Fundoo', fp, 'price-fundoo'));
+      container.appendChild(makePriceItem('Offer', op, 'price-highlight'));
+    } else if (fp > 0 && mrp > 0) {
+      container.appendChild(makePriceItem('MRP', mrp, 'price-mrp'));
+      container.appendChild(makePriceItem('Fundoo Price', fp, 'price-highlight'));
+    } else if (mrp > 0) {
+      container.appendChild(makePriceItem('', mrp, 'price-single'));
+    }
+    return container;
+  }
+
   function renderProduct(product) {
     var validImages = getValidImages(product);
     document.title = product.name + ' - Fundoo Gifts';
@@ -120,6 +156,10 @@ document.addEventListener('DOMContentLoaded', function () {
     title.className = 'product-title';
     title.textContent = product.name;
     details.appendChild(title);
+
+    var priceRow = renderPriceHtml(product);
+    priceRow.className = 'price-group product-price-row';
+    details.appendChild(priceRow);
 
     var desc = document.createElement('p');
     desc.className = 'product-description';

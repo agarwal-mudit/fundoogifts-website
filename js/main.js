@@ -107,7 +107,8 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!range) return;
 
     var matching = products.filter(function (p) {
-      return p.price >= range.min && p.price <= range.max;
+      var ep = p.offerPrice > 0 ? p.offerPrice : (p.fundooPrice > 0 ? p.fundooPrice : (p.mrp || 0));
+      return ep >= range.min && ep <= range.max;
     });
 
     if (matching.length === 0) {

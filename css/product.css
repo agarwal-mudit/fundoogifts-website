@@ -148,6 +148,24 @@
   line-height: 1.2;
 }
 
+.product-price-row {
+  margin-bottom: 20px;
+  gap: 14px;
+}
+
+.product-price-row .price-highlight {
+  font-size: 1.6em;
+}
+
+.product-price-row .price-single {
+  font-size: 1.6em;
+}
+
+.product-price-row .price-mrp,
+.product-price-row .price-fundoo {
+  font-size: 1em;
+}
+
 .product-description {
   font-size: 1.1em;
   color: var(--color-text-light);
