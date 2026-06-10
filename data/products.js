@@ -31,7 +31,7 @@ var PRODUCTS = [
     "category": "Keychains",
     "mrp": 80,
     "fundooPrice": 75,
-    "offerPrice": 56,
+    "offerPrice": 60,
     "description": "Magical Harry Potter themed keychain for young Potterheads. Sturdy metal build with detailed character design — clip it to bags, pencil cases, or zipper pulls.",
     "images": [
       "13eXnjYVKUGmGXtoKXBFp44OuJ6L8BQ6Y"
@@ -44,7 +44,7 @@ var PRODUCTS = [
     "category": "Keychains",
     "mrp": 80,
     "fundooPrice": 75,
-    "offerPrice": 55,
+    "offerPrice": 60,
     "description": "Adorable Kuromi character keychain that Sanrio fans will love. Lightweight and durable with vibrant colours — a cute collectible return gift.",
     "images": [
       "16qWStHMH2RSiTJyEXA0jkQVNn5L5l-3Q"
@@ -72,7 +72,7 @@ var PRODUCTS = [
     "category": "Art & Craft",
     "mrp": 50,
     "fundooPrice": 45,
-    "offerPrice": 27,
+    "offerPrice": 35,
     "description": "Rainbow scratch art book with wooden stylus included. Kids scratch away the black coating to reveal vibrant colours underneath — hours of creative fun.",
     "images": [
       "1fW3n70KubtaT13d2s1F7uQUDdYqk5u7q",
@@ -139,9 +139,9 @@ var PRODUCTS = [
     "id": "prod-014",
     "name": "Character Pencil",
     "category": "Stationery Sets",
-    "mrp": 20,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 30,
+    "fundooPrice": 20,
+    "offerPrice": 15,
     "description": "Pencil topped with a fun cartoon character figure. Available in assorted designs — an affordable return gift that kids will actually use at school.",
     "images": [
       "1ZkBkvloinI8jFr3TfCocYebEBAd46KFB",
@@ -153,9 +153,9 @@ var PRODUCTS = [
     "id": "prod-015",
     "name": "Diary with Lock",
     "category": "Stationery Sets",
-    "mrp": 80,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 99,
+    "fundooPrice": 80,
+    "offerPrice": 70,
     "description": "Personal diary with a built-in lock and key for keeping secrets safe. Colourful cover with lined pages inside — every kid's favourite gift to receive.",
     "images": [
       "1a3wo-OPP_zhX8grDwPmrd0FScPOSYJOV"
@@ -166,9 +166,9 @@ var PRODUCTS = [
     "id": "prod-016",
     "name": "Diary with Pen",
     "category": "Stationery Sets",
-    "mrp": 80,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 125,
+    "fundooPrice": 99,
+    "offerPrice": 75,
     "description": "Stylish mini diary that comes paired with a matching pen. Compact size fits perfectly in school bags — ideal for notes, doodles, and creative writing.",
     "images": [
       "14CGlL-dhII3-jRbQP_CNI_b8p7cf3prF"
@@ -179,9 +179,9 @@ var PRODUCTS = [
     "id": "prod-017",
     "name": "Dual side Markers",
     "category": "Art & Craft",
-    "mrp": 150,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 200,
+    "fundooPrice": 150,
+    "offerPrice": 110,
     "description": "Set of 12 dual-tip markers with a fine point on one end and a broad tip on the other. Rich, blendable colours for drawing, colouring, and craft projects.",
     "images": [
       "1SSWdI1pVj2xcX6AHmeAyJuamjYcMC96t"
@@ -192,9 +192,9 @@ var PRODUCTS = [
     "id": "prod-018",
     "name": "Fur Diary",
     "category": "Stationery Sets",
-    "mrp": 190,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 225,
+    "fundooPrice": 190,
+    "offerPrice": 150,
     "description": "Soft, fluffy fur-covered diary that feels as good as it looks. Premium quality pages with a satisfying tactile cover — a gift that feels special to open.",
     "images": [
       "1UkrZAI4Ebpw1JTZvMn6zIvv5WHCtoFJm"
@@ -205,9 +205,9 @@ var PRODUCTS = [
     "id": "prod-019",
     "name": "Keyboard Keychain",
     "category": "Keychains",
-    "mrp": 180,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 200,
+    "fundooPrice": 180,
+    "offerPrice": 120,
     "description": "Mini keyboard-shaped keychain with tiny clickable keys. A fun fidget-friendly accessory that tech-loving kids will absolutely adore.",
     "images": [
       "1nSxsIc6ay4s4mlxL4o6BWKQNApKUZk2B"
@@ -218,9 +218,9 @@ var PRODUCTS = [
     "id": "prod-020",
     "name": "Magic Water Book",
     "category": "Art & Craft",
-    "mrp": 60,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 70,
+    "fundooPrice": 60,
+    "offerPrice": 50,
     "description": "Reusable colouring book that reveals hidden pictures when painted with water. Colours disappear as the page dries so kids can use it again and again.",
     "images": [
       "1_Z7QQzmrejk9JhslY0_XBdKIVZBUX2Mx"
@@ -231,9 +231,9 @@ var PRODUCTS = [
     "id": "prod-021",
     "name": "Mini Stationery set",
     "category": "Stationery Sets",
-    "mrp": 99,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 110,
+    "fundooPrice": 99,
+    "offerPrice": 85,
     "description": "Compact stationery set with pencils, eraser, sharpener, ruler and mini notepad all in one pack. Everything a kid needs, neatly bundled as a ready-to-gift set.",
     "images": [
       "1EhqWlZ46ch2lsJQSlBZHdvl2gv535jP9"
@@ -244,9 +244,9 @@ var PRODUCTS = [
     "id": "prod-022",
     "name": "PopIT Diary",
     "category": "Stationery Sets",
-    "mrp": 199,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 300,
+    "fundooPrice": 199,
+    "offerPrice": 150,
     "description": "Diary with a built-in Pop-It fidget cover — write notes and pop bubbles in between. A satisfying sensory experience combined with everyday utility.",
     "images": [
       "19NdXIYDGWV0SEQuC6iJDmPPeqS20_P-x",
@@ -258,9 +258,9 @@ var PRODUCTS = [
     "id": "prod-023",
     "name": "Rope Game",
     "category": "Puzzle & Games",
-    "mrp": 140,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 180,
+    "fundooPrice": 140,
+    "offerPrice": 120,
     "description": "Classic rope puzzle that challenges kids to untangle and solve. Builds problem-solving skills and patience — a screen-free activity the whole family can enjoy.",
     "images": [
       "1NPp2XFJFnfUO8-2NWnD3asOREyuMR5FX"
@@ -271,9 +271,9 @@ var PRODUCTS = [
     "id": "prod-024",
     "name": "Snowy 2-in-1 Writing Board",
     "category": "Stationery Sets",
-    "mrp": 120,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 200,
+    "fundooPrice": 150,
+    "offerPrice": 110,
     "description": "Two-in-one writing board with a whiteboard on one side and a chalkboard on the other. Comes with marker and chalk — perfect for learning, doodling, and play.",
     "images": [
       "15Adp39uHrdLlSJO6N8Jc9PDrRCtQV50V"
@@ -284,9 +284,9 @@ var PRODUCTS = [
     "id": "prod-025",
     "name": "Fundoo Stamps",
     "category": "Art & Craft",
-    "mrp": 99,
-    "fundooPrice": 0,
-    "offerPrice": 0,
+    "mrp": 110,
+    "fundooPrice": 99,
+    "offerPrice": 80,
     "description": "Collection of fun-shaped stamps with a built-in ink pad. Kids can stamp colourful patterns on paper, cards and crafts — an easy creative activity for any age.",
     "images": [
       "1HStvnLFZMX1J8WlJ0zqhUX1s5IB4yem3",
