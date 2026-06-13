@@ -476,9 +476,29 @@ var PRODUCTS = [
       "106Ze2oyqSg0s7r6nlcVC0Kk6AeMk3DDx"
     ],
     "stock": 24
+  },
+  {
+    "id": "prod-039",
+    "name": "K-Pop Cross Body Double Zip Bag",
+    "category": "Backpacks",
+    "mrp": 275,
+    "fundooPrice": 200,
+    "offerPrice": 150,
+    "description": "💜 Trendy K-Pop Cross Body Double Zip Bag – A stylish and practical accessory inspired by Korean fashion trends, perfect for K-pop fans and anyone who loves cute, aesthetic accessories.\n\n👜 Spacious Double-Zip Design – Features two separate zippered compartments to help organize essentials such as a phone, wallet, keys, stationery, cosmetics, and other daily necessities.\n\n✨ Fashionable K-Pop-Inspired Style – Designed with eye-catching details and trendy aesthetics that add a fun and modern touch to any outfit.\n\n🎒 Comfortable Crossbody Carry – Comes with an adjustable shoulder strap for convenient hands-free use, making it ideal for shopping, travel, outings, school, and everyday wear.\n\n💪 Durable & Lightweight Construction – Made from quality materials that are sturdy enough for daily use while remaining lightweight and comfortable to carry.\n\n🌈 Versatile for Everyday Use – Perfect for carrying personal belongings while keeping them secure, organized, and easily accessible throughout the day.\n\n🎁 Great Gift for K-Pop Lovers – An ideal gift for birthdays, return gifts, festive occasions, party favors, or anyone who enjoys Korean-inspired fashion and accessories.",
+    "images": [
+      "1-e7yTY-o537vNJ6v7CjfFNWm-WQxD3wQ",
+      "18gxbSdfucnLinoFCuPJzWR3SjzfJrkIr"
+    ],
+    "stock": 15
   }
 ];
 var SITE_CONFIG = {
-  "productOfTheMonth": "",
-  "whatsHot": []
+  "productOfTheMonth": "prod-030",
+  "whatsHot": [
+    "prod-006",
+    "prod-019",
+    "prod-031",
+    "prod-032",
+    "prod-039"
+  ]
 };
