@@ -15,6 +15,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .potm-link {
+    grid-template-columns: 1fr;
+  }
+
+  .potm-details {
+    padding: 24px;
+  }
+
+  .whats-hot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .contact-wrapper {
     grid-template-columns: 1fr;
   }
@@ -90,6 +102,18 @@
 
   .product-card-img-wrapper {
     height: 130px;
+  }
+
+  .potm-image img {
+    height: 260px;
+  }
+
+  .potm-name {
+    font-size: 1.4em;
+  }
+
+  .whats-hot-grid {
+    grid-template-columns: 1fr 1fr;
   }
 
   .product-grid,

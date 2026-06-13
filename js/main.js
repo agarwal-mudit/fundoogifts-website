@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var contactForm = document.getElementById('contactForm');
   var formSuccess = document.getElementById('formSuccess');
   var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
+  var siteConfig = typeof SITE_CONFIG !== 'undefined' ? SITE_CONFIG : { productOfTheMonth: '', whatsHot: [] };
 
   function driveImageUrl(fileId, size) {
     if (!fileId || fileId.startsWith('PLACEHOLDER')) return '';
@@ -70,6 +71,142 @@ document.addEventListener('DOMContentLoaded', function () {
       div.appendChild(img);
       showcaseTrack.appendChild(div);
     });
+  }
+
+  // ── Price Helpers ──
+
+  function makePriceItem(label, value, cls) {
+    var item = document.createElement('span');
+    item.className = 'price-item';
+    if (label) {
+      var lbl = document.createElement('span');
+      lbl.className = 'price-label';
+      lbl.textContent = label;
+      item.appendChild(lbl);
+    }
+    var val = document.createElement('span');
+    val.className = cls;
+    val.textContent = '₹' + value;
+    item.appendChild(val);
+    return item;
+  }
+
+  function renderPriceHtml(p) {
+    var container = document.createElement('div');
+    container.className = 'price-group';
+    var mrp = p.mrp || 0;
+    var fp = p.fundooPrice || 0;
+    var op = p.offerPrice || 0;
+    if (op > 0 && fp > 0 && mrp > 0) {
+      container.appendChild(makePriceItem('MRP', mrp, 'price-mrp'));
+      container.appendChild(makePriceItem('Fundoo', fp, 'price-fundoo'));
+      container.appendChild(makePriceItem('Offer', op, 'price-highlight'));
+    } else if (fp > 0 && mrp > 0) {
+      container.appendChild(makePriceItem('MRP', mrp, 'price-mrp'));
+      container.appendChild(makePriceItem('Fundoo Price', fp, 'price-highlight'));
+    } else if (mrp > 0) {
+      container.appendChild(makePriceItem('', mrp, 'price-single'));
+    }
+    return container;
+  }
+
+  // ── Product of the Month ──
+
+  var potmSection = document.getElementById('product-of-month');
+  var potmCard = document.getElementById('potmCard');
+  if (potmSection && potmCard && siteConfig.productOfTheMonth) {
+    var potmProduct = products.find(function (p) { return p.id === siteConfig.productOfTheMonth; });
+    if (potmProduct) {
+      potmSection.style.display = '';
+
+      var potmLink = document.createElement('a');
+      potmLink.href = 'product.html?id=' + encodeURIComponent(potmProduct.id);
+      potmLink.className = 'potm-link';
+
+      var potmImgWrap = document.createElement('div');
+      potmImgWrap.className = 'potm-image';
+      var potmImgs = potmProduct.images || [];
+      if (potmImgs.length > 0 && !potmImgs[0].startsWith('PLACEHOLDER')) {
+        var potmImg = document.createElement('img');
+        potmImg.src = driveImageUrl(potmImgs[0], 600);
+        potmImg.alt = potmProduct.name;
+        potmImg.loading = 'lazy';
+        potmImgWrap.appendChild(potmImg);
+      }
+
+      var potmDetails = document.createElement('div');
+      potmDetails.className = 'potm-details';
+
+      var potmCat = document.createElement('span');
+      potmCat.className = 'potm-category';
+      potmCat.textContent = potmProduct.category;
+      potmDetails.appendChild(potmCat);
+
+      var potmName = document.createElement('h3');
+      potmName.className = 'potm-name';
+      potmName.textContent = potmProduct.name;
+      potmDetails.appendChild(potmName);
+
+      var potmDesc = document.createElement('p');
+      potmDesc.className = 'potm-desc';
+      potmDesc.textContent = potmProduct.description;
+      potmDetails.appendChild(potmDesc);
+
+      potmDetails.appendChild(renderPriceHtml(potmProduct));
+
+      var potmBtn = document.createElement('span');
+      potmBtn.className = 'potm-btn';
+      potmBtn.textContent = 'View Product';
+      potmDetails.appendChild(potmBtn);
+
+      potmLink.appendChild(potmImgWrap);
+      potmLink.appendChild(potmDetails);
+      potmCard.appendChild(potmLink);
+    }
+  }
+
+  // ── What's Hot ──
+
+  var whatsHotSection = document.getElementById('whats-hot');
+  var whatsHotGrid = document.getElementById('whatsHotGrid');
+  if (whatsHotSection && whatsHotGrid && siteConfig.whatsHot && siteConfig.whatsHot.length > 0) {
+    var hotProducts = siteConfig.whatsHot.map(function (id) {
+      return products.find(function (p) { return p.id === id; });
+    }).filter(Boolean);
+
+    if (hotProducts.length > 0) {
+      whatsHotSection.style.display = '';
+
+      hotProducts.forEach(function (hp) {
+        var card = document.createElement('a');
+        card.href = 'product.html?id=' + encodeURIComponent(hp.id);
+        card.className = 'hot-card';
+
+        var imgWrap = document.createElement('div');
+        imgWrap.className = 'hot-card-img';
+        var imgs = hp.images || [];
+        if (imgs.length > 0 && !imgs[0].startsWith('PLACEHOLDER')) {
+          var img = document.createElement('img');
+          img.src = driveImageUrl(imgs[0], 400);
+          img.alt = hp.name;
+          img.loading = 'lazy';
+          imgWrap.appendChild(img);
+        }
+        card.appendChild(imgWrap);
+
+        var body = document.createElement('div');
+        body.className = 'hot-card-body';
+
+        var name = document.createElement('h3');
+        name.textContent = hp.name;
+        body.appendChild(name);
+
+        body.appendChild(renderPriceHtml(hp));
+        card.appendChild(body);
+
+        whatsHotGrid.appendChild(card);
+      });
+    }
   }
 
   if (hamburger && navLinks) {

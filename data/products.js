@@ -478,3 +478,7 @@ var PRODUCTS = [
     "stock": 24
   }
 ];
+var SITE_CONFIG = {
+  "productOfTheMonth": "",
+  "whatsHot": []
+};
