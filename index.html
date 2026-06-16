@@ -262,6 +262,9 @@
             Bangalore, Karnataka
           </p>
 
+          <h3>Email Us</h3>
+          <p><a href="mailto:admin@fundoogifts.in" style="color:var(--color-primary);text-decoration:none;font-weight:600;">admin@fundoogifts.in</a></p>
+
           <h3>Follow Us</h3>
           <p>Check out our latest gift ideas and happy customers on Instagram!</p>
           <a href="https://instagram.com/fundoogifts" target="_blank" rel="noopener noreferrer" class="instagram-link">
@@ -269,10 +272,15 @@
           </a>
         </div>
 
-        <form class="contact-form" id="contactForm">
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea placeholder="Tell us about your party — date, number of kids, theme, budget..."></textarea>
+        <form class="contact-form" id="contactForm" action="https://formsubmit.co/admin@fundoogifts.in" method="POST">
+          <input type="hidden" name="_subject" value="New enquiry from Fundoo Gifts website">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://fundoogifts.in/index.html?submitted=1#contact">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="tel" name="phone" placeholder="Your Contact Number" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Tell us about your party — date, number of kids, theme, budget..." required></textarea>
           <button type="submit" class="submit-btn">Send Message</button>
           <div class="form-success" id="formSuccess">Thanks! We'll get back to you soon.</div>
         </form>

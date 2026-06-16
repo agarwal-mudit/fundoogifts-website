@@ -261,16 +261,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      contactForm.reset();
-      if (formSuccess) {
-        formSuccess.style.display = 'block';
-        setTimeout(function () {
-          formSuccess.style.display = 'none';
-        }, 4000);
-      }
-    });
+  if (formSuccess && window.location.search.indexOf('submitted=1') !== -1) {
+    formSuccess.style.display = 'block';
+    setTimeout(function () {
+      formSuccess.style.display = 'none';
+    }, 5000);
+    history.replaceState(null, '', window.location.pathname + '#contact');
   }
 });
