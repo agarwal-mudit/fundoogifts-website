@@ -429,7 +429,8 @@ var PRODUCTS = [
     "images": [
       "1HnQUiPq0rnAmRNzk3fTODubalD7AejwG",
       "16ym-TgklVt5GkJsSdqEjCTmiVwnSWeYu",
-      "1u1Vs_Dg4myFo1kZttWbMjJD-VAqipfVi"
+      "1u1Vs_Dg4myFo1kZttWbMjJD-VAqipfVi",
+      "16AoR1cu-SZn5LnvE-CEqiB13wthAgSdj"
     ],
     "stock": 15
   },
