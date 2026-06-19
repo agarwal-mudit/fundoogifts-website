@@ -872,8 +872,13 @@ var SITE_CONFIG = {
     "prod-032",
     "prod-039",
     "prod-045",
-    "prod-054",
-    "prod-055"
+    "prod-050",
+    "prod-056"
   ],
-  "whatsNew": []
+  "whatsNew": [
+    "prod-051",
+    "prod-054",
+    "prod-055",
+    "prod-057"
+  ]
 };
