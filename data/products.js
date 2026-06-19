@@ -2,7 +2,9 @@ var PRODUCTS = [
   {
     "id": "prod-004",
     "name": "3 in 1 Puzzle",
-    "categories": ["Puzzle & Games"],
+    "categories": [
+      "Puzzle & Games"
+    ],
     "mrp": 180,
     "fundooPrice": 160,
     "offerPrice": 150,
@@ -15,7 +17,9 @@ var PRODUCTS = [
   {
     "id": "prod-005",
     "name": "3D Pencil Pouch",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 160,
     "fundooPrice": 150,
     "offerPrice": 120,
@@ -28,7 +32,10 @@ var PRODUCTS = [
   {
     "id": "prod-006",
     "name": "Harry Potter Key Chain",
-    "categories": ["Keychains", "Harry Potter Collection"],
+    "categories": [
+      "Keychains",
+      "Harry Potter Collection"
+    ],
     "mrp": 80,
     "fundooPrice": 75,
     "offerPrice": 60,
@@ -41,7 +48,9 @@ var PRODUCTS = [
   {
     "id": "prod-007",
     "name": "Kuromi Key Chain",
-    "categories": ["Keychains"],
+    "categories": [
+      "Keychains"
+    ],
     "mrp": 80,
     "fundooPrice": 75,
     "offerPrice": 60,
@@ -54,7 +63,9 @@ var PRODUCTS = [
   {
     "id": "prod-008",
     "name": "Camer Projector Key Chain",
-    "categories": ["Keychains"],
+    "categories": [
+      "Keychains"
+    ],
     "mrp": 100,
     "fundooPrice": 80,
     "offerPrice": 60,
@@ -69,7 +80,9 @@ var PRODUCTS = [
   {
     "id": "prod-009",
     "name": "Scratch Book",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 50,
     "fundooPrice": 45,
     "offerPrice": 35,
@@ -83,7 +96,9 @@ var PRODUCTS = [
   {
     "id": "prod-010",
     "name": "Tattoo Book",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 50,
     "fundooPrice": 25,
     "offerPrice": 0,
@@ -96,7 +111,9 @@ var PRODUCTS = [
   {
     "id": "prod-011",
     "name": "Character Pencil Pouch",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 50,
     "fundooPrice": 35,
     "offerPrice": 30,
@@ -110,7 +127,9 @@ var PRODUCTS = [
   {
     "id": "prod-012",
     "name": "Acrylic Marker set of 12",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 200,
     "fundooPrice": 120,
     "offerPrice": 99,
@@ -124,7 +143,9 @@ var PRODUCTS = [
   {
     "id": "prod-013",
     "name": "Bottle shaped Highlighter",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 140,
     "fundooPrice": 99,
     "offerPrice": 70,
@@ -138,7 +159,9 @@ var PRODUCTS = [
   {
     "id": "prod-014",
     "name": "Character Pencil",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 30,
     "fundooPrice": 20,
     "offerPrice": 15,
@@ -152,7 +175,9 @@ var PRODUCTS = [
   {
     "id": "prod-015",
     "name": "Diary with Lock",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 99,
     "fundooPrice": 80,
     "offerPrice": 70,
@@ -165,7 +190,9 @@ var PRODUCTS = [
   {
     "id": "prod-016",
     "name": "Diary with Pen",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 125,
     "fundooPrice": 99,
     "offerPrice": 75,
@@ -178,7 +205,9 @@ var PRODUCTS = [
   {
     "id": "prod-017",
     "name": "Dual side Markers",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 200,
     "fundooPrice": 150,
     "offerPrice": 110,
@@ -191,7 +220,9 @@ var PRODUCTS = [
   {
     "id": "prod-018",
     "name": "Fur Diary",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 225,
     "fundooPrice": 190,
     "offerPrice": 150,
@@ -204,7 +235,9 @@ var PRODUCTS = [
   {
     "id": "prod-019",
     "name": "Keyboard Keychain",
-    "categories": ["Keychains"],
+    "categories": [
+      "Keychains"
+    ],
     "mrp": 200,
     "fundooPrice": 180,
     "offerPrice": 120,
@@ -217,7 +250,9 @@ var PRODUCTS = [
   {
     "id": "prod-020",
     "name": "Magic Water Book",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 70,
     "fundooPrice": 60,
     "offerPrice": 50,
@@ -230,7 +265,9 @@ var PRODUCTS = [
   {
     "id": "prod-021",
     "name": "Mini Stationery set",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 110,
     "fundooPrice": 99,
     "offerPrice": 85,
@@ -243,7 +280,9 @@ var PRODUCTS = [
   {
     "id": "prod-022",
     "name": "PopIT Diary",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 300,
     "fundooPrice": 199,
     "offerPrice": 150,
@@ -257,7 +296,9 @@ var PRODUCTS = [
   {
     "id": "prod-023",
     "name": "Rope Game",
-    "categories": ["Puzzle & Games"],
+    "categories": [
+      "Puzzle & Games"
+    ],
     "mrp": 180,
     "fundooPrice": 140,
     "offerPrice": 120,
@@ -270,7 +311,9 @@ var PRODUCTS = [
   {
     "id": "prod-024",
     "name": "Snowy 2-in-1 Writing Board",
-    "categories": ["Stationery Sets"],
+    "categories": [
+      "Stationery Sets"
+    ],
     "mrp": 200,
     "fundooPrice": 150,
     "offerPrice": 110,
@@ -283,7 +326,9 @@ var PRODUCTS = [
   {
     "id": "prod-025",
     "name": "Fundoo Stamps",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 110,
     "fundooPrice": 99,
     "offerPrice": 80,
@@ -297,7 +342,9 @@ var PRODUCTS = [
   {
     "id": "prod-026",
     "name": "Choo Choo Train",
-    "categories": ["Toy Bundles"],
+    "categories": [
+      "Toy Bundles"
+    ],
     "mrp": 199,
     "fundooPrice": 0,
     "offerPrice": 0,
@@ -310,7 +357,9 @@ var PRODUCTS = [
   {
     "id": "prod-027",
     "name": "Silky Crayons - Pack of Six",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 120,
     "fundooPrice": 100,
     "offerPrice": 80,
@@ -324,7 +373,9 @@ var PRODUCTS = [
   {
     "id": "prod-028",
     "name": "Projection Flashlight",
-    "categories": ["Toy Bundles"],
+    "categories": [
+      "Toy Bundles"
+    ],
     "mrp": 150,
     "fundooPrice": 120,
     "offerPrice": 99,
@@ -338,7 +389,9 @@ var PRODUCTS = [
   {
     "id": "prod-029",
     "name": "Kluster Magnetic Game",
-    "categories": ["Puzzle & Games"],
+    "categories": [
+      "Puzzle & Games"
+    ],
     "mrp": 280,
     "fundooPrice": 150,
     "offerPrice": 130,
@@ -352,7 +405,9 @@ var PRODUCTS = [
   {
     "id": "prod-030",
     "name": "Habit Tracker",
-    "categories": ["Toy Bundles"],
+    "categories": [
+      "Toy Bundles"
+    ],
     "mrp": 270,
     "fundooPrice": 230,
     "offerPrice": 210,
@@ -367,7 +422,10 @@ var PRODUCTS = [
   {
     "id": "prod-031",
     "name": "Huntrix Long Diary",
-    "categories": ["Stationery Sets", "K-Pop Collection"],
+    "categories": [
+      "Stationery Sets",
+      "K-Pop Collection"
+    ],
     "mrp": 250,
     "fundooPrice": 180,
     "offerPrice": 150,
@@ -381,7 +439,10 @@ var PRODUCTS = [
   {
     "id": "prod-032",
     "name": "Huntrix Spiral Journal Small",
-    "categories": ["Art & Craft", "K-Pop Collection"],
+    "categories": [
+      "Art & Craft",
+      "K-Pop Collection"
+    ],
     "mrp": 150,
     "fundooPrice": 100,
     "offerPrice": 90,
@@ -394,7 +455,9 @@ var PRODUCTS = [
   {
     "id": "prod-033",
     "name": "DIY Coloring Backpack",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 99,
     "fundooPrice": 0,
     "offerPrice": 0,
@@ -408,7 +471,9 @@ var PRODUCTS = [
   {
     "id": "prod-034",
     "name": "DIY coloring Apron",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 100,
     "fundooPrice": 80,
     "offerPrice": 60,
@@ -421,7 +486,9 @@ var PRODUCTS = [
   {
     "id": "prod-035",
     "name": "Mario Sketch Pen Color Box - Pack of 2",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 250,
     "fundooPrice": 200,
     "offerPrice": 180,
@@ -437,7 +504,9 @@ var PRODUCTS = [
   {
     "id": "prod-036",
     "name": "Fur Doll Key Chain",
-    "categories": ["Keychains"],
+    "categories": [
+      "Keychains"
+    ],
     "mrp": 100,
     "fundooPrice": 80,
     "offerPrice": 60,
@@ -453,7 +522,9 @@ var PRODUCTS = [
   {
     "id": "prod-037",
     "name": "Police Car Keychains",
-    "categories": ["Keychains"],
+    "categories": [
+      "Keychains"
+    ],
     "mrp": 30,
     "fundooPrice": 25,
     "offerPrice": 20,
@@ -466,7 +537,9 @@ var PRODUCTS = [
   {
     "id": "prod-038",
     "name": "Coloring Book Set",
-    "categories": ["Art & Craft"],
+    "categories": [
+      "Art & Craft"
+    ],
     "mrp": 270,
     "fundooPrice": 150,
     "offerPrice": 130,
@@ -481,7 +554,10 @@ var PRODUCTS = [
   {
     "id": "prod-039",
     "name": "K-Pop Cross Body Double Zip Bag",
-    "categories": ["Backpacks", "K-Pop Collection"],
+    "categories": [
+      "Backpacks",
+      "K-Pop Collection"
+    ],
     "mrp": 275,
     "fundooPrice": 200,
     "offerPrice": 150,
@@ -491,6 +567,315 @@ var PRODUCTS = [
       "18gxbSdfucnLinoFCuPJzWR3SjzfJrkIr"
     ],
     "stock": 15
+  },
+  {
+    "id": "prod-040",
+    "name": "Whistle Pencil",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 30,
+    "fundooPrice": 20,
+    "offerPrice": 15,
+    "description": "✏️ Lead Pencil with Whistle Topper – A fun and playful pencil featuring a cute whistle attachment on top. Perfect for writing, drawing, and everyday school use, while adding an extra element of fun for kids. An ideal choice for birthday return gifts, party favors, classroom rewards, and goodie bags.",
+    "images": [
+      "19WkZ8P256c0PeCYiER6L4NjLlfR5c9iU"
+    ],
+    "stock": 48
+  },
+  {
+    "id": "prod-041",
+    "name": "Maze Game Pencil",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 30,
+    "fundooPrice": 20,
+    "offerPrice": 15,
+    "description": "✏️ Maze Game Pencil – A fun stationery item with a built-in maze game topper that keeps kids entertained while they write and draw. Colorful, lightweight, and easy to use, it's a popular pick for return gifts, school events, and party giveaways.",
+    "images": [
+      "1Ext_oGVutVKdHZdkRlSbncpInRRxd6TE"
+    ],
+    "stock": 40
+  },
+  {
+    "id": "prod-042",
+    "name": "Maze Game Pen",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 50,
+    "fundooPrice": 40,
+    "offerPrice": 40,
+    "description": "✨ Maze Game Pen – A playful pen with a built-in maze puzzle and cute character topper. Fun, colorful, and perfect for kids, return gifts, party favors, and school stationery collections.",
+    "images": [
+      "1dkNrBP81IOUJ-up74-DhCB_4OY5225si"
+    ],
+    "stock": 35
+  },
+  {
+    "id": "prod-043",
+    "name": "Space Multicolor Pen",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 50,
+    "fundooPrice": 40,
+    "offerPrice": 40,
+    "description": "🚀 Space Character Multi-Color Pen – A fun and stylish multi-color pen featuring adorable space-themed character toppers and a glitter-filled transparent barrel. Switch between multiple ink colors with ease, making writing, drawing, and note-taking more exciting for kids. Perfect for school, birthday return gifts, party favors, and stationery collections.",
+    "images": [
+      "1RmNr7v2gSKRVa9jhEaov_hOXIi3nvAA5"
+    ],
+    "stock": 48
+  },
+  {
+    "id": "prod-044",
+    "name": "Slime mini Jar",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 50,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "🫙 Mini Slime Jar with Surprise Character – A fun and colorful slime jar featuring an adorable character hidden inside for an extra element of surprise. Soft, stretchy, and satisfying to play with, it's perfect for sensory fun, party favors, birthday return gifts, and goodie bags. Available in assorted colors and character designs.",
+    "images": [
+      "1nIEW_PfizL906KGduaLkM5jGf9q1qnCJ",
+      "1OtUDo_KZYs1GwkdPcwgTEjTVu8STnIss",
+      "1Vhvv46k3amAq-brKkuRs2PVccrdyj8OV"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-045",
+    "name": "Slime Long Jar",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 62,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "🫙 Long Slime Jar with Surprise Character – A fun and colorful slime jar featuring an adorable character hidden inside for an extra element of surprise. Soft, stretchy, and satisfying to play with, it's perfect for sensory fun, party favors, birthday return gifts, and goodie bags. Available in assorted colors and character designs.",
+    "images": [
+      "1ndBsKgAdtZO78stpjQJbbVVNQ2GqvViV",
+      "1WVhyNW3tYHZEgYv4wwgZ4f5X2sujK77E",
+      "1Vhvv46k3amAq-brKkuRs2PVccrdyj8OV"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-046",
+    "name": "Soft Clay Pouches",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 145,
+    "fundooPrice": 110,
+    "offerPrice": 99,
+    "description": "🌈 Soft Clay Pouches (Pack of 10) – Let creativity take shape with this colorful pack of 10 soft clay pouches. Easy to mold, stretch, and create, these vibrant clay packs are perfect for art projects, imaginative play, and developing fine motor skills. A fun choice for birthday return gifts, party favors, classroom activities, and creative playtime.",
+    "images": [
+      "1omu0L_ss7094ToIJJi7dwz7-pqXZAeIL",
+      "14w_7z3Qu65TAbiiybwLQshqll48Xsgab"
+    ],
+    "stock": 19
+  },
+  {
+    "id": "prod-047",
+    "name": "Car Shaped Stationery Pouch",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 150,
+    "fundooPrice": 120,
+    "offerPrice": 0,
+    "description": "🚗 Car-Shaped Pencil Pouch – Keep stationery organized in style with this fun car-shaped pouch. Spacious, lightweight, and easy to carry, it's perfect for storing pens, pencils, erasers, and other school essentials. A practical and exciting accessory for school, travel, and everyday use, making it a great gift for kids and car enthusiasts alike.",
+    "images": [
+      "1Gd2OiNMU__l0192qfyrqN-qdNqliq057",
+      "16fJLRovMbVSoJQSPaUSMTsXoNIDPQKz0"
+    ],
+    "stock": 24
+  },
+  {
+    "id": "prod-048",
+    "name": "Space and Burger Shaped Erasers",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 100,
+    "fundooPrice": 80,
+    "offerPrice": 60,
+    "description": "🚀🍔 Space & Burger Shaped Erasers – Make learning more fun with these adorable novelty erasers shaped like astronauts, rockets, burgers, and other playful designs. Cute, colorful, and functional, they're perfect for correcting mistakes while adding excitement to school supplies. Ideal for birthday return gifts, party favors, classroom rewards, and stationery collections.",
+    "images": [
+      "1poEJs6rVoZm9I8YCGsTYdpvwlMU2-Imt",
+      "1kDEQ43ChOhH1KQkirdQsBEVKgODcTsF8"
+    ],
+    "stock": 24
+  },
+  {
+    "id": "prod-049",
+    "name": "Stationery Pouches with Color Pencil and sketch book",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 80,
+    "fundooPrice": 70,
+    "offerPrice": 0,
+    "description": "🎨 Character Pencil & Pouch Set – A cute and colorful stationery set featuring a themed mini pouch and vibrant colored pencils. Perfect for drawing, coloring, school projects, and creative fun. Lightweight, practical, and beautifully designed, it's an ideal choice for birthday return gifts, party favors, classroom rewards, and stationery lovers.",
+    "images": [
+      "1TkNtDOhOeo6dFfCd_ecwK9dIjtoOYlQ2",
+      "14--EagZLByCY44DgB98aACDbonjpq3Al",
+      "1zdXHq5d3NKjayKz26_h4kJm8kuHnlLzG"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-050",
+    "name": "Squishy Bubble Ball",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 100,
+    "fundooPrice": 80,
+    "offerPrice": 70,
+    "description": "🌈 Squishy Mesh Ball – Squeeze, stretch, and squish your stress away with this colorful mesh ball filled with vibrant gel beads. Soft, satisfying, and fun to play with, it provides a unique sensory experience that kids and adults will love. Perfect for stress relief, fidget play, birthday return gifts, party favors, and goodie bags.",
+    "images": [
+      "1jGQKeSIGqbEEPO5euXO_7ZhMbabjA3be",
+      "1RjeAyaSrJ8r0LwdKTieHVn_nu5XxBCks",
+      "1l4Gq8ugp9lErN-a2J9wu1Qjcti_yZymD"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-051",
+    "name": "Squishy Egg Ball",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 150,
+    "fundooPrice": 120,
+    "offerPrice": 100,
+    "description": "🥚 Squishy Egg Stress Ball – A fun and satisfying sensory toy that looks just like a real egg! Squeeze, stretch, and squish it to enjoy a relaxing tactile experience. Soft, durable, and endlessly entertaining, it's perfect for stress relief, fidget play, birthday return gifts, party favors, and goodie bags.",
+    "images": [
+      "13NK7kE1tXwJe9yZHEIHLvpRVXjHOk5ke",
+      "1jGEKDIMaAUW-cAKDFU1GNuXw15d6rjgs",
+      "1B6leiWiIkG3J0ZXJkPjFqifE3eQhSIwc"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-052",
+    "name": "Moon Ball",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 60,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "🚀 Super Bounce Moon Ball – Designed for maximum bounce and excitement, this vibrant ball delivers energetic play with every throw. Its textured surface makes it easy to grip, catch, and bounce, making it a favorite among kids of all ages.",
+    "images": [
+      "1MBdE3EjBe3mkuacd3TzI65Pjy5XsRRmL",
+      "1eeDe28kWcHaRPz7j9bzzmNOEhqr0JKqb"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-053",
+    "name": "Moon Ball - Fancy",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 73,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "🎾 Moon Ball – A colorful high-bounce ball with a unique crater design that creates exciting and unpredictable bounces. Perfect for outdoor play, return gifts, party favors, and endless fun.",
+    "images": [
+      "14NTR22h4l3ZL2MLMIIj27sNWkJj4n2BK",
+      "1NCvn24ltqIoFtvJpO4f_u2eZmNjkwUFk"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-054",
+    "name": "Fart Bomb - Pack of 3",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 150,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "💨 Fart Bomb Prank Pack – Get ready for laughs with this classic prank item that releases a funny odor for harmless practical jokes and playful fun. Easy to use and perfect for surprising friends, it's a popular novelty item for parties, prank collections, and mischievous entertainment.",
+    "images": [
+      "1HWQKnYJZ0PRN1QBpKoHsI82VQ-e16-8v",
+      "1-e9ghhBUk085CvJKO2hsE2Ya8zjEm1AO",
+      "1mGRTqs9OL7ReCd1PBBjhg6ro2XZDnwsi"
+    ],
+    "stock": 8
+  },
+  {
+    "id": "prod-055",
+    "name": "Mosquito Repellent Wrist bands",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 99,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "🦟 Kids Mosquito Repellent Character Wrist Band – Keep little ones protected outdoors with these fun character-themed mosquito repellent wrist bands. Lightweight, comfortable, and easy to wear, they feature cute designs that kids love while helping keep mosquitoes away. Perfect for school, parks, travel, outdoor play, camping, and everyday use.",
+    "images": [
+      "1A9YbpYSavtwoRMpKLwJpiHby-LtOQDOK",
+      "1TeJiTigju2lQWheBEJ-KR6-bJQt3LRpR",
+      "1rg7dNjtBeMUl4ACXpEUKQuw6auc6I2vx",
+      "1TGKwRdG-ePzVo2rZt4OlieeZS3x0QNmE"
+    ],
+    "stock": 24
+  },
+  {
+    "id": "prod-056",
+    "name": "Portable Rechargeable Mini Fan",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 180,
+    "fundooPrice": 150,
+    "offerPrice": 130,
+    "description": "🍍 Portable Rechargeable Mini Fan – A stylish handheld fan with a fun fruit-inspired design and powerful cooling breeze. Compact, rechargeable, and easy to use, it's ideal for travel, outdoor adventures, school, and daily use.",
+    "images": [
+      "1OZsBrw0GXNo0hn5Owb9kulOcx9oE31p2",
+      "1GjN6p4mTRMb3GaSPpgV6uQ5eNCgYeOV1"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-057",
+    "name": "Grow-in-Water Animal Capsules",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 150,
+    "offerPrice": 120,
+    "description": "🦖 Grow-in-Water Animal Capsules – Drop these colorful capsules into water and watch them magically expand into fun animal figures! Available in exciting themes including Dinosaurs, Farm Animals, Ocean Animals, and Wild Animals, they offer a surprising and educational play experience for kids. Perfect for party favors, birthday return gifts, classroom rewards, and screen-free fun.",
+    "images": [
+      "1oyZX2NeRrdMV0dGsYqMlnwAzVfSV6F2P",
+      "1mecY9VICdxWxqU4hsm7H17xvi-I0ed94",
+      "1PPA9f_3-2kbaiwOYNKt0PO0y67tOhqaz",
+      "1rSFpOicldIbP0P0c7ZQurSr06hNmiZmz"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-058",
+    "name": "Magical 3D painting",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 150,
+    "fundooPrice": 120,
+    "offerPrice": 99,
+    "description": "🎨 Magical 3D Painting Kit – Bring creativity to life with this fun 3D painting activity set. Kids can color their favorite designs using the included markers and enjoy a unique hands-on art experience. Easy to use and engaging, it encourages imagination, creativity, and artistic expression. Perfect for birthday return gifts, party favors, travel activities, and screen-free fun.",
+    "images": [
+      "1NzqmjbI44xqhrWskx-aS5yAmIPXSHkPi"
+    ],
+    "stock": 12
   }
 ];
 var SITE_CONFIG = {
@@ -500,6 +885,9 @@ var SITE_CONFIG = {
     "prod-019",
     "prod-031",
     "prod-032",
-    "prod-039"
+    "prod-039",
+    "prod-045",
+    "prod-054",
+    "prod-055"
   ]
 };
