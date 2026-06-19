@@ -4,6 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
   var sortSelect = document.getElementById('sortSelect');
   var searchInput = document.getElementById('catalogueSearch');
   var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
+  products.forEach(function (p) {
+    if (p.category !== undefined && p.categories === undefined) {
+      p.categories = [p.category];
+    }
+  });
   var activeFilter = 'All';
   var activePack = null;
   var activeSort = 'relevance';
@@ -96,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var q = searchQuery.toLowerCase();
     return list.filter(function (p) {
       return p.name.toLowerCase().indexOf(q) !== -1 ||
-             p.category.toLowerCase().indexOf(q) !== -1 ||
+             (p.categories || []).some(function (c) { return c.toLowerCase().indexOf(q) !== -1; }) ||
              (p.description && p.description.toLowerCase().indexOf(q) !== -1);
     });
   }
@@ -123,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function renderCard(product) {
     var card = document.createElement('div');
     card.className = 'catalogue-card' + (product.stock <= 0 ? ' out-of-stock' : '');
-    card.setAttribute('data-category', product.category);
+    card.setAttribute('data-category', (product.categories || []).join(','));
 
     var validImages = getValidImages(product);
     var imgContainer = document.createElement('div');
@@ -152,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var catLabel = document.createElement('div');
     catLabel.className = 'catalogue-card-category';
-    catLabel.textContent = product.category;
+    catLabel.textContent = (product.categories || []).join(' | ');
     body.appendChild(catLabel);
 
     var title = document.createElement('h3');
@@ -196,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var list = filterByPack(products);
     list = filterBySearch(list);
     if (activeFilter !== 'All') {
-      list = list.filter(function (p) { return p.category === activeFilter; });
+      list = list.filter(function (p) { return (p.categories || []).indexOf(activeFilter) !== -1; });
     }
     return sortProducts(list);
   }
@@ -208,7 +213,9 @@ document.addEventListener('DOMContentLoaded', function () {
   function setupFilters(baseProducts) {
     var categories = ['All'];
     baseProducts.forEach(function (p) {
-      if (categories.indexOf(p.category) === -1) categories.push(p.category);
+      (p.categories || []).forEach(function (cat) {
+        if (categories.indexOf(cat) === -1) categories.push(cat);
+      });
     });
 
     filterBar.innerHTML = '';

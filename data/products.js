@@ -2,7 +2,7 @@ var PRODUCTS = [
   {
     "id": "prod-004",
     "name": "3 in 1 Puzzle",
-    "category": "Puzzle & Games",
+    "categories": ["Puzzle & Games"],
     "mrp": 180,
     "fundooPrice": 160,
     "offerPrice": 150,
@@ -15,7 +15,7 @@ var PRODUCTS = [
   {
     "id": "prod-005",
     "name": "3D Pencil Pouch",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 160,
     "fundooPrice": 150,
     "offerPrice": 120,
@@ -28,7 +28,7 @@ var PRODUCTS = [
   {
     "id": "prod-006",
     "name": "Harry Potter Key Chain",
-    "category": "Keychains",
+    "categories": ["Keychains", "Harry Potter Collection"],
     "mrp": 80,
     "fundooPrice": 75,
     "offerPrice": 60,
@@ -41,7 +41,7 @@ var PRODUCTS = [
   {
     "id": "prod-007",
     "name": "Kuromi Key Chain",
-    "category": "Keychains",
+    "categories": ["Keychains"],
     "mrp": 80,
     "fundooPrice": 75,
     "offerPrice": 60,
@@ -54,7 +54,7 @@ var PRODUCTS = [
   {
     "id": "prod-008",
     "name": "Camer Projector Key Chain",
-    "category": "Keychains",
+    "categories": ["Keychains"],
     "mrp": 100,
     "fundooPrice": 80,
     "offerPrice": 60,
@@ -69,7 +69,7 @@ var PRODUCTS = [
   {
     "id": "prod-009",
     "name": "Scratch Book",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 50,
     "fundooPrice": 45,
     "offerPrice": 35,
@@ -83,7 +83,7 @@ var PRODUCTS = [
   {
     "id": "prod-010",
     "name": "Tattoo Book",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 50,
     "fundooPrice": 25,
     "offerPrice": 0,
@@ -96,7 +96,7 @@ var PRODUCTS = [
   {
     "id": "prod-011",
     "name": "Character Pencil Pouch",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 50,
     "fundooPrice": 35,
     "offerPrice": 30,
@@ -110,7 +110,7 @@ var PRODUCTS = [
   {
     "id": "prod-012",
     "name": "Acrylic Marker set of 12",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 200,
     "fundooPrice": 120,
     "offerPrice": 99,
@@ -124,7 +124,7 @@ var PRODUCTS = [
   {
     "id": "prod-013",
     "name": "Bottle shaped Highlighter",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 140,
     "fundooPrice": 99,
     "offerPrice": 70,
@@ -138,7 +138,7 @@ var PRODUCTS = [
   {
     "id": "prod-014",
     "name": "Character Pencil",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 30,
     "fundooPrice": 20,
     "offerPrice": 15,
@@ -152,7 +152,7 @@ var PRODUCTS = [
   {
     "id": "prod-015",
     "name": "Diary with Lock",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 99,
     "fundooPrice": 80,
     "offerPrice": 70,
@@ -165,7 +165,7 @@ var PRODUCTS = [
   {
     "id": "prod-016",
     "name": "Diary with Pen",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 125,
     "fundooPrice": 99,
     "offerPrice": 75,
@@ -178,7 +178,7 @@ var PRODUCTS = [
   {
     "id": "prod-017",
     "name": "Dual side Markers",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 200,
     "fundooPrice": 150,
     "offerPrice": 110,
@@ -191,7 +191,7 @@ var PRODUCTS = [
   {
     "id": "prod-018",
     "name": "Fur Diary",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 225,
     "fundooPrice": 190,
     "offerPrice": 150,
@@ -204,7 +204,7 @@ var PRODUCTS = [
   {
     "id": "prod-019",
     "name": "Keyboard Keychain",
-    "category": "Keychains",
+    "categories": ["Keychains"],
     "mrp": 200,
     "fundooPrice": 180,
     "offerPrice": 120,
@@ -217,7 +217,7 @@ var PRODUCTS = [
   {
     "id": "prod-020",
     "name": "Magic Water Book",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 70,
     "fundooPrice": 60,
     "offerPrice": 50,
@@ -230,7 +230,7 @@ var PRODUCTS = [
   {
     "id": "prod-021",
     "name": "Mini Stationery set",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 110,
     "fundooPrice": 99,
     "offerPrice": 85,
@@ -243,7 +243,7 @@ var PRODUCTS = [
   {
     "id": "prod-022",
     "name": "PopIT Diary",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 300,
     "fundooPrice": 199,
     "offerPrice": 150,
@@ -257,7 +257,7 @@ var PRODUCTS = [
   {
     "id": "prod-023",
     "name": "Rope Game",
-    "category": "Puzzle & Games",
+    "categories": ["Puzzle & Games"],
     "mrp": 180,
     "fundooPrice": 140,
     "offerPrice": 120,
@@ -270,7 +270,7 @@ var PRODUCTS = [
   {
     "id": "prod-024",
     "name": "Snowy 2-in-1 Writing Board",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets"],
     "mrp": 200,
     "fundooPrice": 150,
     "offerPrice": 110,
@@ -283,7 +283,7 @@ var PRODUCTS = [
   {
     "id": "prod-025",
     "name": "Fundoo Stamps",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 110,
     "fundooPrice": 99,
     "offerPrice": 80,
@@ -297,7 +297,7 @@ var PRODUCTS = [
   {
     "id": "prod-026",
     "name": "Choo Choo Train",
-    "category": "Toy Bundles",
+    "categories": ["Toy Bundles"],
     "mrp": 199,
     "fundooPrice": 0,
     "offerPrice": 0,
@@ -310,7 +310,7 @@ var PRODUCTS = [
   {
     "id": "prod-027",
     "name": "Silky Crayons - Pack of Six",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 120,
     "fundooPrice": 100,
     "offerPrice": 80,
@@ -324,7 +324,7 @@ var PRODUCTS = [
   {
     "id": "prod-028",
     "name": "Projection Flashlight",
-    "category": "Toy Bundles",
+    "categories": ["Toy Bundles"],
     "mrp": 150,
     "fundooPrice": 120,
     "offerPrice": 99,
@@ -338,7 +338,7 @@ var PRODUCTS = [
   {
     "id": "prod-029",
     "name": "Kluster Magnetic Game",
-    "category": "Puzzle & Games",
+    "categories": ["Puzzle & Games"],
     "mrp": 280,
     "fundooPrice": 150,
     "offerPrice": 130,
@@ -352,7 +352,7 @@ var PRODUCTS = [
   {
     "id": "prod-030",
     "name": "Habit Tracker",
-    "category": "Toy Bundles",
+    "categories": ["Toy Bundles"],
     "mrp": 270,
     "fundooPrice": 230,
     "offerPrice": 210,
@@ -367,7 +367,7 @@ var PRODUCTS = [
   {
     "id": "prod-031",
     "name": "Huntrix Long Diary",
-    "category": "Stationery Sets",
+    "categories": ["Stationery Sets", "K-Pop Collection"],
     "mrp": 250,
     "fundooPrice": 180,
     "offerPrice": 150,
@@ -381,7 +381,7 @@ var PRODUCTS = [
   {
     "id": "prod-032",
     "name": "Huntrix Spiral Journal Small",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft", "K-Pop Collection"],
     "mrp": 150,
     "fundooPrice": 100,
     "offerPrice": 90,
@@ -394,7 +394,7 @@ var PRODUCTS = [
   {
     "id": "prod-033",
     "name": "DIY Coloring Backpack",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 99,
     "fundooPrice": 0,
     "offerPrice": 0,
@@ -408,7 +408,7 @@ var PRODUCTS = [
   {
     "id": "prod-034",
     "name": "DIY coloring Apron",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 100,
     "fundooPrice": 80,
     "offerPrice": 60,
@@ -421,7 +421,7 @@ var PRODUCTS = [
   {
     "id": "prod-035",
     "name": "Mario Sketch Pen Color Box - Pack of 2",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 250,
     "fundooPrice": 200,
     "offerPrice": 180,
@@ -437,7 +437,7 @@ var PRODUCTS = [
   {
     "id": "prod-036",
     "name": "Fur Doll Key Chain",
-    "category": "Keychains",
+    "categories": ["Keychains"],
     "mrp": 100,
     "fundooPrice": 80,
     "offerPrice": 60,
@@ -453,7 +453,7 @@ var PRODUCTS = [
   {
     "id": "prod-037",
     "name": "Police Car Keychains",
-    "category": "Keychains",
+    "categories": ["Keychains"],
     "mrp": 30,
     "fundooPrice": 25,
     "offerPrice": 20,
@@ -466,7 +466,7 @@ var PRODUCTS = [
   {
     "id": "prod-038",
     "name": "Coloring Book Set",
-    "category": "Art & Craft",
+    "categories": ["Art & Craft"],
     "mrp": 270,
     "fundooPrice": 150,
     "offerPrice": 130,
@@ -481,7 +481,7 @@ var PRODUCTS = [
   {
     "id": "prod-039",
     "name": "K-Pop Cross Body Double Zip Bag",
-    "category": "Backpacks",
+    "categories": ["Backpacks", "K-Pop Collection"],
     "mrp": 275,
     "fundooPrice": 200,
     "offerPrice": 150,

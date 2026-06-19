@@ -1,5 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
   var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
+  products.forEach(function (p) {
+    if (p.category !== undefined && p.categories === undefined) {
+      p.categories = [p.category];
+    }
+  });
   var layout = document.getElementById('productLayout');
   var notFound = document.getElementById('productNotFound');
   var backLink = document.getElementById('backLink');
@@ -147,10 +152,12 @@ document.addEventListener('DOMContentLoaded', function () {
     var details = document.createElement('div');
     details.className = 'product-details';
 
-    var catBadge = document.createElement('span');
-    catBadge.className = 'product-category-badge';
-    catBadge.textContent = product.category;
-    details.appendChild(catBadge);
+    (product.categories || []).forEach(function (cat) {
+      var catBadge = document.createElement('span');
+      catBadge.className = 'product-category-badge';
+      catBadge.textContent = cat;
+      details.appendChild(catBadge);
+    });
 
     var title = document.createElement('h1');
     title.className = 'product-title';

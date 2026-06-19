@@ -4,6 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
   var contactForm = document.getElementById('contactForm');
   var formSuccess = document.getElementById('formSuccess');
   var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
+  products.forEach(function (p) {
+    if (p.category !== undefined && p.categories === undefined) {
+      p.categories = [p.category];
+    }
+  });
   var siteConfig = typeof SITE_CONFIG !== 'undefined' ? SITE_CONFIG : { productOfTheMonth: '', whatsHot: [] };
 
   function driveImageUrl(fileId, size) {
@@ -15,9 +20,11 @@ document.addEventListener('DOMContentLoaded', function () {
   var categoryMap = {};
   products.forEach(function (p) {
     var imgs = p.images || [];
-    if (!categoryMap[p.category] && imgs.length > 0 && !imgs[0].startsWith('PLACEHOLDER')) {
-      categoryMap[p.category] = imgs[0];
-    }
+    (p.categories || []).forEach(function (cat) {
+      if (!categoryMap[cat] && imgs.length > 0 && !imgs[0].startsWith('PLACEHOLDER')) {
+        categoryMap[cat] = imgs[0];
+      }
+    });
   });
 
   document.querySelectorAll('.product-card[data-category]').forEach(function (card) {
@@ -139,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       var potmCat = document.createElement('span');
       potmCat.className = 'potm-category';
-      potmCat.textContent = potmProduct.category;
+      potmCat.textContent = (potmProduct.categories || []).join(' | ');
       potmDetails.appendChild(potmCat);
 
       var potmName = document.createElement('h3');
