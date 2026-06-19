@@ -843,7 +843,8 @@ var PRODUCTS = [
       "1oyZX2NeRrdMV0dGsYqMlnwAzVfSV6F2P",
       "1mecY9VICdxWxqU4hsm7H17xvi-I0ed94",
       "1PPA9f_3-2kbaiwOYNKt0PO0y67tOhqaz",
-      "1rSFpOicldIbP0P0c7ZQurSr06hNmiZmz"
+      "1rSFpOicldIbP0P0c7ZQurSr06hNmiZmz",
+      "1O4W9KtVfjPM1fsdaqgTscwGMWTJNFV_G"
     ],
     "stock": 12
   },
