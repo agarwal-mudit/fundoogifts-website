@@ -340,21 +340,6 @@ var PRODUCTS = [
     "stock": 24
   },
   {
-    "id": "prod-026",
-    "name": "Choo Choo Train",
-    "categories": [
-      "Toy Bundles"
-    ],
-    "mrp": 199,
-    "fundooPrice": 0,
-    "offerPrice": 0,
-    "description": "Colourful pull-along toy train with detachable carriages. Sturdy build for little hands — a timeless toy that sparks imaginative play.",
-    "images": [
-      "1dqhdd4meDoaAxugRGSXrn4qy6gOWycNn"
-    ],
-    "stock": 0
-  },
-  {
     "id": "prod-027",
     "name": "Silky Crayons - Pack of Six",
     "categories": [
