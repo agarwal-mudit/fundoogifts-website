@@ -64,6 +64,183 @@
   margin-bottom: 40px;
 }
 
+/* ── Hero Carousel ── */
+.hero-carousel {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 900px;
+}
+
+.hero-slide {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 320px;
+  animation: heroFadeIn 0.5s ease;
+}
+
+.hero-slide.active {
+  display: flex;
+}
+
+@keyframes heroFadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-slide-product {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  text-align: left;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.hero-slide-img-wrap {
+  flex-shrink: 0;
+  width: 280px;
+  height: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.hero-slide-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-slide-info {
+  flex: 1;
+  color: #fff;
+}
+
+.hero-slide-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: var(--radius-full, 999px);
+  background: rgba(232, 93, 58, 0.85);
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+.hero-slide-name {
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 12px;
+  line-height: 1.15;
+}
+
+.hero-slide-info .price-group {
+  margin-bottom: 20px;
+}
+
+.hero-slide-info .price-item {
+  color: rgba(255,255,255,0.85);
+}
+
+.hero-slide-info .price-highlight,
+.hero-slide-info .price-single {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.hero-slide-info .price-mrp {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.hero-slide-cta {
+  display: inline-block;
+  padding: 12px 32px;
+  background: #fff;
+  color: var(--color-text, #1a1a2e);
+  border-radius: var(--radius-full, 999px);
+  font-weight: 700;
+  font-size: 0.95em;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hero-slide-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* Hero Nav Arrows */
+.hero-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: rgba(255,255,255,0.15);
+  border: 2px solid rgba(255,255,255,0.3);
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 1.8em;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  line-height: 1;
+  padding: 0;
+}
+
+.hero-nav:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.hero-prev { left: 20px; }
+.hero-next { right: 20px; }
+
+.hero-carousel-active .hero-nav {
+  display: flex;
+}
+
+/* Hero Dots */
+.hero-dots {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: none;
+  gap: 8px;
+  align-items: center;
+}
+
+.hero-carousel-active .hero-dots {
+  display: flex;
+}
+
+.hero-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.4);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s;
+}
+
+.hero-dot.active {
+  background: #fff;
+  width: 28px;
+  border-radius: 5px;
+}
+
 /* ── Product Showcase Strip ── */
 .product-showcase {
   overflow: hidden;

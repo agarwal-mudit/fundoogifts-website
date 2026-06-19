@@ -874,5 +874,6 @@ var SITE_CONFIG = {
     "prod-045",
     "prod-054",
     "prod-055"
-  ]
+  ],
+  "whatsNew": []
 };

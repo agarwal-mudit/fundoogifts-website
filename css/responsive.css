@@ -27,6 +27,21 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .hero-slide-product {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .hero-slide-img-wrap {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-slide-name {
+    font-size: 1.6em;
+  }
+
   .contact-wrapper {
     grid-template-columns: 1fr;
   }
@@ -114,6 +129,23 @@
 
   .whats-hot-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-nav {
+    display: none !important;
+  }
+
+  .hero-slide-img-wrap {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-slide-name {
+    font-size: 1.3em;
+  }
+
+  .hero-slide-badge {
+    font-size: 0.65em;
   }
 
   .product-grid,

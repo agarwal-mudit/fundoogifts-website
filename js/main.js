@@ -216,6 +216,118 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  // ── What's New Hero Carousel ──
+
+  var heroCarousel = document.getElementById('heroCarousel');
+  var heroPrev = document.getElementById('heroPrev');
+  var heroNext = document.getElementById('heroNext');
+  var heroDots = document.getElementById('heroDots');
+
+  if (heroCarousel && siteConfig.whatsNew && siteConfig.whatsNew.length > 0) {
+    var newProducts = siteConfig.whatsNew.map(function (id) {
+      return products.find(function (p) { return p.id === id; });
+    }).filter(Boolean);
+
+    if (newProducts.length > 0) {
+      newProducts.forEach(function (np) {
+        var slide = document.createElement('div');
+        slide.className = 'hero-slide';
+
+        var product = document.createElement('div');
+        product.className = 'hero-slide-product';
+
+        var imgWrap = document.createElement('div');
+        imgWrap.className = 'hero-slide-img-wrap';
+        var imgs = np.images || [];
+        if (imgs.length > 0 && !imgs[0].startsWith('PLACEHOLDER')) {
+          var img = document.createElement('img');
+          img.src = driveImageUrl(imgs[0], 600);
+          img.alt = np.name;
+          imgWrap.appendChild(img);
+        }
+        product.appendChild(imgWrap);
+
+        var info = document.createElement('div');
+        info.className = 'hero-slide-info';
+
+        var badge = document.createElement('span');
+        badge.className = 'hero-slide-badge';
+        badge.textContent = "WHAT'S NEW";
+        info.appendChild(badge);
+
+        var name = document.createElement('h2');
+        name.className = 'hero-slide-name';
+        name.textContent = np.name;
+        info.appendChild(name);
+
+        info.appendChild(renderPriceHtml(np));
+
+        var cta = document.createElement('a');
+        cta.href = 'product.html?id=' + encodeURIComponent(np.id);
+        cta.className = 'hero-slide-cta';
+        cta.textContent = 'View Product';
+        info.appendChild(cta);
+
+        product.appendChild(info);
+        slide.appendChild(product);
+        heroCarousel.appendChild(slide);
+      });
+
+      var allSlides = heroCarousel.querySelectorAll('.hero-slide');
+      var heroSection = heroCarousel.closest('.hero');
+      if (allSlides.length > 1 && heroSection) {
+        heroSection.classList.add('hero-carousel-active');
+      }
+
+      // Build dots
+      if (heroDots && allSlides.length > 1) {
+        for (var di = 0; di < allSlides.length; di++) {
+          var dot = document.createElement('button');
+          dot.className = 'hero-dot' + (di === 0 ? ' active' : '');
+          dot.setAttribute('aria-label', 'Slide ' + (di + 1));
+          dot.setAttribute('data-index', di);
+          dot.addEventListener('click', function () {
+            goToSlide(parseInt(this.getAttribute('data-index'), 10));
+          });
+          heroDots.appendChild(dot);
+        }
+      }
+
+      var currentSlide = 0;
+      var autoTimer = null;
+      var dotEls = heroDots ? heroDots.querySelectorAll('.hero-dot') : [];
+
+      function goToSlide(index) {
+        allSlides[currentSlide].classList.remove('active');
+        if (dotEls.length > 0) dotEls[currentSlide].classList.remove('active');
+        currentSlide = (index + allSlides.length) % allSlides.length;
+        allSlides[currentSlide].classList.add('active');
+        if (dotEls.length > 0) dotEls[currentSlide].classList.add('active');
+        resetAuto();
+      }
+
+      function resetAuto() {
+        if (autoTimer) clearInterval(autoTimer);
+        autoTimer = setInterval(function () {
+          goToSlide(currentSlide + 1);
+        }, 5000);
+      }
+
+      if (heroPrev) heroPrev.addEventListener('click', function () { goToSlide(currentSlide - 1); });
+      if (heroNext) heroNext.addEventListener('click', function () { goToSlide(currentSlide + 1); });
+
+      if (heroSection && allSlides.length > 1) {
+        heroSection.addEventListener('mouseenter', function () {
+          if (autoTimer) clearInterval(autoTimer);
+        });
+        heroSection.addEventListener('mouseleave', function () {
+          resetAuto();
+        });
+        resetAuto();
+      }
+    }
+  }
+
   if (hamburger && navLinks) {
     hamburger.addEventListener('click', function () {
       navLinks.classList.toggle('open');
