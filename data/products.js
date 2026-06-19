@@ -636,7 +636,7 @@ var PRODUCTS = [
     "categories": [
       "Toy Bundles"
     ],
-    "mrp": 62,
+    "mrp": 70,
     "fundooPrice": 0,
     "offerPrice": 0,
     "description": "🫙 Long Slime Jar with Surprise Character – A fun and colorful slime jar featuring an adorable character hidden inside for an extra element of surprise. Soft, stretchy, and satisfying to play with, it's perfect for sensory fun, party favors, birthday return gifts, and goodie bags. Available in assorted colors and character designs.",
@@ -768,7 +768,7 @@ var PRODUCTS = [
     "categories": [
       "Toy Bundles"
     ],
-    "mrp": 73,
+    "mrp": 80,
     "fundooPrice": 0,
     "offerPrice": 0,
     "description": "🎾 Moon Ball – A colorful high-bounce ball with a unique crater design that creates exciting and unpredictable bounces. Perfect for outdoor play, return gifts, party favors, and endless fun.",
@@ -860,6 +860,37 @@ var PRODUCTS = [
     "description": "🎨 Magical 3D Painting Kit – Bring creativity to life with this fun 3D painting activity set. Kids can color their favorite designs using the included markers and enjoy a unique hands-on art experience. Easy to use and engaging, it encourages imagination, creativity, and artistic expression. Perfect for birthday return gifts, party favors, travel activities, and screen-free fun.",
     "images": [
       "1NzqmjbI44xqhrWskx-aS5yAmIPXSHkPi"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-059",
+    "name": "Mini Stationery Set",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 200,
+    "fundooPrice": 150,
+    "offerPrice": 120,
+    "description": "✏️ Kids Stationery Gift Set – A fun and colorful collection of stationery essentials that kids will love. Perfect for school, creative activities, birthday return gifts, goodie bags, and special occasions. Practical, exciting, and ready to gift!",
+    "images": [
+      "1EhqWlZ46ch2lsJQSlBZHdvl2gv535jP9"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-060",
+    "name": "Unicorn Piggy Bank",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 180,
+    "fundooPrice": 120,
+    "offerPrice": 100,
+    "description": "🦄 Cute Unicorn Piggy Bank – Make saving money fun with this adorable unicorn-themed piggy bank. Perfect for teaching kids the value of saving while adding a touch of magic to their room décor. Lightweight, durable, and ideal as a birthday gift, return gift, or special surprise for unicorn lovers.",
+    "images": [
+      "1OnsLAmDN4x1NWM2sxO-p-ksWbKaQ9B6s",
+      "19zrYP4yL6_1t2ObZ3TKhL2nYFjWox5YD"
     ],
     "stock": 12
   }
