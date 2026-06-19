@@ -194,8 +194,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 125,
-    "fundooPrice": 99,
-    "offerPrice": 75,
+    "fundooPrice": 80,
+    "offerPrice": 70,
     "description": "Stylish mini diary that comes paired with a matching pen. Compact size fits perfectly in school bags — ideal for notes, doodles, and creative writing.",
     "images": [
       "14CGlL-dhII3-jRbQP_CNI_b8p7cf3prF"
@@ -865,7 +865,7 @@ var PRODUCTS = [
   },
   {
     "id": "prod-059",
-    "name": "Mini Stationery Set",
+    "name": "Stationery Set",
     "categories": [
       "Stationery Sets"
     ],
@@ -874,7 +874,8 @@ var PRODUCTS = [
     "offerPrice": 120,
     "description": "✏️ Kids Stationery Gift Set – A fun and colorful collection of stationery essentials that kids will love. Perfect for school, creative activities, birthday return gifts, goodie bags, and special occasions. Practical, exciting, and ready to gift!",
     "images": [
-      "1EhqWlZ46ch2lsJQSlBZHdvl2gv535jP9"
+      "1dOhPJFYWsGdVtBtG-hntXLIo6DMwxoKS",
+      "1N1Udz-I5Vj_2BMGbgKVa2muAcWmJVDGL"
     ],
     "stock": 12
   },
@@ -893,6 +894,38 @@ var PRODUCTS = [
       "19zrYP4yL6_1t2ObZ3TKhL2nYFjWox5YD"
     ],
     "stock": 12
+  },
+  {
+    "id": "prod-061",
+    "name": "Mini Scratch Book",
+    "categories": [
+      "Stationery Sets",
+      "Art & Craft"
+    ],
+    "mrp": 35,
+    "fundooPrice": 30,
+    "offerPrice": 25,
+    "description": "Rainbow scratch art book with wooden stylus included. Kids scratch away the black coating to reveal vibrant colours underneath — hours of creative fun.",
+    "images": [
+      "1zLHuSopuId7AeG9BEzMyoTLmNL3TaP95"
+    ],
+    "stock": 24
+  },
+  {
+    "id": "prod-062",
+    "name": "Paper Soap - Pack of 5",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 100,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "🧼 Paper Soap Mini Boxes (Pack of 5) – Stay fresh and hygienic wherever you go with these handy paper soap sheets. Compact, lightweight, and easy to carry, each pack comes in assorted vibrant colors. Perfect for travel, school, picnics, return gifts, goodie bags, and everyday use.",
+    "images": [
+      "1ofdEd-KRQy6fygIzXacsERzs-ycXSSKn",
+      "1GIHpbWFZa0_VEiylCq9lt4en_Mvk3lC8"
+    ],
+    "stock": 6
   }
 ];
 var SITE_CONFIG = {
