@@ -926,6 +926,73 @@ var PRODUCTS = [
       "1GIHpbWFZa0_VEiylCq9lt4en_Mvk3lC8"
     ],
     "stock": 6
+  },
+  {
+    "id": "prod-063",
+    "name": "Football Legend Keychain",
+    "categories": [
+      "Keychains"
+    ],
+    "mrp": 100,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "Carry your football passion wherever you go! These stylish football-themed keychains feature iconic player-inspired designs with a durable metal ring and vibrant detailing. Perfect for bags, keys, pencil pouches, or as a fun gift for young football fans.\n\n✨ Features:\n\nFootball-inspired collectible keychain\nDurable and lightweight design\nEasy to attach to keys, backpacks, and pouches\nGreat for football lovers and return gifts\nAvailable in multiple player-themed designs\n\n🎁 Ideal For: Return gifts, party favors, school rewards, and football enthusiasts of all ages.",
+    "images": [
+      "1e9Ge8YmY_QlDtQ4prQTUiw9feoBXYU7w"
+    ],
+    "stock": 6
+  },
+  {
+    "id": "prod-064",
+    "name": "Harry Potter Mini Journal",
+    "categories": [
+      "Stationery Sets",
+      "Harry Potter Collection"
+    ],
+    "mrp": 150,
+    "fundooPrice": 100,
+    "offerPrice": 90,
+    "description": "Capture your magical thoughts, notes, and ideas in this Harry Potter-themed mini journal. Featuring vibrant artwork, a sturdy spiral binding, and compact size, it's perfect for school, travel, or everyday use.\n\n✨ Features:\n\nEye-catching Harry Potter-inspired cover design\nDurable spiral binding for easy page turning\nCompact and lightweight to carry anywhere\nIdeal for notes, doodles, journaling, and reminders\nGreat collectible for wizarding world fans\n\n🎁 Ideal For: Return gifts, party favors, school stationery, and Harry Potter lovers of all ages.",
+    "images": [
+      "1yFSlfg6YLElmTFGlXWIsKumfzVBDaa8X",
+      "1KCAlrUg5udKY2WqDV6HMrNxH9bwkn0xm"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-065",
+    "name": "Football Legends Mini Journal",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 150,
+    "fundooPrice": 100,
+    "offerPrice": 90,
+    "description": "Score big with this Football Star Mini Journal! Featuring vibrant football-themed cover designs inspired by legendary players, this compact spiral notebook is perfect for notes, doodles, schoolwork, and daily journaling. A must-have for young football fans.\n\n✨ Features:\n\nExciting football-themed cover designs\nCompact size, easy to carry anywhere\nDurable spiral binding\nSmooth pages for writing and sketching\nGreat collectible for sports lovers\n\n🎁 Ideal For: Return gifts, birthday party favors, school rewards, football fans, and everyday stationery use.\n\nAvailable in multiple football star designs and team-inspired covers. ⚽📖🏆",
+    "images": [
+      "1C5dL3M4pgDuVftlC-oicoYhK5fhO2edO",
+      "1zhASnKBIq25MOYEEc7rBX1Hjtde99DH3"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-066",
+    "name": "Water Colour Painting Book",
+    "categories": [
+      "Stationery Sets",
+      "Art & Craft"
+    ],
+    "mrp": 100,
+    "fundooPrice": 90,
+    "offerPrice": 60,
+    "description": "Unleash your child's creativity with these fun and mess-free Water Colour Painting Books! Simply use the included brush and water to reveal vibrant colors hidden within the pages. Available in exciting themes like Unicorn, Dinosaur, Forest Animals, and Princess, each book offers hours of artistic fun while helping develop creativity and fine motor skills.\n\n✨ Features:\n\n10 pre-printed painting pages\nIncludes paintbrush\nWater-activated colors – no paints needed\nMess-free and easy to use\nEncourages creativity and imagination\nAvailable in multiple exciting themes\n\n🎁 Ideal For: Return gifts, birthday parties, travel activities, school projects, and creative play for kids aged 4+. 🎨🌈🦄🦖🦁👑",
+    "images": [
+      "1S70lT9Yny4RK7X_7BL2spha-npcaTuPQ",
+      "1q9c5cqL3j5Z8wcSIuFMk3LkEB7AyU1t-",
+      "1B_9PH-oiFNpx7Cg4a2vRk8U574IAy9bI",
+      "14Y973wWWOIBsZpqfj60eszSNDMSKovEO"
+    ],
+    "stock": 24
   }
 ];
 var SITE_CONFIG = {
@@ -941,9 +1008,9 @@ var SITE_CONFIG = {
     "prod-056"
   ],
   "whatsNew": [
-    "prod-054",
     "prod-055",
     "prod-057",
-    "prod-058"
+    "prod-058",
+    "prod-063"
   ]
 };
