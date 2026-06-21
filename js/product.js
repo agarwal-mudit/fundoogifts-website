@@ -148,6 +148,25 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
 
+    // Videos
+    var validVideos = (product.videos || []).filter(function (id) { return id && !id.startsWith('PLACEHOLDER'); });
+    if (validVideos.length > 0) {
+      var videoSection = document.createElement('div');
+      videoSection.className = 'product-videos';
+      validVideos.forEach(function (vid) {
+        var wrap = document.createElement('div');
+        wrap.className = 'product-video-wrap';
+        var iframe = document.createElement('iframe');
+        iframe.src = 'https://drive.google.com/file/d/' + encodeURIComponent(vid) + '/preview';
+        iframe.setAttribute('allowfullscreen', '');
+        iframe.setAttribute('allow', 'autoplay; encrypted-media');
+        iframe.loading = 'lazy';
+        wrap.appendChild(iframe);
+        videoSection.appendChild(wrap);
+      });
+      gallery.appendChild(videoSection);
+    }
+
     // Details
     var details = document.createElement('div');
     details.className = 'product-details';

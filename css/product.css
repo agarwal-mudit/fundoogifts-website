@@ -122,6 +122,32 @@
   opacity: 1;
 }
 
+/* ── Videos ── */
+.product-videos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product-video-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #000;
+}
+
+.product-video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 /* ── Details ── */
 .product-details {
   padding: 10px 0;
