@@ -993,6 +993,63 @@ var PRODUCTS = [
       "14Y973wWWOIBsZpqfj60eszSNDMSKovEO"
     ],
     "stock": 24
+  },
+  {
+    "id": "prod-067",
+    "name": "Burger Keychain with Jumping Bunny",
+    "categories": [
+      "Toy Bundles",
+      "Keychains"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "Product Highlights\nFun Pop-Up Bunny Mechanism\nCute Burger Design\nSoft Silicone Material\nDurable Metal Keyring\nPerfect for Bags, Keys & Pencil Pouches\nGreat Return Gift for Kids",
+    "images": [
+      "1-Yxdb9Ll76gaFYKs3lwAAkUCNmApnhko"
+    ],
+    "videos": [
+      "1lunv7urMUHviEGYReM52GhX9LFa68IBl"
+    ],
+    "stock": 6
+  },
+  {
+    "id": "prod-068",
+    "name": "Football Rock-Paper-Scissors Keychain ⚽✋✌️👊",
+    "categories": [
+      "Toy Bundles",
+      "Keychains"
+    ],
+    "mrp": 60,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "A fun twist on a classic game! This Football-Shaped Rock-Paper-Scissors Keychain combines a sporty football design with an interactive game feature. Simply rotate or click to reveal Rock, Paper, or Scissors and challenge your friends anytime, anywhere. Compact, lightweight, and perfect for football fans of all ages.\n\n✨ Features:\n\nUnique football-shaped design\nBuilt-in Rock-Paper-Scissors game\nSmooth click/rotate action\nDurable keyring attachment\nLightweight and easy to carry\nFun fidget and decision-making toy",
+    "images": [
+      "1HNGXay6XCEHE2mGN0vj_7wjZ9k1nkOWt"
+    ],
+    "videos": [
+      "1DE1g3RJbK0xvJ8cFayMpEj5ag9h2bcL8"
+    ],
+    "stock": 12
+  },
+  {
+    "id": "prod-069",
+    "name": "Astronaut Bear LED Glow Keychain 🧸🚀",
+    "categories": [
+      "Toy Bundles",
+      "Keychains"
+    ],
+    "mrp": 150,
+    "fundooPrice": 120,
+    "offerPrice": 0,
+    "description": "Add a little glow to your day with this adorable Astronaut Bear LED Keychain! Featuring a cute bear safely tucked inside a space capsule, this keychain lights up with a bright white LED at the press of a button. Perfect for school bags, pencil pouches, keys, and gifting.",
+    "images": [
+      "1jE6GDuaUlP8J6LBdlp0NGJ5e73BwimRb"
+    ],
+    "videos": [
+      "1l3MubqloK4q7mRM6aSU4j7B_92nVPcqc"
+    ],
+    "stock": 6
   }
 ];
 var SITE_CONFIG = {
