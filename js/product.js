@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var wrap = document.createElement('div');
         wrap.className = 'product-video-wrap';
         var iframe = document.createElement('iframe');
-        iframe.src = 'https://drive.google.com/file/d/' + encodeURIComponent(vid) + '/preview';
+        iframe.src = 'https://www.youtube.com/embed/' + encodeURIComponent(vid);
         iframe.setAttribute('allowfullscreen', '');
         iframe.setAttribute('allow', 'autoplay; encrypted-media');
         iframe.loading = 'lazy';
