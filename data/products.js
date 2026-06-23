@@ -1009,7 +1009,7 @@ var PRODUCTS = [
       "1-Yxdb9Ll76gaFYKs3lwAAkUCNmApnhko"
     ],
     "videos": [
-      "1lunv7urMUHviEGYReM52GhX9LFa68IBl"
+      "ZiaUY5rXIzQ"
     ],
     "stock": 6
   },
@@ -1028,7 +1028,7 @@ var PRODUCTS = [
       "1HNGXay6XCEHE2mGN0vj_7wjZ9k1nkOWt"
     ],
     "videos": [
-      "1DE1g3RJbK0xvJ8cFayMpEj5ag9h2bcL8"
+      "LyKaiWI4bU4"
     ],
     "stock": 12
   },
@@ -1047,7 +1047,7 @@ var PRODUCTS = [
       "1jE6GDuaUlP8J6LBdlp0NGJ5e73BwimRb"
     ],
     "videos": [
-      "1l3MubqloK4q7mRM6aSU4j7B_92nVPcqc"
+      "ooNbyasTEgE"
     ],
     "stock": 6
   }
