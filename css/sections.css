@@ -323,6 +323,12 @@
   align-items: start;
 }
 
+.contact-wrapper-centered {
+  grid-template-columns: 1fr;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .contact-info h3 {
   font-size: 1.3em;
   margin-bottom: 16px;
