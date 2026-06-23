@@ -46,10 +46,6 @@
     grid-template-columns: 1fr;
   }
 
-  .footer-columns {
-    grid-template-columns: 1fr 1fr;
-    gap: 28px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -164,11 +160,6 @@
 
   .pricing-card.featured {
     order: -1;
-  }
-
-  .footer-columns {
-    grid-template-columns: 1fr;
-    gap: 24px;
   }
 
   .whatsapp-fab {
