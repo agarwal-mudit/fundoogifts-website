@@ -484,6 +484,9 @@ var PRODUCTS = [
       "1u1Vs_Dg4myFo1kZttWbMjJD-VAqipfVi",
       "16AoR1cu-SZn5LnvE-CEqiB13wthAgSdj"
     ],
+    "videos": [
+      "fxWgC0PKWJ4"
+    ],
     "stock": 15
   },
   {
