@@ -1053,10 +1053,97 @@ var PRODUCTS = [
       "ooNbyasTEgE"
     ],
     "stock": 6
+  },
+  {
+    "id": "prod-070",
+    "name": "Gobble – Fun Strategy Board Game for Kids & Families",
+    "categories": [
+      "Toy Bundles",
+      "Puzzle & Games"
+    ],
+    "mrp": 220,
+    "fundooPrice": 190,
+    "offerPrice": 0,
+    "description": "Bring laughter and learning together with the Gobble Board Game! This exciting strategy game is perfect for kids and families, where players take turns placing and \"gobbling\" smaller pieces with larger ones to outsmart their opponent. Simple to learn yet full of strategic fun, it's an ideal game for family game nights, classrooms, and gifting.\n\nFeatures\n🧠 Develops strategic thinking and problem-solving skills\n👨‍👩‍👧‍👦 Fun for kids, families, and friends\n🎲 Easy-to-learn gameplay with exciting challenges\n🎨 Bright, colorful game pieces that kids love\n💪 Made from durable, child-safe materials\n🎁 Perfect for birthdays, return gifts, and family game nights\n\nRecommended Age: 3+ years\nPlayers: 2 Players\nPackage Includes: Game board and colorful nesting game pieces.",
+    "images": [
+      "11B0rupy0-CRxsJbtwXfmB5P3SFBLDeR2",
+      "1KrDwwtiYlkRYG8cnLndsz4QHc-oaxY64",
+      "1LcE-jXsdFZ8yKaw9Es1K-iEvWYcUy0TW",
+      "1qpJDUEzPGIgQnyl53oR6H-VEYR_R6UVA"
+    ],
+    "videos": [],
+    "stock": 25
+  },
+  {
+    "id": "prod-071",
+    "name": "Floating Ink Water Painting Pen Set (8 Colors)",
+    "categories": [
+      "Toy Bundles",
+      "Art & Craft"
+    ],
+    "mrp": 150,
+    "fundooPrice": 120,
+    "offerPrice": 0,
+    "description": "Unleash creativity with the Floating Ink Water Painting Pen Set! This fun 8-color marker set lets kids draw on a ceramic spoon or whiteboard and watch their creations float on water. Perfect for creative play, DIY art activities, science experiments, and school projects.\n\nFeatures:\n\n🎨 8 vibrant floating ink colors\n💧 Creates amazing floating drawings on water\n✍️ Smooth, easy-to-use markers\n🧠 Encourages creativity and hands-on learning\n🎁 Great for kids, classrooms, parties, and gifting",
+    "images": [
+      "18yAo60MESnKhEk8ePzveSBoWclHXY-mg"
+    ],
+    "videos": [],
+    "stock": 20
+  },
+  {
+    "id": "prod-072",
+    "name": "Chocolate Eraser",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 50,
+    "fundooPrice": 35,
+    "offerPrice": 0,
+    "description": "Looks just like a real chocolate bar, but it's actually a fun eraser! This realistic chocolate-shaped eraser is perfect for school, art projects, party favors, and return gifts. A delightful stationery item that surprises everyone with its lifelike design.\n\nFeatures:\n\n🍫 Realistic chocolate bar design\n✏️ Smooth and clean erasing\n🎒 Lightweight and easy to carry\n🎁 Perfect for return gifts, school prizes & party favors\n👧 Suitable for kids, students, and stationery lovers",
+    "images": [
+      "1wCdsd98Pe75dKodeZqO4PRZlZM5uVLZD"
+    ],
+    "videos": [],
+    "stock": 30
+  },
+  {
+    "id": "prod-073",
+    "name": "Wooden Jigsaw Puzzle for Kids",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 130,
+    "fundooPrice": 100,
+    "offerPrice": 0,
+    "description": "Make learning fun with these colorful wooden jigsaw puzzles! Designed to improve problem-solving, hand-eye coordination, and concentration, each puzzle features bright, engaging themes that children love. Crafted from smooth, durable wood with easy-to-hold pieces, they're perfect for early learning and screen-free play.\n\nFeatures:\n\nPremium quality wooden puzzle board\nSmooth, child-safe edges\nBright, attractive illustrations\nDevelops motor skills, memory & logical thinking\nEasy to assemble and reusable\nAvailable in multiple exciting themes including Farm Animals, Jungle Animals, Ocean World, Dinosaurs, Princess, Firefighters, Polar Animals & Beach Fun\nIdeal for kids aged 3+ years\n\nPerfect for: Birthday gifts, return gifts, preschool learning, and fun family playtime.",
+    "images": [
+      "1vsoW-DgBoo7qyCWVzGQybyX-WA2ZMnzh"
+    ],
+    "videos": [],
+    "stock": 24
+  },
+  {
+    "id": "prod-074",
+    "name": "Character Theme Expanding File Folder",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 250,
+    "fundooPrice": 230,
+    "offerPrice": 0,
+    "description": "Keep documents neat, organized, and protected with this colorful expanding file folder. Designed with vibrant cartoon and superhero themes, it's perfect for school, home, or office use. The multiple expanding pockets make it easy to organize worksheets, certificates, assignments, bills, and important papers in one place.\n\nFeatures:\n\nDurable expanding file folder with multiple compartments\nLightweight and easy to carry with built-in handle\nSecure snap-button closure\nWaterproof and tear-resistant material\nIdeal for A4-size documents, worksheets, certificates & art papers\nAttractive cartoon and superhero designs loved by kids\nPerfect for school, tuition, travel, and office organization\n\nPerfect for: Students, teachers, professionals, and as a practical return gift.",
+    "images": [
+      "1_U6wC-4pUDouGt-emlAEec1_J-t478x8",
+      "1pOFucvcBaK0c_IRFdzlt7LJYIbummeWu",
+      "1ZWTwmkV5iwhhc3j7wRqPd7rg-eu5U-At"
+    ],
+    "videos": [],
+    "stock": 20
   }
 ];
 var SITE_CONFIG = {
-  "productOfTheMonth": "prod-030",
+  "productOfTheMonth": "prod-070",
   "whatsHot": [
     "prod-006",
     "prod-019",
@@ -1064,13 +1151,14 @@ var SITE_CONFIG = {
     "prod-032",
     "prod-039",
     "prod-045",
-    "prod-050",
-    "prod-056"
+    "prod-056",
+    "prod-071",
+    "prod-072"
   ],
   "whatsNew": [
     "prod-055",
     "prod-057",
     "prod-058",
-    "prod-063"
+    "prod-070"
   ]
 };
