@@ -1140,6 +1140,119 @@ var PRODUCTS = [
     ],
     "videos": [],
     "stock": 20
+  },
+  {
+    "id": "prod-075",
+    "name": "Memory Chess – Wooden Color Matching Game",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 180,
+    "offerPrice": 0,
+    "description": "Boost your child's memory, focus, and logical thinking with this engaging wooden Memory Chess game! Roll the color dice, remember the hidden peg colors, and collect the most matching pieces. A fun and educational game that keeps kids entertained while developing essential cognitive skills.\n\n✨ Features:\n\n🎲 Roll the dice and match the hidden colors\n🧠 Improves memory, concentration & logical thinking\n🌈 Enhances color recognition and visual perception\n🌳 Premium wooden construction with smooth finish\n👨‍👩‍👧 Perfect for family game time and preschool learning\n🎁 Great gift for kids aged 3 years & above",
+    "images": [
+      "1SWUjLB4V0XAnsREvUvOUeNq4SYzlVWGZ",
+      "1xxkUflr6fneGTxWSHl0KQ1SBsOwDurBD"
+    ],
+    "videos": [],
+    "stock": 12
+  },
+  {
+    "id": "prod-076",
+    "name": "Stationery Set with Water Colours",
+    "categories": [
+      "Stationery Sets",
+      "Art & Craft"
+    ],
+    "mrp": 120,
+    "fundooPrice": 100,
+    "offerPrice": 0,
+    "description": "Everything your little explorer needs for school and creativity in one fun pack!\n\nIncludes:\n\n✏️ 2 Pencils\n📏 1 Ruler\n🖌️ 1 Paint Brush\n🩹 1 Eraser\n✂️ 1 Sharpener\n📒 1 Notebook\n🎨 6 Water Colours\n\nPerfect for: School, drawing, art projects, gifting, and return gifts. Compact, colorful, and easy to carry for kids aged 3+.",
+    "images": [
+      "1U9JSjNb2CYm6zvqzFiFTght2ZLfER2DV",
+      "1690mud15NBGLB_rQmCr_oc3o2UMcroRk"
+    ],
+    "videos": [],
+    "stock": 36
+  },
+  {
+    "id": "prod-077",
+    "name": "K-Pop and Frozen Colouring Book with Stickers",
+    "categories": [
+      "Stationery Sets",
+      "Art & Craft",
+      "K-Pop Collection"
+    ],
+    "mrp": 200,
+    "fundooPrice": 130,
+    "offerPrice": 0,
+    "description": "Bring your favorite K-Pop characters to life with this fun colouring book packed with exciting stickers!\n\nIncludes:\n\n🎨 16 Character Colouring Sheets\n⭐ 4 Colourful Sticker Sheets\n🌈 Available in 2 Attractive Designs\n\nPerfect for: Creative fun, travel, birthday gifts, return gifts, party favors, and screen-free entertainment for kids aged 3+ years.",
+    "images": [
+      "1YXDFfJb4FBRPuhcd-773Gura6YGydL2A",
+      "1CwvE21iGSRiI68fOM3wbbcaJrrD74fIt",
+      "1SDTuaNYTK0vNO5BEEMEv0XqXJadpbsI8",
+      "15gKrm2CBdybbzkNcsr3pEO6iu_sTAd_m"
+    ],
+    "videos": [
+      "H6vbm8dosao"
+    ],
+    "stock": 24
+  },
+  {
+    "id": "prod-078",
+    "name": "🌈 Cartoon Folding Hand Fan",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 40,
+    "fundooPrice": 20,
+    "offerPrice": 0,
+    "description": "Stay cool in style with these adorable Cartoon Folding Hand Fans! Designed for kids and available in a variety of fun themes, these lightweight fans are perfect for school, travel, parties, picnics, and hot summer days. They fold easily for convenient carrying and open in seconds for instant cooling.\n\n✨ Features:\n\n🌈 Available in multiple attractive designs\n🦖 Themes include Dinosaur, Unicorn, Mermaid, Astronaut, and more\n🌬️ Lightweight and easy to use\n🔄 Foldable for compact storage\n💪 Durable plastic construction\n🎒 Easy to carry in school bags, handbags, or backpacks\n☀️ Perfect for summer, travel, outdoor events, and return gifts\n\n📦 Product Details:\n\nMaterial: Premium Plastic\nType: Folding Hand Fan\nDesigns: Assorted Cartoon Themes\nRecommended Age: 3+ years\n\nA fun and practical accessory that keeps kids cool while adding a splash of color to every adventure",
+    "images": [
+      "1CdCwa_0PxjEj3n_fCJBPG-FftPIfDB1N"
+    ],
+    "videos": [],
+    "stock": 12
+  },
+  {
+    "id": "prod-079",
+    "name": "3D Animal Face Notebook / Diary",
+    "categories": [
+      "Stationery Sets",
+      "Art & Craft"
+    ],
+    "mrp": 200,
+    "fundooPrice": 120,
+    "offerPrice": 0,
+    "description": "Make writing time extra fun with these adorable 3D Animal Face Notebooks! Designed with eye-catching animal-shaped covers and a convenient built-in handle, they're perfect for kids who love to draw, doodle, write, and express their creativity.\n\n✨ Features:\n\nCute 3D animal face designs with carry handle\nThick shaped blank pages for drawing, colouring, writing & doodling\nDurable hardcover with premium finish\nLightweight and easy for little hands to carry\nPerfect for school, travel, art activities and gifting\n\n🎨 Available Designs:\n\n🦒 Giraffe\n🦄 Unicorn\n🦖 Dinosaur\n\n🎁 Perfect For:\n\nBirthday Return Gifts\nSchool Supplies\nCreative Play\nArt & Craft Activities\nEveryday Journaling\n\nRecommended Age: 3+ Years\n\nA notebook that's as fun on the outside as it is on the inside! 🌈✨",
+    "images": [
+      "1jziU1VLovK5tJmkZjVIiXCT5ZV1M--hA",
+      "1XwWnd5aiStPZgI-29EBv5zRjvYw51gGi",
+      "1ZOkiW_ebmrndgB0Vjcb1xL294E2JaObZ",
+      "1IqUW2-iNxYXxNGbzQXse-WHXl4UaCJoM",
+      "15FovnXNIhSvxAKOXzM0XqVS9SoF_CZTe"
+    ],
+    "videos": [
+      "ox2TmgG0keE"
+    ],
+    "stock": 23
+  },
+  {
+    "id": "prod-080",
+    "name": "Space Theme Piggy Bank",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 120,
+    "fundooPrice": 110,
+    "offerPrice": 0,
+    "description": "Blast off on a savings adventure with this adorable Space Theme Piggy Bank! Featuring a vibrant astronaut and rocket design, this sturdy savings box encourages kids to build smart money habits while adding a fun touch to their room.\n\n✨ Features:\n\nExciting space & astronaut theme\nDurable and lightweight construction\nWide coin slot on top for easy saving\nLock & key included to keep savings secure\nReusable design—open, save again, and watch your savings grow!\nSmooth finish with vibrant, kid-friendly artwork\n\n🚀 Perfect For:\n\nBirthday Return Gifts\nKids' Room Décor\nTeaching Saving Habits\nBirthday & Festive Gifts\nSchool Rewards & Prizes\n\n🎁 Ideal for: Kids aged 3+ years\n\nSave today, dream beyond the stars tomorrow! 🌍🚀✨",
+    "images": [
+      "12YlOPQW9EFr_RhChmGztyazBnKLTQsUU"
+    ],
+    "videos": [],
+    "stock": 24
   }
 ];
 var SITE_CONFIG = {
