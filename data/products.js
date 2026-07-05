@@ -1253,25 +1253,75 @@ var PRODUCTS = [
     ],
     "videos": [],
     "stock": 24
+  },
+  {
+    "id": "prod-081",
+    "name": "Bubble Fan",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 90,
+    "fundooPrice": 70,
+    "offerPrice": 0,
+    "description": "Beat the heat and fill the air with bubbles! This adorable 2 in 1 Hand Fan & Bubble Maker is a perfect summer companion for kids. It works as a manual hand fan for a refreshing breeze and also includes a bubble solution bottle to create beautiful bubbles with a simple dip and blow. No batteries required—just endless fun!\n\n✨ Features:\n\n🌬️ 2 in 1 Design – Manual hand fan + bubble maker\n🫧 Creates lots of beautiful bubbles\n🐭 Cute mouse-shaped design loved by kids\n🎨 Available in Pink, Yellow & Beige\n🪶 Lightweight, portable & easy to carry\n🔋 No batteries required\n🛡️ Safe, durable and kid-friendly\n🎁 Perfect for return gifts, birthdays, summer fun, parties and outdoor play\n\nRecommended Age: 3+ Years\n\nA fun little toy that keeps kids cool while adding magical bubble fun wherever they go! 🌈🫧",
+    "images": [
+      "1oc_HsjlALfhE6nf1KvHNU17vMWt76lvt"
+    ],
+    "videos": [
+      "4btPs8GHFH0"
+    ],
+    "stock": 32
+  },
+  {
+    "id": "prod-082",
+    "name": "UNO Theme Card Game – Minecraft & Stumble Guys Editions! 🎮🃏",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 110,
+    "fundooPrice": 90,
+    "offerPrice": 0,
+    "description": "Bring your favorite gaming worlds to the table with these exciting UNO-inspired themed card games! Choose between the pixel-packed Minecraft Edition or the action-filled Stumble Guys Edition for endless family fun.\n\n🎯 Features:\n🎮 Available in 2 exciting designs:\n🟩 Minecraft Edition\n🏃 Stumble Guys Edition\n⭐ Includes a Special Rule Card for extra twists and excitement\n👨‍👩‍👧‍👦 Suitable for 2–10 players\n👦 Recommended for Ages 7+\n🧠 Easy to learn and quick to play\n🎉 Perfect for family game nights, parties, travel, and holidays\n🎁 Great gift for Minecraft and Stumble Guys fans\n💼 Compact, portable box—easy to carry anywhere\n\nWhether you're dodging obstacles with Stumble Guys or surviving adventures in Minecraft, every game is packed with laughter, strategy, and unforgettable moments!",
+    "images": [
+      "19s1fPiz871XAkxp1V59P6Og3zc7rkLrm"
+    ],
+    "videos": [],
+    "stock": 24
+  },
+  {
+    "id": "prod-083",
+    "name": "UNO No Mercy – The Ultimate Family Card Game! 🔥🃏",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 160,
+    "fundooPrice": 110,
+    "offerPrice": 0,
+    "description": "Think regular UNO is too easy? It's time to level up with UNO No Mercy – the most intense, action-packed version of UNO ever!\n\n🎯 Features:\n💥 Includes 168 cards with exciting new action cards\n➕ Draw 10, Swap Hands, Stacking, and other brutal rule twists\n🚫 Unique Mercy Rule adds an exciting new challenge\n👨‍👩‍👧‍👦 Perfect for 2–10 players\n🎉 Great for family game nights, parties, vacations, and sleepovers\n🧠 Encourages strategy, quick thinking, and endless fun\n🎁 A fantastic gift for kids, teens, and adults who love board & card games\n\n⚠️ Warning: Friendships may be tested… but the fun is guaranteed! 😄",
+    "images": [
+      "1RW18C553Qn4DrhodAb0QR-vStW8Qeo_G"
+    ],
+    "videos": [],
+    "stock": 12
   }
 ];
 var SITE_CONFIG = {
-  "productOfTheMonth": "prod-070",
+  "productOfTheMonth": "prod-079",
   "whatsHot": [
     "prod-006",
     "prod-019",
+    "prod-030",
     "prod-031",
-    "prod-032",
     "prod-039",
     "prod-045",
     "prod-056",
-    "prod-071",
-    "prod-072"
+    "prod-067",
+    "prod-071"
   ],
   "whatsNew": [
-    "prod-055",
-    "prod-057",
-    "prod-058",
-    "prod-070"
+    "prod-075",
+    "prod-079",
+    "prod-080",
+    "prod-081"
   ]
 };
