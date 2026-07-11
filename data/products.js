@@ -1326,7 +1326,8 @@ var PRODUCTS = [
     "id": "prod-085",
     "name": "✨ 3D Crystal Ball LED Lamp – A Magical Glow for Every Space! 🌙💡",
     "categories": [
-      "Toy Bundles"
+      "Toy Bundles",
+      "Crystals & Lamps"
     ],
     "mrp": 150,
     "fundooPrice": 120,
@@ -1358,7 +1359,8 @@ var PRODUCTS = [
     "id": "prod-087",
     "name": "Kids Sipper Water Bottle",
     "categories": [
-      "Toy Bundles"
+      "Toy Bundles",
+      "Bottles & Lunch Boxes"
     ],
     "mrp": 220,
     "fundooPrice": 150,
