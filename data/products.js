@@ -5,13 +5,14 @@ var PRODUCTS = [
     "categories": [
       "Puzzle & Games"
     ],
-    "mrp": 180,
-    "fundooPrice": 160,
-    "offerPrice": 150,
+    "mrp": 240,
+    "fundooPrice": 180,
+    "offerPrice": 0,
     "description": "3-in-1 Wooden Puzzle Toy | Brain Development & Skill Building Puzzle | Multicolour",
     "images": [
       "11xXUW-dPYnDCzKmYOsCs3Yo-qGBpBmAg"
     ],
+    "videos": [],
     "stock": 14
   },
   {
@@ -1300,6 +1301,71 @@ var PRODUCTS = [
     "description": "Think regular UNO is too easy? It's time to level up with UNO No Mercy – the most intense, action-packed version of UNO ever!\n\n🎯 Features:\n💥 Includes 168 cards with exciting new action cards\n➕ Draw 10, Swap Hands, Stacking, and other brutal rule twists\n🚫 Unique Mercy Rule adds an exciting new challenge\n👨‍👩‍👧‍👦 Perfect for 2–10 players\n🎉 Great for family game nights, parties, vacations, and sleepovers\n🧠 Encourages strategy, quick thinking, and endless fun\n🎁 A fantastic gift for kids, teens, and adults who love board & card games\n\n⚠️ Warning: Friendships may be tested… but the fun is guaranteed! 😄",
     "images": [
       "1RW18C553Qn4DrhodAb0QR-vStW8Qeo_G"
+    ],
+    "videos": [],
+    "stock": 2
+  },
+  {
+    "id": "prod-084",
+    "name": "Infinity Cube – Endless Fun at Your Fingertips! ♾️🧩",
+    "categories": [
+      "Toy Bundles",
+      "Puzzle & Games"
+    ],
+    "mrp": 130,
+    "fundooPrice": 100,
+    "offerPrice": 0,
+    "description": "Flip, fold and fidget endlessly with the Infinity Cube! This compact sensory toy helps relieve stress, improve focus, and keep hands busy. Perfect for kids and adults alike, it's great for home, school, or the office.\n\n✨ Features:\n\n♾️ Endless folding action\n🧠 Improves focus & concentration\n😌 Great stress & anxiety reliever\n🤏 Pocket-sized and lightweight\n🎁 Perfect gift for all ages (3+)",
+    "images": [
+      "1jP4_FDJhL7_nPDSbSUytCSEeKTZGvKfy"
+    ],
+    "videos": [],
+    "stock": 24
+  },
+  {
+    "id": "prod-085",
+    "name": "✨ 3D Crystal Ball LED Lamp – A Magical Glow for Every Space! 🌙💡",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 150,
+    "fundooPrice": 120,
+    "offerPrice": 0,
+    "description": "✨ 3D Crystal Ball LED Lamp – A Magical Glow for Every Space! 🌙💡\n\nAdd a touch of wonder to your room with this stunning 3D Crystal Ball LED Lamp. Featuring beautifully laser-engraved designs inside a crystal-clear glass ball and a premium wooden LED base, it creates a mesmerizing warm glow that's perfect for bedrooms, study tables, offices, or gifting.\n\nChoose from enchanting designs like the Astronaut & Moon or the Solar System, making it a thoughtful gift for space lovers, kids, and anyone who loves unique décor.\n\n🌟 Features:\n🔮 Premium crystal ball with intricate 3D laser engraving\n💡 Soft warm LED light for a cozy ambience\n🌳 Elegant wooden base with USB power\n🚀 Available in multiple space-themed designs\n🏠 Perfect for bedrooms, study desks, offices & living rooms\n🎁 An excellent gift for birthdays, return gifts & special occasions\n⚡ Energy-efficient and long-lasting LED\n\nBring imagination to life and light up every moment with this beautiful crystal lamp! ✨",
+    "images": [
+      "1vFWR5b2AKFsjL1-EfnZCERx1z3oR_38Y"
+    ],
+    "videos": [],
+    "stock": 5
+  },
+  {
+    "id": "prod-086",
+    "name": "Wooden Jigsaw Puzzle",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 85,
+    "fundooPrice": 70,
+    "offerPrice": 0,
+    "description": "Make learning fun with this colorful wooden sliding puzzle! Kids can slide the blocks to recreate the picture while improving problem-solving and logical thinking. Crafted from smooth, child-safe wood, it's an engaging screen-free activity that builds focus, hand-eye coordination, and fine motor skills. Available in exciting themes like Rhino, Rice Pusher, Dinosaur, and Astronaut, it's perfect for playtime, travel, or gifting.",
+    "images": [
+      "1uVVg1zTzfuZ9R0MBS8d0JqQQf3l-lN2a"
+    ],
+    "videos": [],
+    "stock": 23
+  },
+  {
+    "id": "prod-087",
+    "name": "Kids Sipper Water Bottle",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 220,
+    "fundooPrice": 150,
+    "offerPrice": 0,
+    "description": "Keep your little one happily hydrated with this adorable kids' sipper bottle! Designed for toddlers and young children, it features a leak-proof flip-top lid, built-in straw, and an easy-grip carry handle that's perfect for tiny hands. Lightweight, durable, and easy to carry, it's ideal for school, daycare, travel, playtime, and outdoor adventures. Available in cute, colorful designs that kids will love.\n\nRecommended Age: 2+ Years",
+    "images": [
+      "1sHuyF_XQ3YaO-LwFw6FCzppUOZC0RdiY"
     ],
     "videos": [],
     "stock": 12
