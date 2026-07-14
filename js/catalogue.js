@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   var activeFilter = 'All';
   var activePack = null;
+  var activeAge = null;
   var activeSort = 'relevance';
   var searchQuery = '';
 
@@ -18,6 +19,12 @@ document.addEventListener('DOMContentLoaded', function () {
     budget: { label: 'Budget Pack', min: 0, max: 49 },
     classic: { label: 'Classic Pack', min: 50, max: 100 },
     premium: { label: 'Premium Pack', min: 101, max: Infinity }
+  };
+
+  var ageRanges = {
+    toddler: { label: 'Less than 3 years' },
+    kids:    { label: '3 to 8 years' },
+    older:   { label: '8+ years' }
   };
 
   function driveImageUrl(fileId, size) {
@@ -82,6 +89,11 @@ document.addEventListener('DOMContentLoaded', function () {
     return params.get('cat');
   }
 
+  function getAgeFromUrl() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('age');
+  }
+
   function getSearchFromUrl() {
     var params = new URLSearchParams(window.location.search);
     return (params.get('q') || '').trim();
@@ -93,6 +105,13 @@ document.addEventListener('DOMContentLoaded', function () {
     return list.filter(function (p) {
       var ep = effectivePrice(p);
       return ep >= range.min && ep <= range.max;
+    });
+  }
+
+  function filterByAge(list) {
+    if (!activeAge || !ageRanges[activeAge]) return list;
+    return list.filter(function (p) {
+      return p.age === activeAge;
     });
   }
 
@@ -199,6 +218,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function getFilteredProducts() {
     var list = filterByPack(products);
+    list = filterByAge(list);
     list = filterBySearch(list);
     if (activeFilter !== 'All') {
       list = list.filter(function (p) { return (p.categories || []).indexOf(activeFilter) !== -1; });
@@ -225,6 +245,13 @@ document.addEventListener('DOMContentLoaded', function () {
       packLabel.className = 'pack-filter-label';
       packLabel.textContent = packRanges[activePack].label;
       filterBar.insertAdjacentElement('beforebegin', packLabel);
+    }
+
+    if (activeAge && ageRanges[activeAge]) {
+      var ageLabel = document.createElement('div');
+      ageLabel.className = 'pack-filter-label';
+      ageLabel.textContent = ageRanges[activeAge].label;
+      filterBar.insertAdjacentElement('beforebegin', ageLabel);
     }
 
     categories.forEach(function (cat) {
@@ -286,8 +313,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Nav dropdown toggles
+  document.querySelectorAll('.nav-dropdown-toggle').forEach(function (toggle) {
+    toggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelectorAll('.nav-dropdown').forEach(function (dd) {
+        if (dd !== toggle.parentElement) dd.classList.remove('open');
+      });
+      toggle.parentElement.classList.toggle('open');
+    });
+  });
+
   // Init
   activePack = getPackFromUrl();
+  activeAge = getAgeFromUrl();
   var urlCat = getCatFromUrl();
   searchQuery = getSearchFromUrl();
   if (urlCat) activeFilter = urlCat;
@@ -299,9 +338,9 @@ document.addEventListener('DOMContentLoaded', function () {
     if (navInput) navInput.value = searchQuery;
   }
 
-  var baseProducts = filterByPack(products);
+  var baseProducts = filterByAge(filterByPack(products));
 
-  if (baseProducts.length > 0 || !activePack) {
+  if (baseProducts.length > 0 || (!activePack && !activeAge)) {
     setupFilters(baseProducts.length > 0 ? baseProducts : products);
     refresh();
   } else {

@@ -342,13 +342,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  var dropdownToggle = document.querySelector('.nav-dropdown-toggle');
-  if (dropdownToggle) {
-    dropdownToggle.addEventListener('click', function (e) {
+  document.querySelectorAll('.nav-dropdown-toggle').forEach(function (toggle) {
+    toggle.addEventListener('click', function (e) {
       e.preventDefault();
-      dropdownToggle.parentElement.classList.toggle('open');
+      document.querySelectorAll('.nav-dropdown').forEach(function (dd) {
+        if (dd !== toggle.parentElement) dd.classList.remove('open');
+      });
+      toggle.parentElement.classList.toggle('open');
     });
-  }
+  });
 
   // Populate pricing cards with product names
   var packRanges = {
