@@ -28,11 +28,11 @@
     return products.filter(function (p) {
       if (p.stock <= 0) return false;
 
-      if (filters.age && p.age !== filters.age) return false;
+      var pAge = p.age || 'any';
+      if (filters.age && pAge !== filters.age && pAge !== 'any') return false;
 
-      if (filters.gender) {
-        if (p.gender && p.gender !== filters.gender) return false;
-      }
+      var pGender = p.gender || 'any';
+      if (filters.gender && pGender !== 'any' && pGender !== filters.gender) return false;
 
       if (filters.budget && packRanges[filters.budget]) {
         var range = packRanges[filters.budget];

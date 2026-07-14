@@ -111,7 +111,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function filterByAge(list) {
     if (!activeAge || !ageRanges[activeAge]) return list;
     return list.filter(function (p) {
-      return p.age === activeAge;
+      var pAge = p.age || 'any';
+      return pAge === activeAge || pAge === 'any';
     });
   }
 
