@@ -22,9 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
   };
 
   var ageRanges = {
-    toddler: { label: 'Less than 3 years' },
-    kids:    { label: '3 to 8 years' },
-    older:   { label: '8+ years' }
+    '0-2': { label: '0-2 years' },
+    '2-5': { label: '2-5 years' },
+    '5-8': { label: '5-8 years' },
+    '8+':  { label: '8+ years' }
   };
 
   function driveImageUrl(fileId, size) {
@@ -111,8 +112,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function filterByAge(list) {
     if (!activeAge || !ageRanges[activeAge]) return list;
     return list.filter(function (p) {
-      var pAge = p.age || 'any';
-      return pAge === activeAge || pAge === 'any';
+      var ages = Array.isArray(p.age) ? p.age : (p.age ? [p.age] : ['any']);
+      return ages.indexOf(activeAge) !== -1 || ages.indexOf('any') !== -1;
     });
   }
 

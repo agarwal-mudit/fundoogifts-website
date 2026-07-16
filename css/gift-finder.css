@@ -3,8 +3,8 @@
   position: fixed;
   bottom: 24px;
   left: 24px;
-  width: 62px;
-  height: 62px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -17,10 +17,12 @@
   overflow: hidden;
   padding: 0;
   background: var(--color-primary-light);
+  animation: gfPulse 2.5s ease-in-out infinite;
 }
 
 .gift-finder-fab:hover {
   transform: scale(1.08);
+  animation: none;
 }
 
 .gift-finder-fab img {
@@ -29,25 +31,52 @@
   object-fit: cover;
 }
 
-.gift-finder-fab-label {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 8px;
-  background: var(--color-bg-dark);
-  color: #fff;
-  font-size: 0.75em;
-  padding: 5px 12px;
-  border-radius: var(--radius-full);
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.2s;
+@keyframes gfPulse {
+  0%, 100% { box-shadow: 0 4px 16px rgba(232, 93, 58, 0.35); }
+  50% { box-shadow: 0 4px 24px rgba(232, 93, 58, 0.55), 0 0 0 8px rgba(232, 93, 58, 0.1); }
 }
 
-.gift-finder-fab:hover .gift-finder-fab-label {
-  opacity: 1;
+/* ── Speech Bubble ── */
+.gift-finder-bubble {
+  position: fixed;
+  bottom: 56px;
+  left: 100px;
+  background: #fff;
+  color: var(--color-text);
+  font-size: 0.85em;
+  line-height: 1.4;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  z-index: 998;
+  max-width: 220px;
+  cursor: pointer;
+  animation: gfBubbleIn 0.4s ease;
+}
+
+.gift-finder-bubble::before {
+  content: '';
+  position: absolute;
+  bottom: 8px;
+  left: -8px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #fff;
+}
+
+.gift-finder-bubble strong {
+  color: var(--color-primary);
+}
+
+.gift-finder-bubble.hidden {
+  display: none;
+}
+
+@keyframes gfBubbleIn {
+  from { opacity: 0; transform: translateX(-8px); }
+  to { opacity: 1; transform: translateX(0); }
 }
 
 /* ── Chat Panel ── */
@@ -335,8 +364,8 @@
   .gift-finder-fab {
     bottom: 20px;
     left: 20px;
-    width: 54px;
-    height: 54px;
+    width: 58px;
+    height: 58px;
   }
 
   .gift-finder-panel {
@@ -347,7 +376,10 @@
     border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   }
 
-  .gift-finder-fab-label {
-    display: none;
+  .gift-finder-bubble {
+    bottom: 48px;
+    left: 84px;
+    max-width: 180px;
+    font-size: 0.8em;
   }
 }

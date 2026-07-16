@@ -28,8 +28,8 @@
     return products.filter(function (p) {
       if (p.stock <= 0) return false;
 
-      var pAge = p.age || 'any';
-      if (filters.age && pAge !== filters.age && pAge !== 'any') return false;
+      var ages = Array.isArray(p.age) ? p.age : (p.age ? [p.age] : ['any']);
+      if (filters.age && ages.indexOf(filters.age) === -1 && ages.indexOf('any') === -1) return false;
 
       var pGender = p.gender || 'any';
       if (filters.gender && pGender !== 'any' && pGender !== filters.gender) return false;
@@ -55,9 +55,14 @@
   // FAB button
   var fab = document.createElement('div');
   fab.className = 'gift-finder-fab';
-  fab.innerHTML = '<img src="' + MASCOT + '" alt="Gifti">' +
-    '<span class="gift-finder-fab-label">Ask Gifti!</span>';
+  fab.innerHTML = '<img src="' + MASCOT + '" alt="Gifti">';
   container.appendChild(fab);
+
+  // Speech bubble
+  var bubble = document.createElement('div');
+  bubble.className = 'gift-finder-bubble';
+  bubble.innerHTML = 'Need help finding the <strong>perfect gift</strong>? Ask me!';
+  container.appendChild(bubble);
 
   // Chat panel
   var panel = document.createElement('div');
@@ -78,19 +83,32 @@
   var closeBtn = panel.querySelector('.gift-finder-close');
 
   // Toggle panel
+  function openPanel() {
+    panel.classList.add('open');
+    bubble.classList.add('hidden');
+    if (messagesEl.children.length === 0) showWelcome();
+    scrollToBottom();
+  }
+
+  function closePanel() {
+    panel.classList.remove('open');
+    bubble.classList.remove('hidden');
+  }
+
   fab.addEventListener('click', function () {
-    var isOpen = panel.classList.contains('open');
-    if (isOpen) {
-      panel.classList.remove('open');
+    if (panel.classList.contains('open')) {
+      closePanel();
     } else {
-      panel.classList.add('open');
-      if (messagesEl.children.length === 0) showWelcome();
-      scrollToBottom();
+      openPanel();
     }
   });
 
+  bubble.addEventListener('click', function () {
+    openPanel();
+  });
+
   closeBtn.addEventListener('click', function () {
-    panel.classList.remove('open');
+    closePanel();
   });
 
   function scrollToBottom() {
@@ -223,14 +241,17 @@
     addBotMessage("Hi! I'm <strong>Gifti</strong>, your gift finding assistant! What are you looking for today?");
 
     addOptions([
-      { label: 'Gifts for toddlers (under 3)', action: function () {
-        showResults(filterProducts({ age: 'toddler' }), { age: 'toddler' });
+      { label: 'Gifts for 0-2 years', action: function () {
+        showResults(filterProducts({ age: '0-2' }), { age: '0-2' });
       }},
-      { label: 'Gifts for 3-8 year olds', action: function () {
-        showResults(filterProducts({ age: 'kids' }), { age: 'kids' });
+      { label: 'Gifts for 2-5 years', action: function () {
+        showResults(filterProducts({ age: '2-5' }), { age: '2-5' });
       }},
-      { label: 'Gifts for 8+ kids', action: function () {
-        showResults(filterProducts({ age: 'older' }), { age: 'older' });
+      { label: 'Gifts for 5-8 years', action: function () {
+        showResults(filterProducts({ age: '5-8' }), { age: '5-8' });
+      }},
+      { label: 'Gifts for 8+ years', action: function () {
+        showResults(filterProducts({ age: '8+' }), { age: '8+' });
       }},
       { label: 'Gifts under ₹50', action: function () {
         showResults(filterProducts({ budget: 'budget' }), { budget: 'budget' });
@@ -259,9 +280,10 @@
   function askAge() {
     addBotMessage("What age group is the gift for?");
     addOptions([
-      { label: 'Less than 3 years', action: function () { filters.age = 'toddler'; askGender(); }},
-      { label: '3 to 8 years', action: function () { filters.age = 'kids'; askGender(); }},
-      { label: '8+ years', action: function () { filters.age = 'older'; askGender(); }},
+      { label: '0-2 years', action: function () { filters.age = '0-2'; askGender(); }},
+      { label: '2-5 years', action: function () { filters.age = '2-5'; askGender(); }},
+      { label: '5-8 years', action: function () { filters.age = '5-8'; askGender(); }},
+      { label: '8+ years', action: function () { filters.age = '8+'; askGender(); }},
       { label: 'Any age', secondary: true, action: function () { askGender(); }}
     ]);
   }
