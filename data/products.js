@@ -96,7 +96,6 @@ var PRODUCTS = [
     ],
     "stock": 12,
     "age": [
-      "0-2",
       "2-5",
       "5-8"
     ]
@@ -134,7 +133,12 @@ var PRODUCTS = [
     "images": [
       "1ttjTUV6CqNIQ5z-fbwBnpNUXSqa78xli"
     ],
-    "stock": 40
+    "stock": 40,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-011",
@@ -448,7 +452,6 @@ var PRODUCTS = [
     ],
     "stock": 20,
     "age": [
-      "0-2",
       "2-5"
     ]
   },
@@ -468,8 +471,8 @@ var PRODUCTS = [
     ],
     "stock": 15,
     "age": [
-      "0-2",
-      "2-5"
+      "5-8",
+      "8+"
     ]
   },
   {
