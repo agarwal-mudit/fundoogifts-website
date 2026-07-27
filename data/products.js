@@ -1438,7 +1438,7 @@ var PRODUCTS = [
   },
   {
     "id": "prod-091",
-    "name": "Little-B Magnetic Drawing Board (80 Pieces)",
+    "name": "Little-B Magnetic Board (80 Pieces)",
     "categories": [
       "Toy Bundles"
     ],
@@ -1478,6 +1478,90 @@ var PRODUCTS = [
     "stock": 40,
     "age": [
       "any"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-093",
+    "name": "Magnetic Drawing Board - Big",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 200,
+    "fundooPrice": 140,
+    "offerPrice": 0,
+    "description": "Designed especially for young children, this magnetic drawing board measures 25 cm (Length) × 20 cm (Height)—making it lightweight, portable, and easy to carry. It's the perfect size for drawing, doodling, and learning at home, in the car, or while travelling.",
+    "images": [
+      "1ot8MkDivv7ApRCR0DWzuBN_dMLAeEct9",
+      "1aYoV1D9P3wakjjMvAUG1-zYe3H3UcnWv"
+    ],
+    "videos": [],
+    "stock": 24,
+    "age": [
+      "5-8"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-094",
+    "name": "Magnetic Drawing Board - Small",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 100,
+    "fundooPrice": 80,
+    "offerPrice": 0,
+    "description": "Designed for little hands, this magnetic drawing board measures 20 cm (Length) × 15 cm (Height). Its compact and lightweight design makes it easy to carry, store, and enjoy anywhere—whether at home, while travelling, or during outings. Perfect for creative fun on the go!",
+    "images": [
+      "1BNHQGOxAFztXcqpAbU2el0GqgIIEjdrB"
+    ],
+    "videos": [],
+    "stock": 24,
+    "age": [
+      "5-8"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-095",
+    "name": "Stationery Pouches",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 40,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "What's Inside:\n\n✏️ 2 Pencils\n📏 1 Ruler\n✂️ 1 Sharpener\n🧽 1 Eraser\n📝 1 Small Notepad",
+    "images": [
+      "19x3nk1PKsAJGSS35viC_hTR2S92lymCr",
+      "1pbx_lDgV8onR_fdiPBs1KQYUSd6SJbZ0"
+    ],
+    "videos": [],
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-096",
+    "name": "Stationery Set - Stand by Me",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 35,
+    "fundooPrice": 0,
+    "offerPrice": 0,
+    "description": "Everything your little one needs for school in one fun pack! Neatly packed in a gift-ready box, it's ideal for school, return gifts, and party favours.\n\nWhat's Inside:\n\n✏️ 2 Pencils\n📏 1 Ruler\n✂️ 1 Sharpener\n🧽 1 Eraser\n\nA practical and exciting stationery set that makes learning and writing even more fun!",
+    "images": [
+      "1lP1_fzWFlCPzlkzQmGt_LXVAEtAZWtW3"
+    ],
+    "videos": [],
+    "stock": 40,
+    "age": [
+      "5-8",
+      "8+"
     ],
     "gender": "any"
   }
