@@ -987,7 +987,7 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 100,
-    "fundooPrice": 55,
+    "fundooPrice": 60,
     "offerPrice": 0,
     "description": "Unleash your child's creativity with these fun and mess-free Water Colour Painting Books! Simply use the included brush and water to reveal vibrant colors hidden within the pages. Available in exciting themes like Unicorn, Dinosaur, Forest Animals, and Princess, each book offers hours of artistic fun while helping develop creativity and fine motor skills.\n\n✨ Features:\n\n10 pre-printed painting pages\nIncludes paintbrush\nWater-activated colors – no paints needed\nMess-free and easy to use\nEncourages creativity and imagination\nAvailable in multiple exciting themes\n\n🎁 Ideal For: Return gifts, birthday parties, travel activities, school projects, and creative play for kids aged 4+. 🎨🌈🦄🦖🦁👑",
     "images": [
