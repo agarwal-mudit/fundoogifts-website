@@ -22,8 +22,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 160,
-    "fundooPrice": 150,
-    "offerPrice": 120,
+    "fundooPrice": 120,
+    "offerPrice": 0,
     "description": "Eye-catching 3D pencil pouch with a fun pop-out design. Spacious enough for pens, pencils, erasers and more — a practical gift kids actually use every day.",
     "images": [
       "1KC5p07nO2UHrPK7K1AwryZPcwq2qiVmw"
@@ -38,8 +38,8 @@ var PRODUCTS = [
       "Harry Potter Collection"
     ],
     "mrp": 80,
-    "fundooPrice": 75,
-    "offerPrice": 60,
+    "fundooPrice": 60,
+    "offerPrice": 0,
     "description": "Magical Harry Potter themed keychain for young Potterheads. Sturdy metal build with detailed character design — clip it to bags, pencil cases, or zipper pulls.",
     "images": [
       "13eXnjYVKUGmGXtoKXBFp44OuJ6L8BQ6Y"
@@ -53,8 +53,8 @@ var PRODUCTS = [
       "Keychains"
     ],
     "mrp": 80,
-    "fundooPrice": 75,
-    "offerPrice": 60,
+    "fundooPrice": 60,
+    "offerPrice": 0,
     "description": "Adorable Kuromi character keychain that Sanrio fans will love. Lightweight and durable with vibrant colours — a cute collectible return gift.",
     "images": [
       "16qWStHMH2RSiTJyEXA0jkQVNn5L5l-3Q"
@@ -68,8 +68,8 @@ var PRODUCTS = [
       "Keychains"
     ],
     "mrp": 100,
-    "fundooPrice": 80,
-    "offerPrice": 60,
+    "fundooPrice": 60,
+    "offerPrice": 0,
     "description": "Mini camera-shaped keychain that projects fun images when you look through the viewfinder. A quirky, interactive gift that kids can't stop showing off.",
     "images": [
       "1CbVxStofiW_WXm-ofbLWHeMb-mvMrJ0x",
@@ -86,7 +86,7 @@ var PRODUCTS = [
     ],
     "mrp": 50,
     "fundooPrice": 45,
-    "offerPrice": 35,
+    "offerPrice": 0,
     "description": "Rainbow scratch art book with wooden stylus included. Kids scratch away the black coating to reveal vibrant colours underneath — hours of creative fun.",
     "images": [
       "1fW3n70KubtaT13d2s1F7uQUDdYqk5u7q",
@@ -117,7 +117,7 @@ var PRODUCTS = [
     ],
     "mrp": 50,
     "fundooPrice": 35,
-    "offerPrice": 30,
+    "offerPrice": 0,
     "description": "Fun character-themed pencil pouch with zippered closure. Compact enough for school bags and roomy enough for essentials — a practical gift kids love.",
     "images": [
       "1GetwgZU0gaiBQA2I5m80kjgtcQdCNWPx",
@@ -132,8 +132,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 200,
-    "fundooPrice": 120,
-    "offerPrice": 99,
+    "fundooPrice": 100,
+    "offerPrice": 0,
     "description": "Set of 12 vibrant acrylic markers that work on paper, canvas, rocks, and more. Quick-drying and water-resistant — great for budding young artists.",
     "images": [
       "1t7ulf0pP7GrbL5Yz4-QuJIfghru8FnAg",
@@ -148,8 +148,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 140,
-    "fundooPrice": 99,
-    "offerPrice": 70,
+    "fundooPrice": 100,
+    "offerPrice": 0,
     "description": "Cute bottle-shaped highlighter set with multiple bright colours. The novelty design makes studying and crafting more fun — a unique gift that stands out.",
     "images": [
       "190Y6fLrOUQkk4K9KszEqbhfJiXsABX3-",
@@ -164,8 +164,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 30,
-    "fundooPrice": 20,
-    "offerPrice": 15,
+    "fundooPrice": 15,
+    "offerPrice": 0,
     "description": "Pencil topped with a fun cartoon character figure. Available in assorted designs — an affordable return gift that kids will actually use at school.",
     "images": [
       "1ZkBkvloinI8jFr3TfCocYebEBAd46KFB",
@@ -181,7 +181,7 @@ var PRODUCTS = [
     ],
     "mrp": 99,
     "fundooPrice": 80,
-    "offerPrice": 70,
+    "offerPrice": 0,
     "description": "Personal diary with a built-in lock and key for keeping secrets safe. Colourful cover with lined pages inside — every kid's favourite gift to receive.",
     "images": [
       "1a3wo-OPP_zhX8grDwPmrd0FScPOSYJOV"
@@ -196,7 +196,7 @@ var PRODUCTS = [
     ],
     "mrp": 125,
     "fundooPrice": 80,
-    "offerPrice": 70,
+    "offerPrice": 0,
     "description": "Stylish mini diary that comes paired with a matching pen. Compact size fits perfectly in school bags — ideal for notes, doodles, and creative writing.",
     "images": [
       "14CGlL-dhII3-jRbQP_CNI_b8p7cf3prF"
@@ -225,8 +225,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 225,
-    "fundooPrice": 190,
-    "offerPrice": 150,
+    "fundooPrice": 180,
+    "offerPrice": 0,
     "description": "Soft, fluffy fur-covered diary that feels as good as it looks. Premium quality pages with a satisfying tactile cover — a gift that feels special to open.",
     "images": [
       "1UkrZAI4Ebpw1JTZvMn6zIvv5WHCtoFJm"
@@ -240,8 +240,8 @@ var PRODUCTS = [
       "Keychains"
     ],
     "mrp": 200,
-    "fundooPrice": 180,
-    "offerPrice": 120,
+    "fundooPrice": 120,
+    "offerPrice": 0,
     "description": "Mini keyboard-shaped keychain with tiny clickable keys. A fun fidget-friendly accessory that tech-loving kids will absolutely adore.",
     "images": [
       "1nSxsIc6ay4s4mlxL4o6BWKQNApKUZk2B"
@@ -255,8 +255,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 70,
-    "fundooPrice": 60,
-    "offerPrice": 50,
+    "fundooPrice": 50,
+    "offerPrice": 0,
     "description": "Reusable colouring book that reveals hidden pictures when painted with water. Colours disappear as the page dries so kids can use it again and again.",
     "images": [
       "1_Z7QQzmrejk9JhslY0_XBdKIVZBUX2Mx"
@@ -270,8 +270,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 110,
-    "fundooPrice": 99,
-    "offerPrice": 85,
+    "fundooPrice": 85,
+    "offerPrice": 0,
     "description": "Compact stationery set with pencils, eraser, sharpener, ruler and mini notepad all in one pack. Everything a kid needs, neatly bundled as a ready-to-gift set.",
     "images": [
       "1EhqWlZ46ch2lsJQSlBZHdvl2gv535jP9"
@@ -284,9 +284,9 @@ var PRODUCTS = [
     "categories": [
       "Stationery Sets"
     ],
-    "mrp": 300,
-    "fundooPrice": 199,
-    "offerPrice": 150,
+    "mrp": 200,
+    "fundooPrice": 150,
+    "offerPrice": 0,
     "description": "Diary with a built-in Pop-It fidget cover — write notes and pop bubbles in between. A satisfying sensory experience combined with everyday utility.",
     "images": [
       "19NdXIYDGWV0SEQuC6iJDmPPeqS20_P-x",
@@ -301,8 +301,8 @@ var PRODUCTS = [
       "Puzzle & Games"
     ],
     "mrp": 180,
-    "fundooPrice": 140,
-    "offerPrice": 120,
+    "fundooPrice": 130,
+    "offerPrice": 0,
     "description": "Classic rope puzzle that challenges kids to untangle and solve. Builds problem-solving skills and patience — a screen-free activity the whole family can enjoy.",
     "images": [
       "1NPp2XFJFnfUO8-2NWnD3asOREyuMR5FX"
@@ -316,13 +316,13 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 200,
-    "fundooPrice": 150,
-    "offerPrice": 110,
+    "fundooPrice": 120,
+    "offerPrice": 0,
     "description": "Two-in-one writing board with a whiteboard on one side and a chalkboard on the other. Comes with marker and chalk — perfect for learning, doodling, and play.",
     "images": [
       "15Adp39uHrdLlSJO6N8Jc9PDrRCtQV50V"
     ],
-    "stock": 12
+    "stock": 0
   },
   {
     "id": "prod-025",
@@ -331,8 +331,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 110,
-    "fundooPrice": 99,
-    "offerPrice": 80,
+    "fundooPrice": 90,
+    "offerPrice": 0,
     "description": "Collection of fun-shaped stamps with a built-in ink pad. Kids can stamp colourful patterns on paper, cards and crafts — an easy creative activity for any age.",
     "images": [
       "1HStvnLFZMX1J8WlJ0zqhUX1s5IB4yem3",
@@ -347,8 +347,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 120,
-    "fundooPrice": 100,
-    "offerPrice": 80,
+    "fundooPrice": 90,
+    "offerPrice": 0,
     "description": "Set of 6 silky crayons offers a vibrant and unique coloring experience for both kids and adults alike.\n\nThis set features six high-quality crayons, each designed with a smooth, silky texture that glides effortlessly on paper.\n\nThe bold neon shades and shimmering metallic finishes bring your artwork to life, adding depth and a touch of sparkle to every creation. Whether you're drawing, shading, or creating intricate designs, these crayons provide rich, bright colors that are perfect for various art projects.",
     "images": [
       "1z9-gC7VM_pc50kbDjJDL5LFtMHuUkVvq",
@@ -363,8 +363,8 @@ var PRODUCTS = [
       "Toy Bundles"
     ],
     "mrp": 150,
-    "fundooPrice": 120,
-    "offerPrice": 99,
+    "fundooPrice": 100,
+    "offerPrice": 0,
     "description": "Transform any room into a world of imagination with our Magical Kids Projection Flashlight! This exciting 2-in-1 toy works as both a flashlight and an image projector, displaying over 24 colorful and captivating scenes that come alive on walls and ceilings. Ideal for bedtime storytelling, creative playtime, or as a unique return gift for children's birthday parties, this fun-filled toy inspires curiosity, creativity, and endless wonder through the magic of light and projection.",
     "images": [
       "1GfveVM4nmmoHTzlY0ToOrTZ6Z1SbJMqy",
@@ -379,8 +379,8 @@ var PRODUCTS = [
       "Puzzle & Games"
     ],
     "mrp": 280,
-    "fundooPrice": 150,
-    "offerPrice": 130,
+    "fundooPrice": 130,
+    "offerPrice": 0,
     "description": "Magnetic Kluster Board Game | Magnet Game Fun Table Top Strategy Game Magnetic STEM, Magnetic Board Game for Kids & Adults with 24 Magnets",
     "images": [
       "1H3FTJTeE672MKVANQPB7xXwZu0cr0A0b",
@@ -395,8 +395,8 @@ var PRODUCTS = [
       "Toy Bundles"
     ],
     "mrp": 270,
-    "fundooPrice": 230,
-    "offerPrice": 210,
+    "fundooPrice": 210,
+    "offerPrice": 0,
     "description": "🌟 Build Positive Habits with Ease: Stay focused, organized, and motivated every day with this Daily Habit Tracker Board. Perfect for managing routines, goals, chores, and tasks for both children and adults.\n\n✅ Fun & Interactive Task Tracking: Equipped with 10 customizable task slots and simple flip buttons (✔/✘), making it easy to mark activities as completed or pending while adding a fun element to productivity.\n\n♻️ Reusable & Eco-Friendly: Includes 15 durable reusable planning cards that can be swapped and reused daily, helping reduce paper waste while keeping your schedule organized.\n\n📈 Track Progress & Stay Motivated: Features a dedicated motivational quote section and a weekly progress card to help build consistency, celebrate achievements, and maintain momentum.\n\n🏠 Flexible Display Options: Designed with both a fold-out stand and wall-mount slots, allowing convenient use on desks, study tables, office workspaces, or classroom walls.\n\n📏 Product Details: Crafted from premium-quality durable plastic with a smooth finish. Compact and lightweight design measuring 22 × 13.5 cm (8.6 × 5.3 inches). Available in attractive Blue and Pink colors.\n\n📦 What's Included: 1 Habit Tracker Board, 15 Reusable Planning Cards, 1 Weekly Progress Card, and 1 Motivational Quote Sheet.",
     "images": [
       "15Rd5E3yghSxzYMJ3bVZz2vJpyIFg34PK",
@@ -413,8 +413,8 @@ var PRODUCTS = [
       "K-Pop Collection"
     ],
     "mrp": 250,
-    "fundooPrice": 180,
-    "offerPrice": 150,
+    "fundooPrice": 150,
+    "offerPrice": 0,
     "description": "🎒 Portable & Travel-Friendly: Featuring a compact and lightweight design, this diary slips easily into school bags, backpacks, or handbags, making it a great companion for school, travel, and everyday note-taking.\n\n🎁 Wonderful Gift for Young Girls & Boys: A stylish and charming diary that's perfect for girls who enjoy pop culture, K-pop, music, creativity, and fashionable stationery.\n\n📝 Versatile Blank Pages: Filled with plain pages that provide the freedom to write journals, draw sketches, create doodles, record memories, or capture personal thoughts and ideas.",
     "images": [
       "1oob2qRDDzuWWb1uP8Hvt-6U1KYjkEtz0",
@@ -430,8 +430,8 @@ var PRODUCTS = [
       "K-Pop Collection"
     ],
     "mrp": 150,
-    "fundooPrice": 100,
-    "offerPrice": 90,
+    "fundooPrice": 80,
+    "offerPrice": 0,
     "description": "✨ Capture Your Thoughts in Style with the K-Pop Demon Hunters Spiral Journal! Designed for K-pop enthusiasts and kawaii stationery lovers, this anime-inspired journal features eye-catching demon hunter artwork with vibrant Korean pop culture aesthetics, making it a fun and stylish companion for everyday creativity.\n\n📝 Perfect for Writing, Planning & Creativity: Whether you're journaling, taking notes, sketching, brainstorming ideas, setting goals, or organizing your day, this versatile journal provides plenty of space to express yourself.\n\n📚 Durable Spiral-Bound Design: Built with sturdy spiral binding and smooth-quality pages, allowing the journal to open flat for comfortable writing and easy page turning.\n\n🎒 Compact & Travel-Friendly: The convenient A5 size fits easily into backpacks, handbags, and tote bags, making it ideal for school, college, work, travel, or daily use.\n\n💜 Made for K-Pop & Anime Fans: Combining trendy Korean-inspired style with adorable anime artwork, this journal adds personality and aesthetic charm to any workspace, study desk, or stationery collection.\n\n🎁 Thoughtful Gift Idea: A perfect single-piece gift for birthdays, return gifts, special occasions, or anyone who loves K-pop, anime, journaling, and unique stationery.",
     "images": [
       "1vVsn7bLqsolS7aqs1ShU0jlvBjfHm5yg"
@@ -444,7 +444,7 @@ var PRODUCTS = [
     "categories": [
       "Art & Craft"
     ],
-    "mrp": 99,
+    "mrp": 100,
     "fundooPrice": 0,
     "offerPrice": 0,
     "description": "🎨 Fun DIY Colouring Backpack Activity – Let kids unleash their creativity by decorating and personalizing their own drawstring bags using crayons, coloured pencils, sketch pens, or markers. A fun art-and-craft activity for all ages. (Colouring materials not included.)\n\n\n🌈 Encourages Creativity & Learning – Inspires imagination, artistic expression, concentration, and fine motor skill development while providing hours of engaging, screen-free fun.\n\n♻️ Reusable & Environment-Friendly – Crafted from durable cotton fabric that can be used again and again, offering a sustainable alternative to disposable plastic bags.\n\n🎁 Ideal for Gifts & Events – Great for birthday return gifts, classroom activities, art workshops, summer camps, festive celebrations, party favors, and creative group events.",
@@ -461,8 +461,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 100,
-    "fundooPrice": 80,
-    "offerPrice": 60,
+    "fundooPrice": 60,
+    "offerPrice": 0,
     "description": "🎨 Create, Color & Wear Your Artwork – Turn an ordinary apron into a personalized masterpiece! Kids can decorate the apron with crayons, fabric markers, sketch pens, or paints, making every design unique and special. (Coloring supplies not included.)\n\n👩‍🎨 Fun Creative Activity for Children – Encourages imagination, artistic expression, and hands-on learning while keeping kids engaged in a screen-free activity they can proudly wear.\n\n🧵 Comfortable & Durable Design – Made from lightweight, breathable fabric that is comfortable for children to wear during art projects, cooking activities, school events, and playtime.\n\n🌟 Boosts Creativity & Confidence – Helps develop fine motor skills, focus, and creativity while giving children a sense of accomplishment through their own custom-designed apron.\n\n♻️ Reusable & Eco-Friendly – Designed for repeated use, allowing kids to enjoy their personalized apron for art, crafts, baking, gardening, and other fun activities.\n\n🎁 Perfect for Gifts & Group Activities – Ideal for birthday return gifts, school projects, art and craft workshops, summer camps, festive events, party activities, and creative classroom sessions.",
     "images": [
       "1Lxak0t1XIWki_cKbI3vLqp4cG4zUQwgF"
@@ -476,8 +476,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 250,
-    "fundooPrice": 200,
-    "offerPrice": 180,
+    "fundooPrice": 180,
+    "offerPrice": 0,
     "description": "🎨 Pack of 2 Cartoon Sketch Pen Sets – Each set includes 12 vibrant fluorescent sketch pens neatly packed inside an adorable cartoon-themed storage case, making coloring fun and exciting for kids.\n\n🌈 Bright Fluorescent Colors – Features eye-catching fluorescent shades that create colorful artwork with a unique glow-like appearance. Please note that these are light fluorescent colors and not traditional dark sketch pen shades.\n\n✏️ Comfortable Pencil-Style Grip – Designed with a slim, easy-to-hold shape that provides better control and comfort for little hands while drawing, coloring, and writing.\n\n🧰 Cute & Reusable Storage Case – Comes in an attractive cartoon-themed plastic case that is lightweight, durable, and easy to carry. The secure opening and closing mechanism helps keep pens organized.\n\n♻️ Multi-Purpose Case – Once the sketch pens are used, the sturdy case can be reused as a pencil box or for storing small stationery items and accessories.\n\n🎁 Perfect Gift for Kids – An excellent choice for birthday return gifts, goodie bags, gift hampers, classroom rewards, party favors, and festive gifting. The pack of 2 makes it easy to share or gift.",
     "images": [
       "1HnQUiPq0rnAmRNzk3fTODubalD7AejwG",
@@ -497,8 +497,8 @@ var PRODUCTS = [
       "Keychains"
     ],
     "mrp": 100,
-    "fundooPrice": 80,
-    "offerPrice": 60,
+    "fundooPrice": 60,
+    "offerPrice": 0,
     "description": "🧸 Adorable Fur Doll Keychains – Soft, fluffy, and irresistibly cute, these fur doll keychains are the perfect accessory to add charm to backpacks, handbags, school bags, purses, and keyrings.\n\n✨ Unique & Assorted Designs – Available in a variety of delightful styles, including dolls with or without legs, with or without woollen caps, and with or without headphones. Each design has its own unique personality and appeal.\n\n🎀 Soft & Premium Fur Finish – Crafted with plush, high-quality fur material that feels soft to the touch while maintaining its fluffy appearance for long-lasting enjoyment.\n\n🔑 Lightweight & Easy to Carry – Designed with a sturdy keyring attachment, making it easy to clip onto keys, bags, zipper pulls, pencil pouches, and other accessories.\n\n🌈 Cute Fashion Accessory – A fun way to personalize everyday items while adding a touch of color, style, and cuteness to your daily essentials.\n\n🎁 Perfect for Gifting – Ideal for birthday return gifts, goodie bags, party favors, stocking fillers, festive gifts, and collectible accessories for kids, teens, and anyone who loves cute plush charms.\n\n📦 Please Note: Designs are assorted and may vary. Dolls may be supplied with or without legs, woollen caps, or headphones depending on availability.",
     "images": [
       "1YIRs9MYZa_gokcx8BEoytR_gZ4a3rqAR",
@@ -516,7 +516,7 @@ var PRODUCTS = [
     ],
     "mrp": 30,
     "fundooPrice": 25,
-    "offerPrice": 20,
+    "offerPrice": 0,
     "description": "🚓 Fun Police Push Car Keychain – A playful miniature police car keychain that doubles as a push-and-go toy, bringing excitement and entertainment wherever you go.\n\n✨ 2-in-1 Toy & Keychain – Functions as both a stylish keyring accessory and a fun toy car, making it perfect for attaching to keys, backpacks, school bags, pencil cases, and more.\n\n🏎️ Push & Roll Action – Simply push the car forward and watch it glide smoothly, providing endless fun for kids and car enthusiasts alike.\n\n💪 Durable & Lightweight Design – Made from sturdy, high-quality materials that are built to withstand everyday use while remaining easy to carry.\n\n🎒 Portable & Travel-Friendly – Compact size makes it convenient to carry in pockets, bags, or attach to accessories for on-the-go fun.\n\n🎁 Perfect Gift & Return Favor – An excellent choice for birthday return gifts, party favors, classroom rewards, goodie bags, festive gifting, and toy collections.\n\n🌟 Attractive Police Car Design – Features a detailed police vehicle look that appeals to children who love cars, emergency vehicles, and imaginative play.",
     "images": [
       "1P7ASBrsX12c8pKQ9sv0hr81ysIEcc3_9"
@@ -530,8 +530,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 270,
-    "fundooPrice": 150,
-    "offerPrice": 130,
+    "fundooPrice": 140,
+    "offerPrice": 0,
     "description": "🚀 Creative 2-in-1 Coloring & Scratch Art Set – This fun-filled activity kit includes a 30-page coloring book featuring exciting unicorn and space-themed illustrations, along with a scratch art pad for endless creative exploration.\n\n🎨 Learn Through Creative Play – Packed with engaging images such as astronauts, rockets, planets, unicorns, and more, the coloring book encourages imagination while helping develop fine motor skills and hand-eye coordination.\n\n✨ Exciting Scratch Art Experience – The included scratch art pad lets children reveal colorful hidden designs by scratching the surface, adding an extra layer of fun and discovery to their artwork.\n\n🖍️ 8 Dual-Colored Pencils Included – Comes complete with 8 dual-color pencils, providing a variety of shades for coloring, sketching, shading, and creative expression right out of the box.\n\n🌈 Encourages Creativity & Self-Expression – Offers multiple ways for kids to create, whether they prefer coloring detailed illustrations or uncovering vibrant scratch art patterns.\n\n🎁 Perfect Gift for Kids – An excellent choice for birthdays, return gifts, travel activities, holiday surprises, classroom rewards, and rainy-day entertainment.\n\n⏰ Hours of Screen-Free Fun – Designed to keep children engaged and entertained with creative activities that inspire learning, imagination, and artistic confidence.",
     "images": [
       "1ByIrLk-aQdy6CF6_750tW0P-HILj4m2f",
