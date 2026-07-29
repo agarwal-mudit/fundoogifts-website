@@ -51,13 +51,8 @@ document.addEventListener('DOMContentLoaded', function () {
     container.className = 'price-group';
     var mrp = p.mrp || 0;
     var fp = p.fundooPrice || 0;
-    var op = p.offerPrice || 0;
 
-    if (op > 0 && fp > 0 && mrp > 0) {
-      container.appendChild(makePriceItem('MRP', mrp, 'price-mrp'));
-      container.appendChild(makePriceItem('Fundoo', fp, 'price-fundoo'));
-      container.appendChild(makePriceItem('Offer', op, 'price-highlight'));
-    } else if (fp > 0 && mrp > 0) {
+    if (fp > 0 && mrp > 0) {
       container.appendChild(makePriceItem('MRP', mrp, 'price-mrp'));
       container.appendChild(makePriceItem('Fundoo Price', fp, 'price-highlight'));
     } else if (mrp > 0) {

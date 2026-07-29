@@ -9,7 +9,6 @@
   };
 
   function effectivePrice(p) {
-    if (p.offerPrice > 0) return p.offerPrice;
     if (p.fundooPrice > 0) return p.fundooPrice;
     return p.mrp || 0;
   }
@@ -211,9 +210,6 @@
 
   function formatPrice(p) {
     var ep = effectivePrice(p);
-    if (p.offerPrice > 0 && p.mrp > p.offerPrice) {
-      return '₹' + ep + ' (MRP ₹' + p.mrp + ')';
-    }
     if (p.fundooPrice > 0 && p.mrp > p.fundooPrice) {
       return '₹' + ep + ' (MRP ₹' + p.mrp + ')';
     }
