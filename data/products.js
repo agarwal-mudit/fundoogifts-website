@@ -210,8 +210,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 200,
-    "fundooPrice": 150,
-    "offerPrice": 110,
+    "fundooPrice": 120,
+    "offerPrice": 0,
     "description": "Set of 12 dual-tip markers with a fine point on one end and a broad tip on the other. Rich, blendable colours for drawing, colouring, and craft projects.",
     "images": [
       "1SSWdI1pVj2xcX6AHmeAyJuamjYcMC96t"
@@ -548,8 +548,8 @@ var PRODUCTS = [
       "K-Pop Collection"
     ],
     "mrp": 275,
-    "fundooPrice": 200,
-    "offerPrice": 150,
+    "fundooPrice": 160,
+    "offerPrice": 0,
     "description": "💜 Trendy K-Pop Cross Body Double Zip Bag – A stylish and practical accessory inspired by Korean fashion trends, perfect for K-pop fans and anyone who loves cute, aesthetic accessories.\n\n👜 Spacious Double-Zip Design – Features two separate zippered compartments to help organize essentials such as a phone, wallet, keys, stationery, cosmetics, and other daily necessities.\n\n✨ Fashionable K-Pop-Inspired Style – Designed with eye-catching details and trendy aesthetics that add a fun and modern touch to any outfit.\n\n🎒 Comfortable Crossbody Carry – Comes with an adjustable shoulder strap for convenient hands-free use, making it ideal for shopping, travel, outings, school, and everyday wear.\n\n💪 Durable & Lightweight Construction – Made from quality materials that are sturdy enough for daily use while remaining lightweight and comfortable to carry.\n\n🌈 Versatile for Everyday Use – Perfect for carrying personal belongings while keeping them secure, organized, and easily accessible throughout the day.\n\n🎁 Great Gift for K-Pop Lovers – An ideal gift for birthdays, return gifts, festive occasions, party favors, or anyone who enjoys Korean-inspired fashion and accessories.",
     "images": [
       "1-e7yTY-o537vNJ6v7CjfFNWm-WQxD3wQ",
@@ -564,8 +564,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 30,
-    "fundooPrice": 20,
-    "offerPrice": 15,
+    "fundooPrice": 15,
+    "offerPrice": 0,
     "description": "✏️ Lead Pencil with Whistle Topper – A fun and playful pencil featuring a cute whistle attachment on top. Perfect for writing, drawing, and everyday school use, while adding an extra element of fun for kids. An ideal choice for birthday return gifts, party favors, classroom rewards, and goodie bags.",
     "images": [
       "19WkZ8P256c0PeCYiER6L4NjLlfR5c9iU"
@@ -579,8 +579,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 30,
-    "fundooPrice": 20,
-    "offerPrice": 15,
+    "fundooPrice": 15,
+    "offerPrice": 0,
     "description": "✏️ Maze Game Pencil – A fun stationery item with a built-in maze game topper that keeps kids entertained while they write and draw. Colorful, lightweight, and easy to use, it's a popular pick for return gifts, school events, and party giveaways.",
     "images": [
       "1Ext_oGVutVKdHZdkRlSbncpInRRxd6TE"
@@ -658,8 +658,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 145,
-    "fundooPrice": 110,
-    "offerPrice": 99,
+    "fundooPrice": 70,
+    "offerPrice": 0,
     "description": "🌈 Soft Clay Pouches (Pack of 10) – Let creativity take shape with this colorful pack of 10 soft clay pouches. Easy to mold, stretch, and create, these vibrant clay packs are perfect for art projects, imaginative play, and developing fine motor skills. A fun choice for birthday return gifts, party favors, classroom activities, and creative playtime.",
     "images": [
       "1omu0L_ss7094ToIJJi7dwz7-pqXZAeIL",
@@ -690,8 +690,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 100,
-    "fundooPrice": 80,
-    "offerPrice": 60,
+    "fundooPrice": 60,
+    "offerPrice": 0,
     "description": "🚀🍔 Space & Burger Shaped Erasers – Make learning more fun with these adorable novelty erasers shaped like astronauts, rockets, burgers, and other playful designs. Cute, colorful, and functional, they're perfect for correcting mistakes while adding excitement to school supplies. Ideal for birthday return gifts, party favors, classroom rewards, and stationery collections.",
     "images": [
       "1poEJs6rVoZm9I8YCGsTYdpvwlMU2-Imt",
@@ -724,7 +724,7 @@ var PRODUCTS = [
     ],
     "mrp": 100,
     "fundooPrice": 80,
-    "offerPrice": 70,
+    "offerPrice": 0,
     "description": "🌈 Squishy Mesh Ball – Squeeze, stretch, and squish your stress away with this colorful mesh ball filled with vibrant gel beads. Soft, satisfying, and fun to play with, it provides a unique sensory experience that kids and adults will love. Perfect for stress relief, fidget play, birthday return gifts, party favors, and goodie bags.",
     "images": [
       "1jGQKeSIGqbEEPO5euXO_7ZhMbabjA3be",
@@ -740,8 +740,8 @@ var PRODUCTS = [
       "Toy Bundles"
     ],
     "mrp": 150,
-    "fundooPrice": 120,
-    "offerPrice": 100,
+    "fundooPrice": 80,
+    "offerPrice": 0,
     "description": "🥚 Squishy Egg Stress Ball – A fun and satisfying sensory toy that looks just like a real egg! Squeeze, stretch, and squish it to enjoy a relaxing tactile experience. Soft, durable, and endlessly entertaining, it's perfect for stress relief, fidget play, birthday return gifts, party favors, and goodie bags.",
     "images": [
       "13NK7kE1tXwJe9yZHEIHLvpRVXjHOk5ke",
@@ -805,7 +805,7 @@ var PRODUCTS = [
     "categories": [
       "Toy Bundles"
     ],
-    "mrp": 99,
+    "mrp": 100,
     "fundooPrice": 0,
     "offerPrice": 0,
     "description": "🦟 Kids Mosquito Repellent Character Wrist Band – Keep little ones protected outdoors with these fun character-themed mosquito repellent wrist bands. Lightweight, comfortable, and easy to wear, they feature cute designs that kids love while helping keep mosquitoes away. Perfect for school, parks, travel, outdoor play, camping, and everyday use.",
@@ -824,8 +824,8 @@ var PRODUCTS = [
       "Toy Bundles"
     ],
     "mrp": 180,
-    "fundooPrice": 150,
-    "offerPrice": 130,
+    "fundooPrice": 130,
+    "offerPrice": 0,
     "description": "🍍 Portable Rechargeable Mini Fan – A stylish handheld fan with a fun fruit-inspired design and powerful cooling breeze. Compact, rechargeable, and easy to use, it's ideal for travel, outdoor adventures, school, and daily use.",
     "images": [
       "1OZsBrw0GXNo0hn5Owb9kulOcx9oE31p2",
@@ -840,8 +840,8 @@ var PRODUCTS = [
       "Toy Bundles"
     ],
     "mrp": 200,
-    "fundooPrice": 150,
-    "offerPrice": 120,
+    "fundooPrice": 100,
+    "offerPrice": 0,
     "description": "🦖 Grow-in-Water Animal Capsules – Drop these colorful capsules into water and watch them magically expand into fun animal figures! Available in exciting themes including Dinosaurs, Farm Animals, Ocean Animals, and Wild Animals, they offer a surprising and educational play experience for kids. Perfect for party favors, birthday return gifts, classroom rewards, and screen-free fun.",
     "images": [
       "1oyZX2NeRrdMV0dGsYqMlnwAzVfSV6F2P",
@@ -859,8 +859,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 150,
-    "fundooPrice": 120,
-    "offerPrice": 99,
+    "fundooPrice": 100,
+    "offerPrice": 0,
     "description": "🎨 Magical 3D Painting Kit – Bring creativity to life with this fun 3D painting activity set. Kids can color their favorite designs using the included markers and enjoy a unique hands-on art experience. Easy to use and engaging, it encourages imagination, creativity, and artistic expression. Perfect for birthday return gifts, party favors, travel activities, and screen-free fun.",
     "images": [
       "1NzqmjbI44xqhrWskx-aS5yAmIPXSHkPi"
@@ -874,8 +874,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 200,
-    "fundooPrice": 150,
-    "offerPrice": 120,
+    "fundooPrice": 120,
+    "offerPrice": 0,
     "description": "✏️ Kids Stationery Gift Set – A fun and colorful collection of stationery essentials that kids will love. Perfect for school, creative activities, birthday return gifts, goodie bags, and special occasions. Practical, exciting, and ready to gift!",
     "images": [
       "1dOhPJFYWsGdVtBtG-hntXLIo6DMwxoKS",
@@ -890,8 +890,8 @@ var PRODUCTS = [
       "Toy Bundles"
     ],
     "mrp": 180,
-    "fundooPrice": 120,
-    "offerPrice": 100,
+    "fundooPrice": 100,
+    "offerPrice": 0,
     "description": "🦄 Cute Unicorn Piggy Bank – Make saving money fun with this adorable unicorn-themed piggy bank. Perfect for teaching kids the value of saving while adding a touch of magic to their room décor. Lightweight, durable, and ideal as a birthday gift, return gift, or special surprise for unicorn lovers.",
     "images": [
       "1OnsLAmDN4x1NWM2sxO-p-ksWbKaQ9B6s",
@@ -908,7 +908,7 @@ var PRODUCTS = [
     ],
     "mrp": 35,
     "fundooPrice": 30,
-    "offerPrice": 25,
+    "offerPrice": 0,
     "description": "Rainbow scratch art book with wooden stylus included. Kids scratch away the black coating to reveal vibrant colours underneath — hours of creative fun.",
     "images": [
       "1zLHuSopuId7AeG9BEzMyoTLmNL3TaP95"
@@ -954,8 +954,8 @@ var PRODUCTS = [
       "Harry Potter Collection"
     ],
     "mrp": 150,
-    "fundooPrice": 100,
-    "offerPrice": 90,
+    "fundooPrice": 80,
+    "offerPrice": 0,
     "description": "Capture your magical thoughts, notes, and ideas in this Harry Potter-themed mini journal. Featuring vibrant artwork, a sturdy spiral binding, and compact size, it's perfect for school, travel, or everyday use.\n\n✨ Features:\n\nEye-catching Harry Potter-inspired cover design\nDurable spiral binding for easy page turning\nCompact and lightweight to carry anywhere\nIdeal for notes, doodles, journaling, and reminders\nGreat collectible for wizarding world fans\n\n🎁 Ideal For: Return gifts, party favors, school stationery, and Harry Potter lovers of all ages.",
     "images": [
       "1yFSlfg6YLElmTFGlXWIsKumfzVBDaa8X",
@@ -970,8 +970,8 @@ var PRODUCTS = [
       "Stationery Sets"
     ],
     "mrp": 150,
-    "fundooPrice": 100,
-    "offerPrice": 90,
+    "fundooPrice": 80,
+    "offerPrice": 0,
     "description": "Score big with this Football Star Mini Journal! Featuring vibrant football-themed cover designs inspired by legendary players, this compact spiral notebook is perfect for notes, doodles, schoolwork, and daily journaling. A must-have for young football fans.\n\n✨ Features:\n\nExciting football-themed cover designs\nCompact size, easy to carry anywhere\nDurable spiral binding\nSmooth pages for writing and sketching\nGreat collectible for sports lovers\n\n🎁 Ideal For: Return gifts, birthday party favors, school rewards, football fans, and everyday stationery use.\n\nAvailable in multiple football star designs and team-inspired covers. ⚽📖🏆",
     "images": [
       "1C5dL3M4pgDuVftlC-oicoYhK5fhO2edO",
@@ -987,8 +987,8 @@ var PRODUCTS = [
       "Art & Craft"
     ],
     "mrp": 100,
-    "fundooPrice": 90,
-    "offerPrice": 60,
+    "fundooPrice": 55,
+    "offerPrice": 0,
     "description": "Unleash your child's creativity with these fun and mess-free Water Colour Painting Books! Simply use the included brush and water to reveal vibrant colors hidden within the pages. Available in exciting themes like Unicorn, Dinosaur, Forest Animals, and Princess, each book offers hours of artistic fun while helping develop creativity and fine motor skills.\n\n✨ Features:\n\n10 pre-printed painting pages\nIncludes paintbrush\nWater-activated colors – no paints needed\nMess-free and easy to use\nEncourages creativity and imagination\nAvailable in multiple exciting themes\n\n🎁 Ideal For: Return gifts, birthday parties, travel activities, school projects, and creative play for kids aged 4+. 🎨🌈🦄🦖🦁👑",
     "images": [
       "1q9c5cqL3j5Z8wcSIuFMk3LkEB7AyU1t-",
