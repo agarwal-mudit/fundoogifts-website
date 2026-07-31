@@ -13,7 +13,11 @@ var PRODUCTS = [
       "11xXUW-dPYnDCzKmYOsCs3Yo-qGBpBmAg"
     ],
     "videos": [],
-    "stock": 14
+    "stock": 14,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-005",
@@ -28,7 +32,12 @@ var PRODUCTS = [
     "images": [
       "1KC5p07nO2UHrPK7K1AwryZPcwq2qiVmw"
     ],
-    "stock": 20
+    "stock": 20,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-006",
@@ -44,7 +53,11 @@ var PRODUCTS = [
     "images": [
       "13eXnjYVKUGmGXtoKXBFp44OuJ6L8BQ6Y"
     ],
-    "stock": 10
+    "stock": 10,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-007",
@@ -59,7 +72,11 @@ var PRODUCTS = [
     "images": [
       "16qWStHMH2RSiTJyEXA0jkQVNn5L5l-3Q"
     ],
-    "stock": 10
+    "stock": 10,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-008",
@@ -76,7 +93,11 @@ var PRODUCTS = [
       "1h_vpY9gjEvrvuHCs0EZVNAImSxrNjNy-",
       "1AV_1larXWec_pVUFnHdaZdzgDAiQmQLK"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-009",
@@ -92,7 +113,11 @@ var PRODUCTS = [
       "1fW3n70KubtaT13d2s1F7uQUDdYqk5u7q",
       "1z7plaG1Xpl4JQNsrY-FyhaWwnHZqOXrS"
     ],
-    "stock": 20
+    "stock": 20,
+    "age": [
+      "2-5",
+      "5-8"
+    ]
   },
   {
     "id": "prod-010",
@@ -107,7 +132,12 @@ var PRODUCTS = [
     "images": [
       "1ttjTUV6CqNIQ5z-fbwBnpNUXSqa78xli"
     ],
-    "stock": 40
+    "stock": 40,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-011",
@@ -123,7 +153,11 @@ var PRODUCTS = [
       "1GetwgZU0gaiBQA2I5m80kjgtcQdCNWPx",
       "1zgAd6I-2ddEThioxeC3rZWopdPU3pzkb"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-012",
@@ -139,7 +173,11 @@ var PRODUCTS = [
       "1t7ulf0pP7GrbL5Yz4-QuJIfghru8FnAg",
       "1R7H-JpFV_PeRPzsB0mncZp1eYQ1V8wco"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-013",
@@ -155,7 +193,11 @@ var PRODUCTS = [
       "190Y6fLrOUQkk4K9KszEqbhfJiXsABX3-",
       "18Z1g379Uw2_3zKtdcz9O1yxsh1mYvv6D"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-014",
@@ -171,7 +213,11 @@ var PRODUCTS = [
       "1ZkBkvloinI8jFr3TfCocYebEBAd46KFB",
       "1g5zEx-B_t_FDYPF4DPQbxKjEXpAibQ3S"
     ],
-    "stock": 48
+    "stock": 48,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-015",
@@ -186,7 +232,11 @@ var PRODUCTS = [
     "images": [
       "1a3wo-OPP_zhX8grDwPmrd0FScPOSYJOV"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-016",
@@ -201,7 +251,11 @@ var PRODUCTS = [
     "images": [
       "14CGlL-dhII3-jRbQP_CNI_b8p7cf3prF"
     ],
-    "stock": 16
+    "stock": 16,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-017",
@@ -216,7 +270,11 @@ var PRODUCTS = [
     "images": [
       "1SSWdI1pVj2xcX6AHmeAyJuamjYcMC96t"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-018",
@@ -231,7 +289,11 @@ var PRODUCTS = [
     "images": [
       "1UkrZAI4Ebpw1JTZvMn6zIvv5WHCtoFJm"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "8+"
+    ],
+    "gender": "girls"
   },
   {
     "id": "prod-019",
@@ -246,7 +308,11 @@ var PRODUCTS = [
     "images": [
       "1nSxsIc6ay4s4mlxL4o6BWKQNApKUZk2B"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-020",
@@ -261,7 +327,12 @@ var PRODUCTS = [
     "images": [
       "1_Z7QQzmrejk9JhslY0_XBdKIVZBUX2Mx"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-021",
@@ -276,7 +347,11 @@ var PRODUCTS = [
     "images": [
       "1EhqWlZ46ch2lsJQSlBZHdvl2gv535jP9"
     ],
-    "stock": 20
+    "stock": 20,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-022",
@@ -292,7 +367,12 @@ var PRODUCTS = [
       "19NdXIYDGWV0SEQuC6iJDmPPeqS20_P-x",
       "1lHyEWuUN5ebEPYf2jeT7UsZFM8Hzswac"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
   },
   {
     "id": "prod-023",
@@ -307,7 +387,11 @@ var PRODUCTS = [
     "images": [
       "1NPp2XFJFnfUO8-2NWnD3asOREyuMR5FX"
     ],
-    "stock": 14
+    "stock": 14,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-024",
@@ -322,7 +406,11 @@ var PRODUCTS = [
     "images": [
       "15Adp39uHrdLlSJO6N8Jc9PDrRCtQV50V"
     ],
-    "stock": 0
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8"
+    ]
   },
   {
     "id": "prod-025",
@@ -338,7 +426,11 @@ var PRODUCTS = [
       "1HStvnLFZMX1J8WlJ0zqhUX1s5IB4yem3",
       "159xbansbg0rjnMVJ1sVhWNLsVpnAUlsA"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-027",
@@ -354,7 +446,11 @@ var PRODUCTS = [
       "1z9-gC7VM_pc50kbDjJDL5LFtMHuUkVvq",
       "1usqkl6dpvhyUJuUwlz7NqqyhI5qXnOc2"
     ],
-    "stock": 20
+    "stock": 20,
+    "age": [
+      "0-2",
+      "2-5"
+    ]
   },
   {
     "id": "prod-028",
@@ -370,7 +466,12 @@ var PRODUCTS = [
       "1GfveVM4nmmoHTzlY0ToOrTZ6Z1SbJMqy",
       "1bHcjIwdPM5GOHA2QRXDM7hnaPwniLMm_"
     ],
-    "stock": 15
+    "stock": 15,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-029",
@@ -386,7 +487,11 @@ var PRODUCTS = [
       "1H3FTJTeE672MKVANQPB7xXwZu0cr0A0b",
       "1y1FXWqTgAyYztysrorIxukNYWXphzXDE"
     ],
-    "stock": 15
+    "stock": 15,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-030",
@@ -403,7 +508,11 @@ var PRODUCTS = [
       "1bLxAjExmqmpqiKq-S7x31UcdkLgyVl44",
       "13G1xSMrUBZqZIK-EsrgGnP7KAH_kU2pA"
     ],
-    "stock": 15
+    "stock": 15,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-031",
@@ -420,7 +529,12 @@ var PRODUCTS = [
       "1oob2qRDDzuWWb1uP8Hvt-6U1KYjkEtz0",
       "154nfTYOH3la5Xnr7gLqm8Qx1PHNXZGiZ"
     ],
-    "stock": 10
+    "stock": 10,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
   },
   {
     "id": "prod-032",
@@ -436,7 +550,12 @@ var PRODUCTS = [
     "images": [
       "1vVsn7bLqsolS7aqs1ShU0jlvBjfHm5yg"
     ],
-    "stock": 15
+    "stock": 15,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
   },
   {
     "id": "prod-033",
@@ -452,7 +571,12 @@ var PRODUCTS = [
       "12Bs1LVKjQfei1yLJJvO0EIgf7zSFCCFV",
       "1C7-cXvr4Fgn8t9xf3BOCWwKGBG9ZKTEb"
     ],
-    "stock": 15
+    "stock": 15,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-034",
@@ -467,7 +591,12 @@ var PRODUCTS = [
     "images": [
       "1Lxak0t1XIWki_cKbI3vLqp4cG4zUQwgF"
     ],
-    "stock": 15
+    "stock": 15,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-035",
@@ -488,7 +617,12 @@ var PRODUCTS = [
     "videos": [
       "fxWgC0PKWJ4"
     ],
-    "stock": 15
+    "stock": 15,
+    "age": [
+      "5-8",
+      "8+",
+      "any"
+    ]
   },
   {
     "id": "prod-036",
@@ -506,7 +640,12 @@ var PRODUCTS = [
       "1rfuLcA0pC9pz8JvG4ROuLOaY9Y6aIQ5F",
       "1-s_qanJZMF8mtw_jbPuIPMq0h4icr0Ja"
     ],
-    "stock": 72
+    "stock": 72,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
   },
   {
     "id": "prod-037",
@@ -521,7 +660,13 @@ var PRODUCTS = [
     "images": [
       "1P7ASBrsX12c8pKQ9sv0hr81ysIEcc3_9"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "boys"
   },
   {
     "id": "prod-038",
@@ -538,7 +683,12 @@ var PRODUCTS = [
       "1ToWA2THndX518-JMuqi89SIM3yOZPE7g",
       "106Ze2oyqSg0s7r6nlcVC0Kk6AeMk3DDx"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-039",
@@ -555,7 +705,12 @@ var PRODUCTS = [
       "1-e7yTY-o537vNJ6v7CjfFNWm-WQxD3wQ",
       "18gxbSdfucnLinoFCuPJzWR3SjzfJrkIr"
     ],
-    "stock": 15
+    "stock": 15,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
   },
   {
     "id": "prod-040",
@@ -570,7 +725,11 @@ var PRODUCTS = [
     "images": [
       "19WkZ8P256c0PeCYiER6L4NjLlfR5c9iU"
     ],
-    "stock": 48
+    "stock": 48,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-041",
@@ -585,7 +744,11 @@ var PRODUCTS = [
     "images": [
       "1Ext_oGVutVKdHZdkRlSbncpInRRxd6TE"
     ],
-    "stock": 40
+    "stock": 40,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-042",
@@ -600,7 +763,11 @@ var PRODUCTS = [
     "images": [
       "1dkNrBP81IOUJ-up74-DhCB_4OY5225si"
     ],
-    "stock": 35
+    "stock": 35,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-043",
@@ -615,7 +782,11 @@ var PRODUCTS = [
     "images": [
       "1RmNr7v2gSKRVa9jhEaov_hOXIi3nvAA5"
     ],
-    "stock": 48
+    "stock": 48,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-044",
@@ -632,7 +803,12 @@ var PRODUCTS = [
       "1OtUDo_KZYs1GwkdPcwgTEjTVu8STnIss",
       "1Vhvv46k3amAq-brKkuRs2PVccrdyj8OV"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-045",
@@ -649,7 +825,12 @@ var PRODUCTS = [
       "1WVhyNW3tYHZEgYv4wwgZ4f5X2sujK77E",
       "1Vhvv46k3amAq-brKkuRs2PVccrdyj8OV"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-046",
@@ -665,7 +846,12 @@ var PRODUCTS = [
       "1omu0L_ss7094ToIJJi7dwz7-pqXZAeIL",
       "14w_7z3Qu65TAbiiybwLQshqll48Xsgab"
     ],
-    "stock": 19
+    "stock": 19,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-047",
@@ -681,7 +867,11 @@ var PRODUCTS = [
       "1Gd2OiNMU__l0192qfyrqN-qdNqliq057",
       "16fJLRovMbVSoJQSPaUSMTsXoNIDPQKz0"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-048",
@@ -697,7 +887,12 @@ var PRODUCTS = [
       "1poEJs6rVoZm9I8YCGsTYdpvwlMU2-Imt",
       "1kDEQ43ChOhH1KQkirdQsBEVKgODcTsF8"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-049",
@@ -714,7 +909,12 @@ var PRODUCTS = [
       "14--EagZLByCY44DgB98aACDbonjpq3Al",
       "1zdXHq5d3NKjayKz26_h4kJm8kuHnlLzG"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-050",
@@ -731,7 +931,11 @@ var PRODUCTS = [
       "1RjeAyaSrJ8r0LwdKTieHVn_nu5XxBCks",
       "1l4Gq8ugp9lErN-a2J9wu1Qjcti_yZymD"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-051",
@@ -748,7 +952,11 @@ var PRODUCTS = [
       "1jGEKDIMaAUW-cAKDFU1GNuXw15d6rjgs",
       "1B6leiWiIkG3J0ZXJkPjFqifE3eQhSIwc"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-052",
@@ -764,7 +972,12 @@ var PRODUCTS = [
       "1MBdE3EjBe3mkuacd3TzI65Pjy5XsRRmL",
       "1eeDe28kWcHaRPz7j9bzzmNOEhqr0JKqb"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-053",
@@ -780,7 +993,12 @@ var PRODUCTS = [
       "14NTR22h4l3ZL2MLMIIj27sNWkJj4n2BK",
       "1NCvn24ltqIoFtvJpO4f_u2eZmNjkwUFk"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-054",
@@ -797,7 +1015,10 @@ var PRODUCTS = [
       "1-e9ghhBUk085CvJKO2hsE2Ya8zjEm1AO",
       "1mGRTqs9OL7ReCd1PBBjhg6ro2XZDnwsi"
     ],
-    "stock": 8
+    "stock": 8,
+    "age": [
+      "8+"
+    ]
   },
   {
     "id": "prod-055",
@@ -815,7 +1036,11 @@ var PRODUCTS = [
       "1rg7dNjtBeMUl4ACXpEUKQuw6auc6I2vx",
       "1TGKwRdG-ePzVo2rZt4OlieeZS3x0QNmE"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8"
+    ]
   },
   {
     "id": "prod-056",
@@ -831,7 +1056,12 @@ var PRODUCTS = [
       "1OZsBrw0GXNo0hn5Owb9kulOcx9oE31p2",
       "1GjN6p4mTRMb3GaSPpgV6uQ5eNCgYeOV1"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-057",
@@ -850,7 +1080,11 @@ var PRODUCTS = [
       "1rSFpOicldIbP0P0c7ZQurSr06hNmiZmz",
       "1O4W9KtVfjPM1fsdaqgTscwGMWTJNFV_G"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-058",
@@ -865,7 +1099,12 @@ var PRODUCTS = [
     "images": [
       "1NzqmjbI44xqhrWskx-aS5yAmIPXSHkPi"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-059",
@@ -881,7 +1120,12 @@ var PRODUCTS = [
       "1dOhPJFYWsGdVtBtG-hntXLIo6DMwxoKS",
       "1N1Udz-I5Vj_2BMGbgKVa2muAcWmJVDGL"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-060",
@@ -897,7 +1141,12 @@ var PRODUCTS = [
       "1OnsLAmDN4x1NWM2sxO-p-ksWbKaQ9B6s",
       "19zrYP4yL6_1t2ObZ3TKhL2nYFjWox5YD"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-061",
@@ -913,7 +1162,12 @@ var PRODUCTS = [
     "images": [
       "1zLHuSopuId7AeG9BEzMyoTLmNL3TaP95"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-062",
@@ -929,7 +1183,10 @@ var PRODUCTS = [
       "1ofdEd-KRQy6fygIzXacsERzs-ycXSSKn",
       "1GIHpbWFZa0_VEiylCq9lt4en_Mvk3lC8"
     ],
-    "stock": 6
+    "stock": 6,
+    "age": [
+      "8+"
+    ]
   },
   {
     "id": "prod-063",
@@ -944,7 +1201,12 @@ var PRODUCTS = [
     "images": [
       "1e9Ge8YmY_QlDtQ4prQTUiw9feoBXYU7w"
     ],
-    "stock": 6
+    "stock": 6,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "boys"
   },
   {
     "id": "prod-064",
@@ -961,7 +1223,11 @@ var PRODUCTS = [
       "1yFSlfg6YLElmTFGlXWIsKumfzVBDaa8X",
       "1KCAlrUg5udKY2WqDV6HMrNxH9bwkn0xm"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-065",
@@ -977,7 +1243,12 @@ var PRODUCTS = [
       "1C5dL3M4pgDuVftlC-oicoYhK5fhO2edO",
       "1zhASnKBIq25MOYEEc7rBX1Hjtde99DH3"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "boys"
   },
   {
     "id": "prod-066",
@@ -996,7 +1267,13 @@ var PRODUCTS = [
       "14Y973wWWOIBsZpqfj60eszSNDMSKovEO"
     ],
     "videos": [],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+",
+      "any"
+    ]
   },
   {
     "id": "prod-067",
@@ -1015,7 +1292,11 @@ var PRODUCTS = [
     "videos": [
       "ZiaUY5rXIzQ"
     ],
-    "stock": 6
+    "stock": 6,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-068",
@@ -1034,7 +1315,11 @@ var PRODUCTS = [
     "videos": [
       "LyKaiWI4bU4"
     ],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-069",
@@ -1053,7 +1338,11 @@ var PRODUCTS = [
     "videos": [
       "ooNbyasTEgE"
     ],
-    "stock": 6
+    "stock": 6,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-070",
@@ -1073,7 +1362,11 @@ var PRODUCTS = [
       "1qpJDUEzPGIgQnyl53oR6H-VEYR_R6UVA"
     ],
     "videos": [],
-    "stock": 25
+    "stock": 25,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-071",
@@ -1090,7 +1383,11 @@ var PRODUCTS = [
       "18yAo60MESnKhEk8ePzveSBoWclHXY-mg"
     ],
     "videos": [],
-    "stock": 20
+    "stock": 20,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-072",
@@ -1106,7 +1403,12 @@ var PRODUCTS = [
       "1wCdsd98Pe75dKodeZqO4PRZlZM5uVLZD"
     ],
     "videos": [],
-    "stock": 30
+    "stock": 30,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-073",
@@ -1122,7 +1424,12 @@ var PRODUCTS = [
       "1vsoW-DgBoo7qyCWVzGQybyX-WA2ZMnzh"
     ],
     "videos": [],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-074",
@@ -1140,7 +1447,11 @@ var PRODUCTS = [
       "1ZWTwmkV5iwhhc3j7wRqPd7rg-eu5U-At"
     ],
     "videos": [],
-    "stock": 20
+    "stock": 20,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-075",
@@ -1157,7 +1468,11 @@ var PRODUCTS = [
       "1xxkUflr6fneGTxWSHl0KQ1SBsOwDurBD"
     ],
     "videos": [],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-076",
@@ -1175,7 +1490,11 @@ var PRODUCTS = [
       "1690mud15NBGLB_rQmCr_oc3o2UMcroRk"
     ],
     "videos": [],
-    "stock": 36
+    "stock": 36,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-077",
@@ -1198,7 +1517,12 @@ var PRODUCTS = [
     "videos": [
       "H6vbm8dosao"
     ],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
   },
   {
     "id": "prod-078",
@@ -1214,7 +1538,11 @@ var PRODUCTS = [
       "1CdCwa_0PxjEj3n_fCJBPG-FftPIfDB1N"
     ],
     "videos": [],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-079",
@@ -1237,7 +1565,11 @@ var PRODUCTS = [
     "videos": [
       "ox2TmgG0keE"
     ],
-    "stock": 23
+    "stock": 23,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-080",
@@ -1253,7 +1585,11 @@ var PRODUCTS = [
       "12YlOPQW9EFr_RhChmGztyazBnKLTQsUU"
     ],
     "videos": [],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-081",
@@ -1271,7 +1607,11 @@ var PRODUCTS = [
     "videos": [
       "4btPs8GHFH0"
     ],
-    "stock": 32
+    "stock": 32,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-082",
@@ -1287,7 +1627,11 @@ var PRODUCTS = [
       "19s1fPiz871XAkxp1V59P6Og3zc7rkLrm"
     ],
     "videos": [],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-083",
@@ -1303,7 +1647,10 @@ var PRODUCTS = [
       "1RW18C553Qn4DrhodAb0QR-vStW8Qeo_G"
     ],
     "videos": [],
-    "stock": 2
+    "stock": 2,
+    "age": [
+      "8+"
+    ]
   },
   {
     "id": "prod-084",
@@ -1320,7 +1667,11 @@ var PRODUCTS = [
       "1jP4_FDJhL7_nPDSbSUytCSEeKTZGvKfy"
     ],
     "videos": [],
-    "stock": 24
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-085",
@@ -1337,7 +1688,10 @@ var PRODUCTS = [
       "1vFWR5b2AKFsjL1-EfnZCERx1z3oR_38Y"
     ],
     "videos": [],
-    "stock": 5
+    "stock": 5,
+    "age": [
+      "8+"
+    ]
   },
   {
     "id": "prod-086",
@@ -1353,7 +1707,11 @@ var PRODUCTS = [
       "1uVVg1zTzfuZ9R0MBS8d0JqQQf3l-lN2a"
     ],
     "videos": [],
-    "stock": 23
+    "stock": 23,
+    "age": [
+      "5-8",
+      "8+"
+    ]
   },
   {
     "id": "prod-087",
@@ -1370,7 +1728,11 @@ var PRODUCTS = [
       "1sHuyF_XQ3YaO-LwFw6FCzppUOZC0RdiY"
     ],
     "videos": [],
-    "stock": 12
+    "stock": 12,
+    "age": [
+      "0-2",
+      "2-5"
+    ]
   },
   {
     "id": "prod-088",
@@ -1431,6 +1793,7 @@ var PRODUCTS = [
     "videos": [],
     "stock": 20,
     "age": [
+      "2-5",
       "5-8",
       "8+"
     ],
@@ -1477,7 +1840,8 @@ var PRODUCTS = [
     "videos": [],
     "stock": 40,
     "age": [
-      "any"
+      "5-8",
+      "8+"
     ],
     "gender": "any"
   },
@@ -1498,6 +1862,7 @@ var PRODUCTS = [
     "videos": [],
     "stock": 24,
     "age": [
+      "2-5",
       "5-8"
     ],
     "gender": "any"
@@ -1518,6 +1883,7 @@ var PRODUCTS = [
     "videos": [],
     "stock": 24,
     "age": [
+      "2-5",
       "5-8"
     ],
     "gender": "any"
