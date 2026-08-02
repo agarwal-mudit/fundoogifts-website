@@ -1498,7 +1498,7 @@ var PRODUCTS = [
   },
   {
     "id": "prod-077",
-    "name": "K-Pop and Frozen Colouring Book with Stickers",
+    "name": "Frozen Colouring Book with Stickers",
     "categories": [
       "Stationery Sets",
       "Art & Craft",
@@ -1506,10 +1506,8 @@ var PRODUCTS = [
     ],
     "mrp": 200,
     "fundooPrice": 130,
-    "offerPrice": 0,
     "description": "Bring your favorite K-Pop characters to life with this fun colouring book packed with exciting stickers!\n\nIncludes:\n\n🎨 16 Character Colouring Sheets\n⭐ 4 Colourful Sticker Sheets\n🌈 Available in 2 Attractive Designs\n\nPerfect for: Creative fun, travel, birthday gifts, return gifts, party favors, and screen-free entertainment for kids aged 3+ years.",
     "images": [
-      "1YXDFfJb4FBRPuhcd-773Gura6YGydL2A",
       "1CwvE21iGSRiI68fOM3wbbcaJrrD74fIt",
       "1SDTuaNYTK0vNO5BEEMEv0XqXJadpbsI8",
       "15gKrm2CBdybbzkNcsr3pEO6iu_sTAd_m"
