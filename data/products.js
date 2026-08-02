@@ -1933,7 +1933,7 @@ var PRODUCTS = [
   }
 ];
 var SITE_CONFIG = {
-  "productOfTheMonth": "prod-079",
+  "productOfTheMonth": "prod-090",
   "whatsHot": [
     "prod-006",
     "prod-019",
