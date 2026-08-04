@@ -1928,6 +1928,285 @@ var PRODUCTS = [
       "8+"
     ],
     "gender": "any"
+  },
+  {
+    "id": "prod-097",
+    "name": "3D Puzzle - Castle & Villa",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 150,
+    "fundooPrice": 120,
+    "description": "Beautiful 3D puzzles that let kids build their dream castle or Villa and enjoy hours of creative, screen-free fun!!",
+    "images": [
+      "1YAAkMrYgkzOi_6GBebHjXJv14uLYKoEw",
+      "1B7GMXrv7FidTzJGetjGGcaIw_o1LaxQ1"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-098",
+    "name": "Rainbow Ball – Strategy Game 🌈",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 120,
+    "fundooPrice": 100,
+    "description": "Challenge your family and friends with the exciting Rainbow Ball game! Push rows of colorful balls, connect matching colors, and score points with every smart move. A fun strategy game that builds concentration, logical thinking, and problem-solving skills while keeping everyone entertained.\n\n✨ Features:\n\nFun 2–4 player strategy game\nImproves focus, planning & critical thinking\nBright, colorful design for engaging play\nPerfect for family game nights & gifting\nRecommended for ages 3+",
+    "images": [
+      "1jlwuVPmC693D-YPamon05PIeaeiJIz6c"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-099",
+    "name": "Brain Builder - Wooden Building Planks",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 500,
+    "fundooPrice": 425,
+    "description": "==> Convert 2D diagrams into 3D structures! \n\n==> Train young brains to think in multiple dimensions with this interactive STEM tool! \n\n==> Brain Builder combines 20 wooden planks with a set of stimulating puzzle cards. \n\n==> Perfect for even the youngest of builders-each card features a fun, recognizable 2-D object and the goal is to recreate the pattern into a 3-D structure. The picture cards are numbered in order of difficulty-ranging from beginner to expert. \n\n==> Manipulate the wooden planks to successfully duplicate the balance, proportion, composition and geometry featured on each card. With each build becoming more challenging, patience and confidence is gained through trial and error. From beginner level to expert level, you will be amazed what your brain will build! Don't stop there! After mastering the 30 patterns, use your imagination to create your own designs or tackle the original Brain Builder! \n\n==> Includes 20 precision-engineered wooden planks & 32 double-sided puzzle cards.\n\n Made In India",
+    "images": [
+      "1LRsSNYScR53kBnd7VhGkgr1KEg81_s2U"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-100",
+    "name": "DIY Mushroom Nail Platter",
+    "categories": [
+      "Art & Craft",
+      "Puzzle & Games"
+    ],
+    "mrp": 200,
+    "fundooPrice": 180,
+    "description": "Boost creativity and learning with this colorful pegboard activity set! Kids can create endless patterns, shapes, and designs while improving hand-eye coordination, fine motor skills, and imagination. A fun, screen-free educational toy for children aged 3+ years.",
+    "images": [
+      "1c-lPIU2zjqIkDr4ESt0PVabgGohAZ3v8"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-101",
+    "name": "Little builders - Ekta Set No. 1",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 300,
+    "fundooPrice": 250,
+    "description": "Build, create, and learn with this colorful 21-piece building block set! Designed for little hands, it helps children recognize numbers, shapes, and objects while developing creativity, imagination, and fine motor skills. The easy-to-connect blocks make learning fun through endless building possibilities.\n\nRecommended Age: 3+ years",
+    "images": [
+      "1EvlTo_F1iNfp85enKo-Prv2gNrQoOpQ5"
+    ],
+    "videos": [],
+    "stock": 24,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-102",
+    "name": "EKTA Plot-4 Board Game for Family (Multicolour), All Age, Multicolor",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 425,
+    "fundooPrice": 340,
+    "description": "Challenge your family and friends with the classic Plot-4 strategy game! Take turns dropping colored discs and be the first to connect four in a row—horizontally, vertically, or diagonally. A fun game that sharpens logical thinking, planning, and decision-making skills.\n\nFeatures:\n\n👥 2-Player Strategy Game\n🧠 Enhances logical thinking & problem-solving\n🎯 Improves concentration and planning skills\n🌈 Bright multi-color design\n🎁 Perfect for family game nights & gifting\n\nSpecifications:\n\nColor: Multi-color\nDimensions: 26 × 8 × 6 cm (approx.)\nRecommended Age: 8+ years",
+    "images": [
+      "1tz8itFHSBMyocOkQ43EOQdn_piuuXvrz"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-103",
+    "name": "Easter Roly Poly Toy",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 160,
+    "description": "Keep your little one happily engaged with the Toyzee Easter Roly Poly Toy! This adorable self-righting toy rocks, rolls, and always bounces back upright while producing a gentle bell sound that captures your baby's attention. Its bright colors and cute egg shaped design encourage sensory exploration, hand-eye coordination, and early motor skill development, making it a fun and interactive companion for toddlers.\n\n✨ Features:\n\nSoft bell sound for sensory stimulation\nSelf-righting roly poly action\nCute giraffe design with vibrant colors\nEncourages motor skills and visual tracking\nDurable, child-safe construction\nSuitable for children 3+ years",
+    "images": [
+      "1ETvSgpJIZUS7DDBEVydVWq66UBd107gt"
+    ],
+    "videos": [],
+    "stock": 8,
+    "age": [
+      "0-2"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-104",
+    "name": "Catch Ball Game",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 250,
+    "fundooPrice": 180,
+    "description": "Challenge your family and friends to an exciting game of Catch Ball! This fun 2-player set includes two hand catchers and a sticky ball, making it perfect for active indoor or outdoor play. It helps improve hand-eye coordination, reflexes, and concentration while keeping kids entertained for hours.\n\n✨ Features:\n\n2-player interactive catch game\nIncludes 2 hand catchers & 1 sticky ball\nImproves hand-eye coordination and reflexes\nEncourages active, screen-free play\nLightweight, durable & easy to use\nSuitable for ages 3+\nGreat for family fun, parties & gifting",
+    "images": [
+      "1w_OrBXjx8xlo8uU26d4UIs_65BU-el3G"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-105",
+    "name": "Beautiful Melody Xylophone",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 800,
+    "fundooPrice": 300,
+    "description": "A colorful musical toy that introduces children to the joy of music while developing creativity, rhythm, and hand-eye coordination. Designed with bright keys and child-friendly mallets, it's perfect for little musicians aged 3 years and above.\n\n✨ Features:\n\nColorful xylophone with clear, pleasant sound\nHelps develop rhythm, musical sense & creativity\nImproves hand-eye coordination and motor skills\nSafe, durable & easy for little hands to play\nIncludes 2 mallets\nRecommended for ages 3+\nPerfect for birthdays, return gifts & early learning activities",
+    "images": [
+      "1sSPxR_gx4w7LCgw1Oy7amdV3rS_ZTLUA"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "0-2",
+      "2-5"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-106",
+    "name": "🧩 Multicolored Geometric Sleeve Column (Wooden Shape Sorter)",
+    "categories": [
+      "Toy Bundles",
+      "Puzzle & Games"
+    ],
+    "mrp": 300,
+    "fundooPrice": 240,
+    "description": "Make learning fun with this colorful wooden shape sorting toy! Children can stack, match, and sort different geometric shapes while improving essential early learning skills. Designed to encourage hands-on play, it helps develop fine motor skills, hand-eye coordination, shape and color recognition, and problem-solving abilities.\n\n✨ Features:\n\n🌈 Bright multicolored wooden shapes\n🔷 5 geometric shapes with matching pegs\n🧠 Enhances logical thinking & observation\n✋ Improves fine motor skills & hand-eye coordination\n🎨 Encourages creativity and independent learning\n👶 Suitable for children aged 3 years & above\n🌱 Made from smooth, child-safe wooden material\n\nA perfect educational toy for toddlers and preschoolers to learn through play!",
+    "images": [
+      "1peZl3Od8hyMyenmbPoObckregXOi1f6m"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "0-2",
+      "2-5"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-107",
+    "name": "📱 Intelligent Mobile Phone Toy (6+ Months)",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 400,
+    "fundooPrice": 200,
+    "description": "Introduce your little one to the joy of learning with this adorable bunny-themed Intelligent Mobile Phone! Designed especially for babies, it features colorful buttons, cheerful sounds, fun melodies, and cute animal icons to keep little hands and minds engaged. A perfect toy to encourage sensory development and early learning through play.\n\n✨ Features:\n\n🐰 Cute bunny-themed design\n🎵 Fun music and sound effects\n🔢 Animal, number & shape buttons for early learning\n💡 Bright colors to attract and engage babies\n🤲 Develops hand-eye coordination and fine motor skills\n🧠 Encourages sensory exploration and cognitive development\n👶 Suitable for babies 6 months and above\n\nA delightful first learning toy that keeps babies entertained while supporting their early development.",
+    "images": [
+      "1ZK6DE1buat6CXfhUCX8Rs6tSR0oAsNAZ"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "0-2",
+      "2-5"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-108",
+    "name": "🧚 Fairy Wings",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 180,
+    "fundooPrice": 150,
+    "description": "Let your little one sparkle with these beautiful Fairy Wings! Lightweight, comfortable, and easy to wear, they're perfect for dress-up, birthday parties, school events, and magical pretend play.\n\n✨ Features:\n\n💖 Beautiful glittery design\n🎀 Comfortable elastic straps\n🌸 Lightweight & easy to wear\n🎉 Perfect for parties, costumes & role play\n👧 Suitable for ages 3+",
+    "images": [
+      "10gxIF3SDuy0VPUsqVuUz9EdBrEmGMS49"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "2-5"
+    ],
+    "gender": "girls"
+  },
+  {
+    "id": "prod-109",
+    "name": "Mini Basket Ball",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 60,
+    "fundooPrice": 0,
+    "description": "Mini Basketball fo Kids",
+    "images": [
+      "1ZOygiagFiguYZv96THI7UkYMGcowqzFl"
+    ],
+    "videos": [],
+    "stock": 24,
+    "age": [
+      "any"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-110",
+    "name": "Smiley Fun Ball",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 30,
+    "fundooPrice": 0,
+    "description": "Smiley Ball :)",
+    "images": [
+      "1T5_VccdQmqc3s0AFL-m8cAi2UOL4HrUu"
+    ],
+    "videos": [],
+    "stock": 24,
+    "age": [
+      "any"
+    ],
+    "gender": "any"
   }
 ];
 var SITE_CONFIG = {
