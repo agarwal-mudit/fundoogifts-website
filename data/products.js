@@ -2205,6 +2205,236 @@ var PRODUCTS = [
       "any"
     ],
     "gender": "any"
+  },
+  {
+    "id": "prod-111",
+    "name": "Wooden Base Tangram Puzzle",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 120,
+    "fundooPrice": 90,
+    "description": "🧩 Boost Creativity & Problem-Solving with Tangram!\n\nChallenge young minds with this classic Wooden Base Tangram Puzzle. Kids can arrange the 7 colorful geometric pieces to create hundreds of fun shapes and patterns while improving logic, concentration, and spatial thinking.\n\n✨ Features:\n\n🧩 Classic 7-piece wooden tangram puzzle\n🎨 Bright, colorful wooden pieces with sturdy base\n🧠 Enhances problem-solving, creativity & logical thinking\n👀 Improves memory, concentration & hand-eye coordination\n👧 Suitable for kids 3+ years\n\nA timeless educational puzzle that makes learning fun while encouraging endless creativity!",
+    "images": [
+      "1rSXjiDQFOClDR2_zqnrKYiWwxPErWXEb"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "2-5"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-112",
+    "name": "Finger Puppets (Pack of 5)",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "🐾 Bring Storytime to Life!\n\nSpark your child's imagination with these adorable Finger Puppets! Available in 2 exciting varieties, each pack contains 5 cute animal puppets that make storytelling, pretend play, and learning extra fun.\n\n✨ Features:\n\n🖐️ Pack of 5 finger puppets\n🎭 Available in 2 different varieties\n🐾 Collect all 10 adorable animals:\n🦛 Blue Hippopotamus\n🐄 Cow\n🐘 Pink Elephant\n🐭 Mouse\n🐻 Polar Bear\n🐶 Dog\n🐰 Rabbit\n🐸 Frog\n🐥 Duck\n🐼 Panda\n🌈 Soft, lightweight & easy for little hands\n📚 Perfect for storytelling, role play & early learning\n👶 Great for return gifts, party favors & everyday fun",
+    "images": [
+      "1ABnq2uDTV_AbH_Ud_8gGoO9hwmrLp2Ap"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-113",
+    "name": "Harry Potter Themed Jelly Bag - Side hanging",
+    "categories": [
+      "Backpacks"
+    ],
+    "mrp": 300,
+    "fundooPrice": 230,
+    "description": "Carry a little magic everywhere! This eye-catching transparent jelly bag features a vibrant Harry Potter-inspired design, making it perfect for young witches, wizards, and fans of the Wizarding World.\n\n✨ Features:\n\n⚡ Harry Potter themed stylish jelly bag\n🎒 Lightweight with an adjustable shoulder strap\n💖 Spacious enough for everyday essentials\n💧 Durable, easy-to-clean transparent material\n🎁 Perfect for outings, parties, travel & gifting\n👧 Ideal for kids and Harry Potter fans of all ages",
+    "images": [
+      "1E9QpJ6_urMLYi3JNko2zW0ltHOKuQRD4"
+    ],
+    "videos": [],
+    "stock": 6,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-114",
+    "name": "Huntrix themed Jelly backpack",
+    "categories": [
+      "Backpacks"
+    ],
+    "mrp": 300,
+    "fundooPrice": 230,
+    "description": "Show off your favorite Huntrix style with this trendy transparent jelly backpack! Lightweight, durable, and fun, it's perfect for carrying everyday essentials while adding a cool pop of personality.\n\n✨ Features:\n\n🎒 Stylish Huntrix-themed jelly backpack\n🌈 Transparent, durable & easy-to-clean material\n💪 Adjustable shoulder straps for a comfortable fit\n📚 Spacious design for toys, books & daily essentials\n🎁 Perfect for school, travel, outings & gifting\n👧 Great for kids and Huntrix fans alike",
+    "images": [
+      "1g5NEZQh1DbY-gW3ZvzpVCZ31Zxx7XHwc"
+    ],
+    "videos": [],
+    "stock": 6,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
+  },
+  {
+    "id": "prod-115",
+    "name": "Huntrix Themed Jelly Sling Bag",
+    "categories": [
+      "Backpacks"
+    ],
+    "mrp": 300,
+    "fundooPrice": 230,
+    "description": "Carry your essentials in style with this trendy Huntrix-themed transparent jelly sling bag. Lightweight, colorful, and fun, it's the perfect accessory for kids and fans who love to stand out.\n\n✨ Features:\n\n🎒 Stylish Huntrix-themed jelly side sling bag\n🌈 Transparent, durable & easy-to-clean material\n💪 Adjustable shoulder strap for a comfortable fit\n📱 Ideal for carrying small daily essentials\n🎁 Perfect for outings, parties, travel & gifting\n👧 Great for kids and Huntrix fans alike",
+    "images": [
+      "1TDVg-gMle51XiSPF6hmyBshJO53BQNef"
+    ],
+    "videos": [],
+    "stock": 6,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-116",
+    "name": "Space Themed Swim Bag",
+    "categories": [
+      "Backpacks"
+    ],
+    "mrp": 400,
+    "fundooPrice": 350,
+    "description": "Make every swim session more exciting with this fun Space-themed Swim Bag! Designed with a spacious main compartment and a separate bottom section for wet clothes or accessories, it's the perfect companion for swimming, beach trips, and outdoor adventures.\n\n✨ Features:\n\n🚀 Fun astronaut & space-themed design\n🎒 Lightweight and easy to carry\n💦 Separate bottom compartment for wet items\n🏖️ Ideal for swimming, beach & travel\n👦 Perfect for kids aged 3+ years",
+    "images": [
+      "1wejxXFNb0hONZqYkb24UF-U2Gvq04Ge5"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-117",
+    "name": "Fruits & Vegetables Eraser Set 🍎🥕🌽",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 50,
+    "fundooPrice": 30,
+    "description": "Add a fun twist to school supplies with these adorable Fruits & Vegetables Erasers! Packed in a cute reusable zip pouch, each set includes colorful mini erasers shaped like fruits and vegetables—perfect for kids, party favors, and return gifts.\n\n✨ Features:\n\n🍎 Cute fruit & vegetable shaped erasers\n🎨 Bright, colorful & realistic designs\n✏️ Functional erasers for school use\n👜 Comes in a reusable transparent zip pouch\n🎁 Great for return gifts, stationery kits & classroom rewards",
+    "images": [
+      "1YqcoKxp5r7YI6BFqIcXgL_qV4GntpfX8"
+    ],
+    "videos": [],
+    "stock": 30,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-118",
+    "name": "Harry Potter Themed Jelly Backpack ⚡🧙",
+    "categories": [
+      "Backpacks"
+    ],
+    "mrp": 300,
+    "fundooPrice": 230,
+    "description": "Carry a little Hogwarts magic everywhere! This stylish Harry Potter Themed Jelly Backpack is perfect for school, outings, and everyday adventures. Lightweight, spacious, and designed with vibrant Harry Potter artwork, it's a must-have for every young wizard and witch.\n\n✨ Features:\n\n⚡ Official Harry Potter-inspired design\n🎒 Lightweight & comfortable to carry\n💧 Durable jelly finish that's easy to clean\n📚 Spacious compartment for daily essentials\n🎁 Perfect for school, travel & gifting",
+    "images": [
+      "1Myt1cp26te2-lgjXKetA7RZExt9tljHc"
+    ],
+    "videos": [],
+    "stock": 6,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-119",
+    "name": "Magic Water Coloring Book 🎨💧 - Big",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 120,
+    "fundooPrice": 80,
+    "description": "Paint with just water and watch the pictures come to life! This Magic Water Coloring Book includes reusable coloring pages and a refillable water pen for mess-free, screen-free fun. Once the pages dry, the colors disappear, ready to be painted again and again.\n\n✨ Features:\n\n💧 Reusable water-reveal coloring pages\n🖌️ Includes refillable magic water pen\n♻️ Colors disappear when dry for endless fun\n🎒 Mess-free and travel-friendly\n👧 Suitable for kids aged 3+ years",
+    "images": [
+      "1eb8vdcwG6DBZ5y8yHTJBRGUcMDi3hUxP"
+    ],
+    "videos": [],
+    "stock": 40,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-120",
+    "name": "Character Spoon & Fork Set 🍴✨",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 180,
+    "fundooPrice": 120,
+    "description": "Make every mealtime fun with these adorable Character Spoon & Fork Sets! Each set comes in a durable travel case and features cute character-themed handles, making it perfect for school lunches, picnics, and travel.\n\n✨ Features:\n\n🍴 Includes 1 spoon & 1 fork\n💖 Available in 3 cute designs – Hello Kitty, My Melody & Kuromi\n🧳 Comes with a compact reusable storage case\n🥪 Perfect for school, travel & lunch boxes\n🎁 Great for gifting and return gifts",
+    "images": [
+      "18PRGxsm30VGbEe0tX1CKX6Y0P3zVS4pK"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-121",
+    "name": "Ratna Shape Sorter Cube Junior 🧩🌈",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 300,
+    "fundooPrice": 240,
+    "description": "Help your little one learn through play with the Shape Sorter Cube Junior! This colorful educational toy encourages children to match shapes, identify colors, and develop essential early learning skills while having fun.\n\n✨ Features:\n\n🟦 Includes 18 colorful shape pieces in 6 different shapes\n🧠 Builds shape & color recognition\n🤲 Enhances fine motor skills and hand-eye coordination\n🎯 Encourages problem-solving and logical thinking\n👶 Suitable for kids 1 year & above\n🎁 Perfect for early learning, birthdays, and return gifts",
+    "images": [
+      "18AyNCtwpmpR0V6w2GL5AJsWxl59zS2rG",
+      "1ijPmlIToU-NITm4UVpsmWY-Ol6nAsgj0",
+      "1m9knhwL7nnLkKVYSf2fT3Mx6tw9yBYkQ"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
   }
 ];
 var SITE_CONFIG = {
