@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var activeFilter = 'All';
   var activePack = null;
   var activeAge = null;
+  var activeGender = null;
   var activeSort = 'relevance';
   var searchQuery = '';
 
@@ -89,6 +90,11 @@ document.addEventListener('DOMContentLoaded', function () {
     return params.get('age');
   }
 
+  function getGenderFromUrl() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get('gender');
+  }
+
   function getSearchFromUrl() {
     var params = new URLSearchParams(window.location.search);
     return (params.get('q') || '').trim();
@@ -108,6 +114,14 @@ document.addEventListener('DOMContentLoaded', function () {
     return list.filter(function (p) {
       var ages = Array.isArray(p.age) ? p.age : (p.age ? [p.age] : ['any']);
       return ages.indexOf(activeAge) !== -1 || ages.indexOf('any') !== -1;
+    });
+  }
+
+  function filterByGender(list) {
+    if (!activeGender) return list;
+    return list.filter(function (p) {
+      var pGender = p.gender || 'any';
+      return pGender === 'any' || pGender === activeGender;
     });
   }
 
@@ -215,6 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function getFilteredProducts() {
     var list = filterByPack(products);
     list = filterByAge(list);
+    list = filterByGender(list);
     list = filterBySearch(list);
     if (activeFilter !== 'All') {
       list = list.filter(function (p) { return (p.categories || []).indexOf(activeFilter) !== -1; });
@@ -248,6 +263,13 @@ document.addEventListener('DOMContentLoaded', function () {
       ageLabel.className = 'pack-filter-label';
       ageLabel.textContent = ageRanges[activeAge].label;
       filterBar.insertAdjacentElement('beforebegin', ageLabel);
+    }
+
+    if (activeGender) {
+      var genderLabel = document.createElement('div');
+      genderLabel.className = 'pack-filter-label';
+      genderLabel.textContent = activeGender === 'boys' ? 'For Boys' : activeGender === 'girls' ? 'For Girls' : '';
+      if (genderLabel.textContent) filterBar.insertAdjacentElement('beforebegin', genderLabel);
     }
 
     categories.forEach(function (cat) {
@@ -323,6 +345,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Init
   activePack = getPackFromUrl();
   activeAge = getAgeFromUrl();
+  activeGender = getGenderFromUrl();
   var urlCat = getCatFromUrl();
   searchQuery = getSearchFromUrl();
   if (urlCat) activeFilter = urlCat;
@@ -334,9 +357,9 @@ document.addEventListener('DOMContentLoaded', function () {
     if (navInput) navInput.value = searchQuery;
   }
 
-  var baseProducts = filterByAge(filterByPack(products));
+  var baseProducts = filterByGender(filterByAge(filterByPack(products)));
 
-  if (baseProducts.length > 0 || (!activePack && !activeAge)) {
+  if (baseProducts.length > 0 || (!activePack && !activeAge && !activeGender)) {
     setupFilters(baseProducts.length > 0 ? baseProducts : products);
     refresh();
   } else {

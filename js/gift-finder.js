@@ -2,16 +2,8 @@
   var products = typeof PRODUCTS !== 'undefined' ? PRODUCTS : [];
   var MASCOT = 'images/gifti.jpeg';
 
-  var packRanges = {
-    budget:  { min: 0, max: 49 },
-    classic: { min: 50, max: 100 },
-    premium: { min: 101, max: Infinity }
-  };
-
-  function effectivePrice(p) {
-    if (p.fundooPrice > 0) return p.fundooPrice;
-    return p.mrp || 0;
-  }
+  var packRanges = GiftFilterLogic.packRanges;
+  var effectivePrice = GiftFilterLogic.effectivePrice;
 
   function driveImageUrl(fileId, size) {
     if (!fileId || fileId.startsWith('PLACEHOLDER')) return '';
@@ -24,27 +16,7 @@
   }
 
   function filterProducts(filters) {
-    return products.filter(function (p) {
-      if (p.stock <= 0) return false;
-
-      var ages = Array.isArray(p.age) ? p.age : (p.age ? [p.age] : ['any']);
-      if (filters.age && ages.indexOf(filters.age) === -1 && ages.indexOf('any') === -1) return false;
-
-      var pGender = p.gender || 'any';
-      if (filters.gender && pGender !== 'any' && pGender !== filters.gender) return false;
-
-      if (filters.budget && packRanges[filters.budget]) {
-        var range = packRanges[filters.budget];
-        var ep = effectivePrice(p);
-        if (ep < range.min || ep > range.max) return false;
-      }
-
-      if (filters.category) {
-        if (!(p.categories || []).some(function (c) { return c === filters.category; })) return false;
-      }
-
-      return true;
-    });
+    return GiftFilterLogic.filterProducts(products, filters);
   }
 
   // Build DOM
@@ -167,6 +139,8 @@
         var params = [];
         if (filters.budget) params.push('pack=' + filters.budget);
         if (filters.age) params.push('age=' + filters.age);
+        if (filters.gender) params.push('gender=' + filters.gender);
+        if (filters.category) params.push('cat=' + filters.category);
         var href = 'catalogue.html' + (params.length ? '?' + params.join('&') : '');
         var actionsDiv = document.createElement('div');
         actionsDiv.className = 'gf-actions';
