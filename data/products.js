@@ -2468,7 +2468,8 @@ var PRODUCTS = [
     "fundooPrice": 160,
     "description": "Carry a touch of magic wherever you go! This Harry Potter™ inspired kids' backpack features a striking Hogwarts-style crest with an all-over magical icon print. Designed for everyday use, it's lightweight, comfortable, and perfectly sized for school, travel, daycare, or outings.\n\nFeatures\n🪄 Harry Potter™ inspired magical design\n🎒 Spacious main compartment with front zip pocket\n💙 Lightweight and durable fabric construction\n📚 Adjustable padded shoulder straps for a comfortable fit\n✨ Side pockets for small essentials\n🎁 Great for travel, playdates, and gifting\n\nA magical backpack that's perfect for young witches, wizards, and Harry Potter fans alike!",
     "images": [
-      "1loSVOTGuTha66YVLhBgeaKpiHGTxBwhn"
+      "1_aXn2eOvnHNsrphbVZEAHSsERvvj5zAd",
+      "1-94HpkLmY9ov-nj3JYSe3W6xxAbZhVjx"
     ],
     "videos": [],
     "stock": 10,
