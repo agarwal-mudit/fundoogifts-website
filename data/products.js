@@ -704,7 +704,7 @@ var PRODUCTS = [
       "1-e7yTY-o537vNJ6v7CjfFNWm-WQxD3wQ",
       "18gxbSdfucnLinoFCuPJzWR3SjzfJrkIr"
     ],
-    "stock": 15,
+    "stock": 0,
     "age": [
       "5-8",
       "8+"
@@ -2431,6 +2431,49 @@ var PRODUCTS = [
     "videos": [],
     "stock": 12,
     "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-122",
+    "name": "Playful Green Dinosaur Kids’ Jelly Backpack",
+    "categories": [
+      "Backpacks"
+    ],
+    "mrp": 180,
+    "fundooPrice": 160,
+    "description": "Let your little explorer carry their essentials in dino style! This adorable green transparent jelly backpack features a cheerful dinosaur print that kids will love. Lightweight, durable, and easy to clean, it's perfect for preschool, daycare, picnics, travel, swimming, or everyday adventures.\n\nFeatures:\n\n🦖 Cute dinosaur-themed front design\n💚 Stylish transparent green jelly finish\n🎒 Spacious main compartment with front zip pocket\n✨ Lightweight, waterproof & easy to wipe clean\n👧 Adjustable shoulder straps for a comfortable fit\n🌈 Perfect for preschool, outings, swimming, and gifting\n\nA fun and practical backpack that adds a roar of excitement to every little adventure!",
+    "images": [
+      "1l-TU68-oRDqJbeJEnPHGG1AFDCoDlUQz"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-123",
+    "name": "Harry Potter themed Chest bag",
+    "categories": [
+      "Backpacks",
+      "Harry Potter Collection"
+    ],
+    "mrp": 180,
+    "fundooPrice": 160,
+    "description": "Carry a touch of magic wherever you go! This Harry Potter™ inspired kids' backpack features a striking Hogwarts-style crest with an all-over magical icon print. Designed for everyday use, it's lightweight, comfortable, and perfectly sized for school, travel, daycare, or outings.\n\nFeatures\n🪄 Harry Potter™ inspired magical design\n🎒 Spacious main compartment with front zip pocket\n💙 Lightweight and durable fabric construction\n📚 Adjustable padded shoulder straps for a comfortable fit\n✨ Side pockets for small essentials\n🎁 Great for travel, playdates, and gifting\n\nA magical backpack that's perfect for young witches, wizards, and Harry Potter fans alike!",
+    "images": [
+      "1loSVOTGuTha66YVLhBgeaKpiHGTxBwhn"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "2-5",
       "5-8",
       "8+"
     ],
