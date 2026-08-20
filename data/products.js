@@ -700,8 +700,8 @@ var PRODUCTS = [
     "fundooPrice": 180,
     "description": "💜 Trendy K-Pop Cross Body Double Zip Bag – A stylish and practical accessory inspired by Korean fashion trends, perfect for K-pop fans and anyone who loves cute, aesthetic accessories.\n\n👜 Spacious Double-Zip Design – Features two separate zippered compartments to help organize essentials such as a phone, wallet, keys, stationery, cosmetics, and other daily necessities.\n\n✨ Fashionable K-Pop-Inspired Style – Designed with eye-catching details and trendy aesthetics that add a fun and modern touch to any outfit.\n\n🎒 Comfortable Crossbody Carry – Comes with an adjustable shoulder strap for convenient hands-free use, making it ideal for shopping, travel, outings, school, and everyday wear.\n\n💪 Durable & Lightweight Construction – Made from quality materials that are sturdy enough for daily use while remaining lightweight and comfortable to carry.\n\n🌈 Versatile for Everyday Use – Perfect for carrying personal belongings while keeping them secure, organized, and easily accessible throughout the day.\n\n🎁 Great Gift for K-Pop Lovers – An ideal gift for birthdays, return gifts, festive occasions, party favors, or anyone who enjoys Korean-inspired fashion and accessories.",
     "images": [
+      "1yB8eR5RcGxJ3rEXnHsscXT8qpJLYIg1e",
       "1w2nIhE8DwgnaFRMoIQ3KEDPPKhKPEHqH",
-      "18gxbSdfucnLinoFCuPJzWR3SjzfJrkIr",
       "1RzbF326jJRRkRSAEngnAr0bpdaOyvEwK"
     ],
     "videos": [],
