@@ -697,14 +697,15 @@ var PRODUCTS = [
       "K-Pop Collection"
     ],
     "mrp": 275,
-    "fundooPrice": 160,
-    "offerPrice": 0,
+    "fundooPrice": 180,
     "description": "💜 Trendy K-Pop Cross Body Double Zip Bag – A stylish and practical accessory inspired by Korean fashion trends, perfect for K-pop fans and anyone who loves cute, aesthetic accessories.\n\n👜 Spacious Double-Zip Design – Features two separate zippered compartments to help organize essentials such as a phone, wallet, keys, stationery, cosmetics, and other daily necessities.\n\n✨ Fashionable K-Pop-Inspired Style – Designed with eye-catching details and trendy aesthetics that add a fun and modern touch to any outfit.\n\n🎒 Comfortable Crossbody Carry – Comes with an adjustable shoulder strap for convenient hands-free use, making it ideal for shopping, travel, outings, school, and everyday wear.\n\n💪 Durable & Lightweight Construction – Made from quality materials that are sturdy enough for daily use while remaining lightweight and comfortable to carry.\n\n🌈 Versatile for Everyday Use – Perfect for carrying personal belongings while keeping them secure, organized, and easily accessible throughout the day.\n\n🎁 Great Gift for K-Pop Lovers – An ideal gift for birthdays, return gifts, festive occasions, party favors, or anyone who enjoys Korean-inspired fashion and accessories.",
     "images": [
-      "1-e7yTY-o537vNJ6v7CjfFNWm-WQxD3wQ",
-      "18gxbSdfucnLinoFCuPJzWR3SjzfJrkIr"
+      "1w2nIhE8DwgnaFRMoIQ3KEDPPKhKPEHqH",
+      "18gxbSdfucnLinoFCuPJzWR3SjzfJrkIr",
+      "1RzbF326jJRRkRSAEngnAr0bpdaOyvEwK"
     ],
-    "stock": 0,
+    "videos": [],
+    "stock": 10,
     "age": [
       "5-8",
       "8+"
@@ -2479,6 +2480,65 @@ var PRODUCTS = [
       "8+"
     ],
     "gender": "any"
+  },
+  {
+    "id": "prod-124",
+    "name": "Triangle Chess Game",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 250,
+    "fundooPrice": 160,
+    "description": "Challenge friends and family with the exciting Triangle Strategy Game. A fun way to build logic, planning, and problem-solving skills while enjoying screen-free play.\n\n🎲 2–4 Players | 👨‍👩‍👧‍👦 Great for Kids & Families | 🎁 Perfect Gift",
+    "images": [
+      "1pebzZsoDuaR7etAUxb3eAKprmyqn8LUg"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-125",
+    "name": "Magic Art Painting Roll",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 250,
+    "fundooPrice": 150,
+    "description": "Turn any clean wall into a creative canvas! The Magic Art Painting roll is a self-adhesive drawing paper that sticks easily to smooth, dry walls, giving kids a large space to draw, colour, doodle, and express their imagination. The paper can be removed and reattached multiple times without hassle, making it perfect for mess-free creative play at home.\n\nAvailable Themes:\n🦒 Happy Jungle | 🍓 Sweet Yummy | 🚀 Dream Space | 🌊 Undersea World | 🦕 Simple Road (Dinosaur)\n\nPackage Size: 303 × 41 × 41 mm",
+    "images": [
+      "17izEp2nU86-oxrQuwQF7AB9lnp2oNwVD"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "any"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-126",
+    "name": "Saja Boys Chest Bag",
+    "categories": [
+      "Backpacks"
+    ],
+    "mrp": 250,
+    "fundooPrice": 180,
+    "description": "Carry your essentials in style with the SajaBoys Chest Bag. Designed with a fun cartoon print and an adjustable shoulder strap, this lightweight sling bag is perfect for everyday use, travel, outings, or gifting.\n\nFeatures:\n\n🎒 Stylish SajaBoys character design\n📱 Spacious main compartment with zip closure\n🔄 Adjustable shoulder strap for a comfortable fit\n💪 Lightweight, durable fabric\n✨ Ideal for phones, wallet, keys & other daily essentials\n🎁 Great for kids, teens & anime lovers\n\nPerfect for school, travel, shopping, casual outings, and return gifts.",
+    "images": [
+      "1TRTXFZgH8-qiyx_WfSecxTC08McIsOHT"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "boys"
   }
 ];
 var SITE_CONFIG = {
