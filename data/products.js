@@ -2539,6 +2539,135 @@ var PRODUCTS = [
       "8+"
     ],
     "gender": "boys"
+  },
+  {
+    "id": "prod-127",
+    "name": "Marvel Sticker Book 🦸‍♂️🕷️",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 150,
+    "fundooPrice": 100,
+    "description": "A fun-filled Marvel-themed sticker book packed with colourful superhero stickers featuring favourite characters like Spider-Man, Iron Man, Captain America, Thor and more. Perfect for creative play, decorating, and keeping little Marvel fans entertained.\n\n✨ 180+ Stickers | 3+ Years | Perfect for Kids & Marvel Fans",
+    "images": [
+      "1_LY1tTTSe270JQMCZutl-2DjjzGFl37H",
+      "1I-zfv-Ti2MDZ3YXRkW-RPfRsKtgYg-AU",
+      "1vfEiLFJLFSYDM40l1brAdnG7nklLuvO_",
+      "1tPgq72dTr6EXGxpWBFl4d9lbop8II5QR",
+      "1gJPsH5fkA9PsIJDeMTWOcHRxQsTH9YHu",
+      "1l0Jfa3ZSjpApnarkEXibVW31xvCIglO0"
+    ],
+    "videos": [],
+    "stock": 24,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "boys"
+  },
+  {
+    "id": "prod-128",
+    "name": "Wooden Tilt Maze",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 150,
+    "fundooPrice": 100,
+    "description": "A fun wooden maze game where kids tilt and balance the board to guide the ball through tricky paths. Great for improving focus, hand-eye coordination, patience and problem-solving skills.\n\n🎁 Perfect for kids’ return gifts and screen-free fun!",
+    "images": [
+      "1xaX--mjQ7rIaEg69nt2XNalBHhZqwQ6G"
+    ],
+    "videos": [],
+    "stock": 6,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-129",
+    "name": "KitKat Chocolate Eraser 🍫✏️",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 25,
+    "fundooPrice": 0,
+    "description": "A fun, realistic chocolate-themed eraser that looks like a mini KitKat but erases pencil marks smoothly. Perfect for school, stationery lovers, and return gifts!",
+    "images": [
+      "1Ng5AJdmPULUot0IUeuupaFMXuCZrNqmW"
+    ],
+    "videos": [],
+    "stock": 48,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-130",
+    "name": "XO XO Wooden Game ❌⭕",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 60,
+    "fundooPrice": 40,
+    "description": "A classic tic-tac-toe game in a fun wooden design. Perfect for quick, screen-free play and great for kids and family game time.\n\n🎨 Available in 4 different colours.",
+    "images": [
+      "12C3EkFKeayaBpCM1BSPcMhNP7NYegfM3"
+    ],
+    "videos": [],
+    "stock": 50,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-131",
+    "name": "Space-Themed Jumbo 3D Stationery Pouch 🚀",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 280,
+    "fundooPrice": 200,
+    "description": "A fun and spacious 3D stationery pouch with eye-catching space designs. Features a durable hard-shell body, smooth zipper, roomy compartment, mesh pocket and elastic holders for pens and pencils.\n\n📏 Size: 21 × 12 × 4 cm\n🌌 Available in 2 designs\n🎒 Perfect for school, travel & gifting.",
+    "images": [
+      "1mznbXBWpy89pQ_afJGA4PpCcRJhCiONn"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "boys"
+  },
+  {
+    "id": "prod-132",
+    "name": "Huntrix-Themed Jumbo 3D Stationery Pouch 🎤✨",
+    "categories": [
+      "Stationery Sets",
+      "K-Pop Collection"
+    ],
+    "mrp": 280,
+    "fundooPrice": 200,
+    "description": "Make stationery storage more fun with this stylish Huntrix-themed 3D pouch! Its spacious design keeps pens, pencils, markers and other school essentials neatly organized, while the vibrant 3D artwork makes it a standout accessory.\n\n📏 Size: 21 × 12 × 4 cm\n🎨 Available in 3 designs\n🎒 Jumbo size with spacious storage\n✨ 3D printed design with sturdy zip closure\n🎁 Perfect for school, travel and gifting.",
+    "images": [
+      "1MNItPccsZ8SdSbNCjxpOktixnIKlUBM-"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
   }
 ];
 var SITE_CONFIG = {
