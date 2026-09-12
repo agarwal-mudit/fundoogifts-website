@@ -406,7 +406,7 @@ var PRODUCTS = [
     "images": [
       "15Adp39uHrdLlSJO6N8Jc9PDrRCtQV50V"
     ],
-    "stock": 0,
+    "stock": 10,
     "age": [
       "2-5",
       "5-8"
@@ -2668,26 +2668,212 @@ var PRODUCTS = [
       "8+"
     ],
     "gender": "girls"
+  },
+  {
+    "id": "prod-133",
+    "name": "Fidget Spinner",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 180,
+    "description": "A fun and engaging colorful fidget spinner designed for smooth spinning and satisfying hands-on play. Great for keeping little hands occupied and providing a fun sensory activity.\n\n🌀 Smooth spinning action\n🎨 Available in assorted colors\n✋ Easy to hold and use\n🎒 Compact and easy to carry\n🎁 Great for kids, return gifts & gifting\n🏠 Perfect for home, school or travel",
+    "images": [
+      "1RZpXFicFuBRPqmRJO_RY-xTMuhgJhOWW"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-134",
+    "name": "Jet Key Chain",
+    "categories": [
+      "Keychains"
+    ],
+    "mrp": 30,
+    "fundooPrice": 0,
+    "description": "Add a little aviation fun to your everyday essentials! ✈️ These detailed jet-shaped key chains feature colourful aircraft designs with a sturdy metal key ring, making them fun to carry and easy to attach to bags, backpacks, pencil pouches or keys.\n\n✨ Features:\n\n🛩️ Cool & detailed jet airplane designs\n🔑 Sturdy metal key ring\n🎒 Easy to attach to bags, backpacks & keys\n🌈 Available in assorted designs\n🎁 Great for kids, return gifts & aviation lovers\n\nPerfect little gift for young aircraft enthusiasts!",
+    "images": [
+      "1CCuxT8QcNR9ZI9KDn2oG0oC4Zd6EW4YX"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "2-5",
+      "5-8"
+    ],
+    "gender": "boys"
+  },
+  {
+    "id": "prod-135",
+    "name": "🎨 Mini Canvas Drawing Stand",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 150,
+    "fundooPrice": 100,
+    "description": "A fun DIY painting activity for kids that lets little artists colour, create and proudly display their own mini masterpiece! Each set comes with a pre-printed mini canvas, wooden drawing stand, paint colours and a paint brush.\n\n✨ Features:\n\n🖼️ Mini pre-printed canvas with fun designs\n🎨 Paints and brush included\n🪵 Easy-to-use wooden display stand\n🌈 Multiple designs available\n🧠 Encourages creativity and focus\n🎁 Perfect for return gifts, birthday activities and creative play\n\nPaint • Create • Display! 🌟",
+    "images": [
+      "1U6UvuCPnJnYtIpo4lFtUaCgCctXfNdfy"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-136",
+    "name": "🪥 Kids’ Fun Toothbrush",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 120,
+    "fundooPrice": 100,
+    "description": "Make brushing time more fun with these colourful, kid-friendly toothbrushes featuring cute character designs. Designed for little hands and everyday brushing, they’re a fun addition to any child’s daily routine.\n\n✨ Features:\n\n👧 Suitable for small kids\n🪥 Soft bristles for gentle brushing\n🖐️ Easy-to-hold, kid-friendly design\n🌈 Multiple fun character designs available\n🎁 Great for kids’ gifts and return favours",
+    "images": [
+      "1Iq7Y54oNdrTjOAjMEQfCdyOQKz3fdPRz",
+      "1xYGj5WWujI9y1SNoAQnmZwlTa2wXlnew",
+      "1cWnXWwTBpNru_oJ-q8mIkIM4nC0vnPiJ",
+      "1Xls18NSFpZHa_8ZgO0iE5Np9th0ldmV0"
+    ],
+    "videos": [],
+    "stock": 12,
+    "age": [
+      "0-2",
+      "2-5"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-137",
+    "name": "Cute Printed Tote Bags",
+    "categories": [
+      "Backpacks"
+    ],
+    "mrp": 180,
+    "fundooPrice": 120,
+    "description": "Bright, colourful and super-cute tote bags designed for little ones! These lightweight bags feature adorable character and fun graphic prints, making them perfect for carrying toys, books, stationery, snacks and other everyday essentials.\n\n✨ Features:\n\nFun & colourful designs\nLightweight and easy for kids to carry\nComfortable shoulder straps\nHandy for school, outings, playdates & travel\nAvailable in multiple cute designs\nGreat as a kids’ gift or return gift\n\n🎁 A practical little bag with a whole lot of cuteness!",
+    "images": [
+      "1WWrFRU7KAfDHt1D2sdKJtcGJbNSFPlpa"
+    ],
+    "videos": [],
+    "stock": 25,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
+  },
+  {
+    "id": "prod-138",
+    "name": "💎 DIY Diamond Painting Kit",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 150,
+    "fundooPrice": 120,
+    "description": "A fun and creative activity for kids! Create a colourful sparkling artwork by placing tiny diamond-like gems onto the pre-printed design. It’s an engaging craft activity that encourages creativity, focus and hand-eye coordination.\n\n✨ Features:\n\nEasy-to-follow numbered design\nColourful diamond gems for decorating\nFun DIY craft activity\nMultiple cute designs available\nGreat screen-free creative activity\nPerfect for gifting and return gifts\n\n🎨 Make it. Sparkle it. Display it!",
+    "images": [
+      "1N0Ctxm2Pq9hDcTYsqpx4JYs9VGd5XUKw"
+    ],
+    "videos": [],
+    "stock": 30,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-139",
+    "name": "🎮 Fast Push Game",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 250,
+    "fundooPrice": 200,
+    "description": "Push, Play & Challenge! 🚀🐸\n\nA fun and interactive Fast Push Game designed to keep kids engaged while developing quick thinking and finger skills. Simply follow the game prompts and press the pop buttons as quickly as you can!\n\n✨ Key Features:\n\n🎯 4 Fun Game Modes for varied play\n⚡ Improves reaction speed & reflexes\n🖐️ Helps develop finger dexterity\n👀 Builds hand-eye coordination\n🧠 Encourages memory & concentration\n👨‍👩‍👧 Great for parent-child interaction\n👧 Suitable for 3+ years\n\nAvailable in fun character designs including Frog, Super Mario-style and Little Bear designs.\n\n🎁 Perfect for: Birthday gifts, return gifts, playtime and screen-free fun.",
+    "images": [
+      "1TXBCJ4yRqJCk7Sy6K7L4n0-fM2U_5C9x",
+      "1iKJQz1ZHedvo-7rGdiTh_Bc5wHlMd-bG",
+      "1ezsXwEsXnJaGwz0rzUWC1uh6HdPW0fsO"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-140",
+    "name": "Harry Potter Stationery Gift Set",
+    "categories": [
+      "Stationery Sets",
+      "Harry Potter Collection"
+    ],
+    "mrp": 120,
+    "fundooPrice": 100,
+    "description": "A fun and colourful Stationery Gift Set that makes writing, doodling and everyday schoolwork more exciting! 🎒🖊️\n\nSet Includes:\n\n📓 1 Notebook\n🖊️ 1 Pen\n🎖️ 1 Fun Badge\n\nPerfectly sized for kids to carry to school, use at home, or take along on trips. Available in multiple attractive themes and designs that kids will love.\n\n🎁 Perfect for: Birthday return gifts, party favours, school gifts, goodie bags and everyday use.",
+    "images": [
+      "1KVq0juFwa078ANzt2W10_pOqu5IhhxgS"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "boys"
+  },
+  {
+    "id": "prod-141",
+    "name": "Huntrix Stationery Set",
+    "categories": [
+      "Stationery Sets",
+      "K-Pop Collection"
+    ],
+    "mrp": 120,
+    "fundooPrice": 100,
+    "description": "A fun and colourful Stationery Gift Set that makes writing, doodling and everyday schoolwork more exciting! 🎒🖊️\n\nSet Includes:\n\n📓 1 Notebook\n🖊️ 1 Pen\n🎖️ 1 Fun Badge\n\nPerfectly sized for kids to carry to school, use at home, or take along on trips. Available in multiple attractive themes and designs that kids will love.\n\n🎁 Perfect for: Birthday return gifts, party favours, school gifts, goodie bags and everyday use.",
+    "images": [
+      "1ZUegrSgu76zJueZnGHAWxaaPMEeCUDTT"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
   }
 ];
 var SITE_CONFIG = {
-  "productOfTheMonth": "prod-090",
+  "productOfTheMonth": "prod-139",
   "whatsHot": [
-    "prod-006",
-    "prod-019",
-    "prod-030",
-    "prod-031",
     "prod-039",
-    "prod-045",
-    "prod-056",
-    "prod-067",
-    "prod-071",
-    "prod-079"
+    "prod-128",
+    "prod-131",
+    "prod-132",
+    "prod-136",
+    "prod-140",
+    "prod-141"
   ],
   "whatsNew": [
-    "prod-075",
-    "prod-079",
-    "prod-080",
-    "prod-081"
+    "prod-133",
+    "prod-137",
+    "prod-138",
+    "prod-139"
   ]
 };
