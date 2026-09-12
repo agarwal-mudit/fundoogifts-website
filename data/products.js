@@ -2857,6 +2857,27 @@ var PRODUCTS = [
       "8+"
     ],
     "gender": "girls"
+  },
+  {
+    "id": "prod-142",
+    "name": "⚽ Football Spinner",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 60,
+    "fundooPrice": 50,
+    "description": "A fun football-themed fidget spinner designed for kids who love sports! Spin it, play with it, and enjoy a satisfying little break anytime.\n\n✨ Features:\n\n⚽ Cool football design\n🔄 Smooth-spinning 3-arm design\n🖐️ Fun for hands-on play and fidgeting\n🎨 Available in multiple colours\n🎁 Great as a birthday return gift, party favour or small surprise\n\nA fun little gift for young football fans!",
+    "images": [
+      "1gxJIKmopn5XJqOynWLvOLMEq2hrP4cXC"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
   }
 ];
 var SITE_CONFIG = {
