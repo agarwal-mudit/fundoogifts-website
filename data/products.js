@@ -2878,6 +2878,147 @@ var PRODUCTS = [
       "8+"
     ],
     "gender": "any"
+  },
+  {
+    "id": "prod-143",
+    "name": "Intelligent Learning Book",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 400,
+    "fundooPrice": 250,
+    "description": "Interactive educational book for kids aged 2+, designed to make learning fun through letters, numbers, animals, vehicles, relationships and musical instruments. Perfect for early learning and parent-child interaction.",
+    "images": [
+      "1MrrWffTEFAK_WaUJC0zVMI2zRtid3xyn"
+    ],
+    "videos": [],
+    "stock": 4,
+    "age": [
+      "2-5",
+      "5-8"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-144",
+    "name": "Dobble – Fast-Paced Observation Game 🎯",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 200,
+    "fundooPrice": 150,
+    "description": "A fun and exciting game of speed and observation! Spot the matching symbol between cards and be the quickest to find it. Perfect for 2–8 players aged 7+ and great for family game nights.",
+    "images": [
+      "1fbCGFdNOzMkaeaEHUp7YPNz0f47XlMV7"
+    ],
+    "videos": [],
+    "stock": 2,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-145",
+    "name": "Spot It – Fast-Paced Observation Game 🎯",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 200,
+    "fundooPrice": 150,
+    "description": "A fun and exciting game of speed and observation! Spot the matching symbol between cards and be the quickest to find it. Perfect for 2–8 players aged 7+ and great for family game nights.",
+    "images": [
+      "1uZ_KHwlvPnDVcthmTGqWrOrQ_Xucx2U3"
+    ],
+    "videos": [],
+    "stock": 4,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-146",
+    "name": "Vacuum Insulated Stainless Steel Bottle 🧴",
+    "categories": [
+      "Bottles & Lunch Boxes"
+    ],
+    "mrp": 300,
+    "fundooPrice": 250,
+    "description": "Stylish stainless-steel bottle with vacuum insulation to keep drinks hot or cold. Features a secure screw cap and convenient carry strap. Available in Pink and Blue.",
+    "images": [
+      "1SmcBrNKxYfRPJ1cIjFdf5MP-23qU1oZ5"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-147",
+    "name": "Plastic Water Bottles 💧",
+    "categories": [
+      "Bottles & Lunch Boxes"
+    ],
+    "mrp": 150,
+    "fundooPrice": 100,
+    "description": "Lightweight and easy-to-carry plastic bottles with convenient flip-top lids and fun printed designs. Perfect for school, outings and everyday use. Available in different colors and designs.",
+    "images": [
+      "1iQ_S0gZHoPuTRPG3Q6EtuOQl0ok9CBYe"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "any"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-148",
+    "name": "Rabit Glass Straw Cup",
+    "categories": [
+      "Bottles & Lunch Boxes"
+    ],
+    "mrp": 150,
+    "fundooPrice": 100,
+    "description": "Cute glass tumbler with a playful rabbit design, straw lid and comfortable grip. Perfect for everyday use at home, school or outings. Available in Pink and Algae Green.",
+    "images": [
+      "1sfdZgX-GdXaAIDk7hn-wkVNvZWkEybu_"
+    ],
+    "videos": [],
+    "stock": 10,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-149",
+    "name": "Fun Character Highlighter Pens & Spinners ✨",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Bright, playful stationery featuring fun character-shaped highlighters and matching spinner designs. A fun addition to any school stationery collection and perfect for gifting.",
+    "images": [
+      "1qhiWkAkE0j-NyrbpT_xdWnxqVKLaJ1ES",
+      "14aWvRAGfJ4FUKOohhnbeDkI9tyjjWUOP"
+    ],
+    "videos": [],
+    "stock": 5,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
   }
 ];
 var SITE_CONFIG = {
