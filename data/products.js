@@ -3483,6 +3483,44 @@ var PRODUCTS = [
       "5-8"
     ],
     "gender": "any"
+  },
+  {
+    "id": "prod-172",
+    "name": "Halloween LED Devil Horns Headband 🎃",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 100,
+    "fundooPrice": 80,
+    "description": "Spooky and fun LED Devil Horns Headband perfect for Halloween parties, costume events, and dress-up fun. Features glowing red devil horns on a comfortable black headband for an eye-catching festive look. 👿✨\n\nPerfect for: Halloween parties, costumes, photo shoots & trick-or-treating.",
+    "images": [
+      "1vpdA9J5e_FN7KVj_3s8dGoBIu7RuWG4r"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "any"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-173",
+    "name": "Halloween Masks 🎃👻",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 100,
+    "fundooPrice": 80,
+    "description": "Spooky and fun Halloween masks designed to complete your costume look! Featuring striking designs with a comfortable fabric hood and secure fit, these masks are perfect for Halloween parties, costume events, dress-up, and fun photos.",
+    "images": [
+      "1dmYoZZ8ItOOrRupKTr0NsxZGYMVC2dD_"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "any"
+    ],
+    "gender": "any"
   }
 ];
 var SITE_CONFIG = {
