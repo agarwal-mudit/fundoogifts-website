@@ -1114,18 +1114,23 @@ var PRODUCTS = [
     ],
     "mrp": 200,
     "fundooPrice": 120,
-    "offerPrice": 0,
     "description": "✏️ Kids Stationery Gift Set – A fun and colorful collection of stationery essentials that kids will love. Perfect for school, creative activities, birthday return gifts, goodie bags, and special occasions. Practical, exciting, and ready to gift!",
     "images": [
       "1dOhPJFYWsGdVtBtG-hntXLIo6DMwxoKS",
-      "1N1Udz-I5Vj_2BMGbgKVa2muAcWmJVDGL"
+      "1N1Udz-I5Vj_2BMGbgKVa2muAcWmJVDGL",
+      "1ike9DcB6aqryYXglUhTpFoJ4Nvu2XE7M",
+      "1ike9DcB6aqryYXglUhTpFoJ4Nvu2XE7M",
+      "11oNtdyTqiA3LlUjzRkj_wTjrefdz40Ia",
+      "1B8FKAMbD3VVFF4Kg_zWXarQGJPjJQQOQ"
     ],
+    "videos": [],
     "stock": 12,
     "age": [
       "2-5",
       "5-8",
       "8+"
-    ]
+    ],
+    "gender": ""
   },
   {
     "id": "prod-060",
@@ -3017,6 +3022,422 @@ var PRODUCTS = [
     "age": [
       "5-8",
       "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-150",
+    "name": "Magnetic Pad with Magnetic Pen",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 300,
+    "fundooPrice": 0,
+    "description": "Unleash creativity with this Magnetic Pad, a fun and engaging construction and drawing toy designed for kids aged 3 years and above.\n\n✨ Features:\n\n🧲 380 steel balls for creating endless designs and patterns\n✏️ Includes a magnetic pen for easy drawing and designing\n🎨 Encourages creativity and imagination\n🧠 Helps develop focus, concentration and problem-solving skills\n✋ Supports fine motor skills and hand-eye coordination\n🚫 Provides fun, screen-free play\n🚗 Create animals, vehicles, shapes, patterns and your own imaginative designs\n🎁 Great for birthdays, return gifts and gifting occasions\n\nAge: 3+ years\nContents: 1 Magnetic Pad, 1 Magnetic Pen, 380 Steel Balls",
+    "images": [
+      "1icG9JeGO6_K3OBDT1yZ3FhSkX2IZjNNi"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-151",
+    "name": "🍎 Apple-Shaped Pen Stand",
+    "categories": [
+      "Stationery Sets"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Add a touch of fun and style to your desk with this cute apple-shaped pen stand. Its attractive design and multiple compartments make it perfect for keeping pens, pencils and other stationery neatly organized.\n\n✨ Features:\n\n🍎 Unique and attractive apple-shaped design\n✏️ Multiple compartments for organizing pens, pencils and stationery\n💪 Made from durable PS material\n🌿 Stylish leaf detailing for an eye-catching look\n🏠 Suitable for home, school and office\n🧹 Helps keep your desk neat and organized\n🎁 Great for kids, students, teachers and gifting\n\n\nMaterial: PS (Polystyrene)\nDesign: Apple-shaped\nIdeal for: Pens, pencils, markers and other stationery",
+    "images": [
+      "1XPZbN8c9M8zDxTwMqHO52BT8bR8yP55s"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-152",
+    "name": "🏀 Small Bouncy Ball",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 50,
+    "fundooPrice": 0,
+    "description": "Bring instant fun to playtime with these bright and colorful small bouncy balls! Their compact size makes them easy for little hands to hold, toss and bounce.\n\n✨ Features:\n\n🏀 Super bouncy and fun to play with\n🌈 Available in bright assorted colors\n🤲 Small, easy-to-hold size\n💪 Durable for everyday play\n🎯 Great for indoor and outdoor fun\n🎁 Perfect for return gifts, party favors and small gifting\n👧 Suitable for kids' games and playful activities\n\nProduct: Small Bouncy Ball\nColors: Assorted\nIdeal for: Kids, party favors, return gifts & fun activities\n\n⚠️ Safety: Small ball. Not suitable for children under 3 years. Use with adult supervision.",
+    "images": [
+      "1CQdIHA89HEMILtMpM78POSixjffmTcuM"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-153",
+    "name": "✨ Sketch & Sparkle Tattoo Pens – 6 Color Set",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 600,
+    "fundooPrice": 0,
+    "description": "Let kids unleash their creativity with the Huimai Sketch & Sparkle Tattoo Pens! This fun set lets children create colorful temporary tattoo designs using the included stencil stickers or their own imagination.\n\n🎨 Features:\n\n🖍️ 6 vibrant tattoo pens in assorted colors\n🦋 Includes 6 stencil stickers with fun designs\n✨ Create colorful tattoos, patterns, hearts, stars and more\n🎯 Easy to use — draw directly or use the stencils\n🧼 Washes off easily with soap and water\n🎁 Great for parties, playdates, return gifts and creative activities\n👧 Recommended for ages 8+\n\n⚠️ Safety: Test on a small area of skin before use. Do not use on broken or irritated skin. Avoid the eyes and lips. Supervision is recommended for children.",
+    "images": [
+      "1B67x9rf0qnXNVsiHMAvs3f0I8gF67_q_"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "girls"
+  },
+  {
+    "id": "prod-154",
+    "name": "Squsihy Ball - Dumpling",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Add a little squeeze, sparkle and surprise to playtime with this adorable Rainbow Mystery Squishy Ball! Each pack contains a mystery-colored squishy ball, making every unboxing a fun surprise.\n\n✨ Features:\n\n🫧 Super soft and squishy — perfect for squeezing and fidgeting\n✨ Attractive glitter-filled design\n🌈 Mystery color — discover which color you get!\n😊 Cute, cheerful character design\n🤲 Fun sensory and fidget play\n🎁 Great for gifting, party favors and return gifts\n🧸 Suitable for kids 3+ years\n\nAge: 3+ years\nDesign: Assorted mystery colors\nProduct: Glitter Squishy Ball",
+    "images": [
+      "1iJAkb1DT87GzOrvR78G0EmKQ_4UAy-lg"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-155",
+    "name": "Write & Wipe Activity Cards",
+    "categories": [
+      "Toy Bundles",
+      "Art & Craft"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Make learning numbers fun and interactive with these reusable Write & Wipe Activity Cards. Children can trace numbers, practice writing and learn number recognition through colorful illustrations and engaging activities.\n\n✨ Features:\n\n🔢 27 reusable activity cards\n✍️ Practice tracing and writing numbers\n🧠 Helps develop number recognition and early learning skills\n🖐️ Improves fine motor skills and pencil control\n🔄 Write, wipe and practice again\n🎨 Fun illustrations make learning more engaging\n🖊️ Writing marker included\n🎒 Great for home learning, preschool and early education\n\nAge: 4+ years\nContents: 27 Activity Cards + Writing Marker\nReusable: Yes — write, wipe and repeat\n\n🎁 Perfect for: Kids' learning, birthday gifts, return gifts and educational activities.",
+    "images": [
+      "12yEdNuKy7KnywqjWtliwhDHzh9Rt6_rZ"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-156",
+    "name": "🦄 Cute Cartoon Plastic Water Bottle for Kids",
+    "categories": [
+      "Bottles & Lunch Boxes"
+    ],
+    "mrp": 150,
+    "fundooPrice": 0,
+    "description": "Colorful cartoon designs with a convenient drinking straw. Lightweight, fun and perfect for school, travel and everyday use. Available in different cute designs and colors. 🌈🦄🐼🦸‍♂️",
+    "images": [
+      "1fjWa6GVjgqj6ooGd2vqyoh_rAJiTgU-a"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-157",
+    "name": "🪀 Superhero Yo-Yo",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 150,
+    "fundooPrice": 0,
+    "description": "Have fun with this exciting Superhero Yo-Yo! A classic skill toy featuring popular superhero designs, perfect for kids who love action-packed play.\n\n🦸 Available in different superhero designs — choose your favorite!\n🎯 Helps develop hand-eye coordination, focus and motor skills\n🎁 Great for kids, party favors and return gifts\n👦 Suitable for children 3+ years.",
+    "images": [
+      "1a_RzaZwgZBbv9kZ5nH6fk4Ce40x7o6ot"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-158",
+    "name": "🚓 Alloy Car Catapult – Police Car Set",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Get ready for action-packed fun with this Die-Cast Metal Police Car Catapult Set! Load the car onto the launcher, press the button and watch it zoom forward.\n\n✨ Features:\n\n🚓 Includes 2 police cars\n🚀 Press-to-launch catapult for exciting play\n🏎️ Durable die-cast metal cars\n🎯 Fun way to develop hand-eye coordination and aiming skills\n👦 Suitable for children 3+ years\n🎁 Great for gifting and pretend-play adventures\n\nContents: 2 Cars + 1 Catapult\nMaterial: Die-cast metal cars with plastic catapult\nAge: 3+ years",
+    "images": [
+      "1QmVyV1z3PtlIijhLm4cxboHpaXNZZiEK"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-159",
+    "name": "Wooden Puzzle Toys 🧩",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Fun and colourful wooden puzzles for kids, available in different designs including vehicles, emergency services, and fun shapes. Perfect for developing problem-solving skills, hand-eye coordination, concentration, and fine motor skills while keeping children engaged.",
+    "images": [
+      "1BwYv1qdmuJ1AZwHxWWI9YCWrYk1FG2cD"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-160",
+    "name": "Flying Superhero Toy 🦸‍♂️✨",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Bring superhero action to playtime! This fun flying superhero toy launches into the air and spins with a 360° rotating motion, creating an exciting flying effect. Easy to operate and great for kids who love action-packed, interactive toys.\n\nFeatures:\n\n🦸 Available in different superhero designs\n🔄 360° spinning action\n🚀 Fun flying/launching play\n🎮 Easy and exciting to use\n🎁 Great for gifting and playtime\n👧👦 Recommended for ages 3+",
+    "images": [
+      "1v29HC0oKkOMaz7RXegwtov6cbD8OSagl",
+      "1fh-9iJXgv_XyQxqIaJwVlTWcrha2bg4N",
+      "16feDpoYR3pTE92wggO0M1bi9S9qguG-Y"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-161",
+    "name": "Mini Binoculars 🔭",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 100,
+    "fundooPrice": 0,
+    "description": "Compact and lightweight mini binoculars for kids, perfect for little explorers! Easy to hold and carry, they make outdoor adventures, travel, nature watching and pretend-play more exciting.\n\nFeatures:\n\n🔭 Compact mini binocular design\n👦 Easy for kids to hold and use\n🎒 Lightweight and portable\n🌳 Great for outdoor exploration and pretend play\n🎁 Fun gift for curious little explorers",
+    "images": [
+      "1JgbwG65u7F5r9Ui_79h0J2JNkap1aOri"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-162",
+    "name": "Magnetic Bead Maze",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Fun and engaging wooden magnetic bead maze designed to keep little hands busy while developing focus, fine motor skills and hand-eye coordination. Use the magnetic pen to guide the colorful beads through the maze and complete the fun themed designs.\n\n✨ Features:\n\n🧲 Magnetic pen for easy bead movement\n🧠 Encourages focus and problem-solving\n✋ Helps develop fine motor skills and hand-eye coordination\n🌈 Colorful, engaging designs\n🌳 Wooden construction with smooth edges\n🎨 Available in different designs and themes\n🎁 Great for screen-free play and gifting\n👶 Suitable for 36+ months",
+    "images": [
+      "1PfVysCZPBAHmxdgdQnf82ciAximPhyzD"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-163",
+    "name": "🧱 Junior Wooden Stacking & Tumbling Tower – 54 Blocks",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 300,
+    "fundooPrice": 0,
+    "description": "Bring family and friends together with this exciting wooden stacking and tumbling tower game! Designed for children aged 3 years and above, it combines fun, strategy, balance and coordination in one engaging game.\n\n✨ Features:\n\n🪵 54 wooden blocks for building a tall, challenging tower\n🎯 Numbered blocks and dice add an exciting element of strategy\n🧠 Helps develop cognitive and strategic thinking\n🤹 Improves hand-eye coordination, balance and fine motor skills\n👨‍👩‍👧‍👦 Encourages social interaction and team play\n🎉 Great for family game nights, playdates and parties\n👶 Suitable for ages 3+\n🎲 Easy to learn and fun for both children and adults\n\nHow to play: Build the tower and take turns carefully removing blocks and placing them on top. The challenge is to keep the tower standing without making it tumble!\n\nPerfect for: Birthday gifts, return gifts, family games, indoor play and educational fun.",
+    "images": [
+      "1oMt0kSKR11FeSfVIbwqPs19AVhrQWBXA"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-164",
+    "name": "🚀 Super Top – Spinning Top Music Gyroscope Launcher",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 100,
+    "fundooPrice": 0,
+    "description": "Get ready for an exciting spinning experience with the Super Top Spinning Top Music Gyroscope Launcher! Designed for children aged 3 years and above, this colorful interactive toy combines spinning action with lights and sound for extra fun.\n\n✨ Features:\n\n🌀 Spinning gyroscope action for exciting play\n💡 Flashing lights add a fun visual effect\n🔊 Music & sound effects for an engaging experience\n🚀 Launcher-style design makes spinning easy and exciting\n🔋 Battery-operated for light and sound functions\n🌈 Bright, colorful design that attracts kids\n👦 Suitable for ages 3+\n\n🎮 Great for: Indoor play, birthday gifts, return gifts and keeping kids entertained while encouraging coordination and active play.\n\nProduct type: Spinning Top / Gyroscope Launcher\nRecommended age: 3+ years",
+    "images": [
+      "1OHX1GGDWWBUGq8wCUsBw62gPTabC6EuZ"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-165",
+    "name": "🐙 Dancing Octopus Toy",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Make playtime more exciting with this adorable Dancing Octopus Toy! Designed with a fun, colorful look, the toy moves, turns and dances to keep little ones entertained.",
+    "images": [
+      "1qOBcoNPPO8sDfUQKlB07QcFEtDaqawjs"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-166",
+    "name": "🧩 Happy Puzzle – Fun & Educational Kids’ Puzzle",
+    "categories": [
+      "Puzzle & Games"
+    ],
+    "mrp": 100,
+    "fundooPrice": 0,
+    "description": "Keep little ones entertained while helping them develop important thinking and problem-solving skills with these colorful Happy Puzzles. Each puzzle features a fun character or cute themed design and is available in multiple designs.\n\n✨ Features:\n\n🧩 Fun Puzzle Activity – Encourages children to match pieces and complete the picture.\n🧠 Develops Problem-Solving Skills – Helps improve logical thinking and concentration.\n✋ Improves Fine Motor Skills – Handling and fitting puzzle pieces supports hand-eye coordination.\n🎨 Colorful Designs – Attractive characters and illustrations that kids will enjoy.\n🌈 Multiple Designs Available – Choose from a variety of cute and colorful themes.\n🎁 Great Gift Idea – Perfect for birthdays, return gifts, activity time, or everyday play.\n\nPerfect for: Kids who enjoy creative, screen-free activities and puzzles.",
+    "images": [
+      "1f4Tx_NRDygZY57oEX86jPJqyqRzpHzCj",
+      "18KF3yenf2sExWDOhEdkxi8oo0bgI5K1N"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "2-5",
+      "5-8"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-167",
+    "name": "Super Stacking Tops 🌀",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "A fun spinning-top game where kids can spin, stack and interlock colorful tops to create exciting combinations. Helps develop coordination, focus and hand-eye skills. Suitable for ages 3+",
+    "images": [
+      "1eMbg0WNwJ9bZNvSc7rPjuVOEA4hXyUE9"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-168",
+    "name": "Sensory Activity Board 🧠✨",
+    "categories": [
+      "Toy Bundles"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Double-sided sensory board designed for hands-on play and mind development. Features different tactile textures and patterns for sensory exploration, focus and fine-motor activity. Made from soft, washable, food-grade silicone and reusable.",
+    "images": [
+      "1JPwN_LT_TFDDOA3GXRFfkwa54raZQo03"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "5-8",
+      "8+"
+    ],
+    "gender": "any"
+  },
+  {
+    "id": "prod-169",
+    "name": "Kids’ Printed Folders 📁✨",
+    "categories": [
+      "Stationery Sets",
+      "Art & Craft"
+    ],
+    "mrp": 200,
+    "fundooPrice": 0,
+    "description": "Colorful and practical folders with fun printed designs and a convenient carry handle. Perfect for organizing worksheets, drawings, school papers and stationery. Available in different colors and designs.",
+    "images": [
+      "1T966i8AL9EOr4W16ACr8-6g7MP6NOioW",
+      "1_b-0z-zsKinlL92itcpi0td_1LbD7Rl9",
+      "1PARSkkauQiTgj41NWh-A0T54yU4VpQh3",
+      "1IOKtWe5JbPrgngjaZ5K6fLB4mMWC158o",
+      "1_2h3KRU1ibJ7kPQbfQ1zrIDTWkvw0-Go"
+    ],
+    "videos": [],
+    "stock": 0,
+    "age": [
+      "any"
     ],
     "gender": "any"
   }
