@@ -3463,6 +3463,26 @@ var PRODUCTS = [
       "8+"
     ],
     "gender": "any"
+  },
+  {
+    "id": "prod-171",
+    "name": "DIY Wooden Painting Kit",
+    "categories": [
+      "Art & Craft"
+    ],
+    "mrp": 80,
+    "fundooPrice": 50,
+    "description": "A fun and creative DIY wooden painting kit featuring cute wooden shapes, colourful paints, and paintbrushes. Kids can paint and decorate their favourite designs while developing creativity, imagination, and fine motor skills. Perfect for craft activities, return gifts, and creative playtime.",
+    "images": [
+      "16LKAnVseEJvIBVxNilJwk6Z8gxoKBSfe"
+    ],
+    "videos": [],
+    "stock": 20,
+    "age": [
+      "2-5",
+      "5-8"
+    ],
+    "gender": "any"
   }
 ];
 var SITE_CONFIG = {
