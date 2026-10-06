@@ -3111,7 +3111,7 @@ var PRODUCTS = [
     "categories": [
       "Toy Bundles"
     ],
-    "mrp": 200,
+    "mrp": 250,
     "fundooPrice": 0,
     "description": "Add a little squeeze, sparkle and surprise to playtime with this adorable Rainbow Mystery Squishy Ball! Each pack contains a mystery-colored squishy ball, making every unboxing a fun surprise.\n\n✨ Features:\n\n🫧 Super soft and squishy — perfect for squeezing and fidgeting\n✨ Attractive glitter-filled design\n🌈 Mystery color — discover which color you get!\n😊 Cute, cheerful character design\n🤲 Fun sensory and fidget play\n🎁 Great for gifting, party favors and return gifts\n🧸 Suitable for kids 3+ years\n\nAge: 3+ years\nDesign: Assorted mystery colors\nProduct: Glitter Squishy Ball",
     "images": [
