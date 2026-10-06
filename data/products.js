@@ -803,7 +803,7 @@ var PRODUCTS = [
       "1OtUDo_KZYs1GwkdPcwgTEjTVu8STnIss",
       "1Vhvv46k3amAq-brKkuRs2PVccrdyj8OV"
     ],
-    "stock": 12,
+    "stock": 0,
     "age": [
       "2-5",
       "5-8",
@@ -825,7 +825,7 @@ var PRODUCTS = [
       "1WVhyNW3tYHZEgYv4wwgZ4f5X2sujK77E",
       "1Vhvv46k3amAq-brKkuRs2PVccrdyj8OV"
     ],
-    "stock": 12,
+    "stock": 0,
     "age": [
       "2-5",
       "5-8",
@@ -846,7 +846,7 @@ var PRODUCTS = [
       "1omu0L_ss7094ToIJJi7dwz7-pqXZAeIL",
       "14w_7z3Qu65TAbiiybwLQshqll48Xsgab"
     ],
-    "stock": 19,
+    "stock": 0,
     "age": [
       "2-5",
       "5-8",
@@ -931,7 +931,7 @@ var PRODUCTS = [
       "1RjeAyaSrJ8r0LwdKTieHVn_nu5XxBCks",
       "1l4Gq8ugp9lErN-a2J9wu1Qjcti_yZymD"
     ],
-    "stock": 12,
+    "stock": 0,
     "age": [
       "5-8",
       "8+"
@@ -952,7 +952,7 @@ var PRODUCTS = [
       "1jGEKDIMaAUW-cAKDFU1GNuXw15d6rjgs",
       "1B6leiWiIkG3J0ZXJkPjFqifE3eQhSIwc"
     ],
-    "stock": 12,
+    "stock": 0,
     "age": [
       "5-8",
       "8+"
@@ -1205,7 +1205,7 @@ var PRODUCTS = [
     "images": [
       "1e9Ge8YmY_QlDtQ4prQTUiw9feoBXYU7w"
     ],
-    "stock": 6,
+    "stock": 0,
     "age": [
       "5-8",
       "8+"
@@ -1319,7 +1319,7 @@ var PRODUCTS = [
     "videos": [
       "LyKaiWI4bU4"
     ],
-    "stock": 12,
+    "stock": 0,
     "age": [
       "5-8",
       "8+"
