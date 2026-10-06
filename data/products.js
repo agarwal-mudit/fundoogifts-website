@@ -3118,7 +3118,7 @@ var PRODUCTS = [
       "1iJAkb1DT87GzOrvR78G0EmKQ_4UAy-lg"
     ],
     "videos": [],
-    "stock": 0,
+    "stock": 5,
     "age": [
       "2-5",
       "5-8",
